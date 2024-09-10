@@ -1,0 +1,11 @@
+<svg id="icon-open-baseinfo" xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82">
+  <circle id="Oval" cx="41" cy="41" r="41" fill="rgba(255,255,255,0.99)"/>
+  <g id="矩形_1368" data-name="矩形 1368" transform="translate(20 24.498)" fill="none" stroke="#1f59db" stroke-width="2">
+    <rect width="42.983" height="34.227" rx="6" stroke="none"/>
+    <rect x="1" y="1" width="40.983" height="32.227" rx="5" fill="none"/>
+  </g>
+  <path id="联合_3" data-name="联合 3" d="M0,13.706a6.4,6.4,0,1,1,12.791,0c-.021-.084-3.8-.049-7.243-.016-1.857.018-3.618.037-4.64.037A7.452,7.452,0,0,1,0,13.706ZM2.436,3.655A3.655,3.655,0,1,1,6.092,7.31,3.655,3.655,0,0,1,2.436,3.655Z" transform="translate(25.19 34.155)" fill="#1f59db"/>
+  <rect id="矩形_1370" data-name="矩形 1370" width="14.743" height="2.388" rx="1.194" transform="translate(41.491 34.05)" fill="#1f59db"/>
+  <rect id="矩形_1371" data-name="矩形 1371" width="13.714" height="3.184" rx="1.592" transform="translate(41.491 39.621)" fill="#1f59db"/>
+  <rect id="矩形_1372" data-name="矩形 1372" width="15.123" height="3.184" rx="1.592" transform="translate(41.301 45.193)" fill="#1f59db"/>
+</svg>

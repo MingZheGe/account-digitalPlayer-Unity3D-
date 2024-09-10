@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en-us" style="width:100%; height: 100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Unity WebGL Player | unity3DTest</title>
+	<script type="text/javascript" src="./digitalPlayer/HZRecorder.js"></script>
+	<script type="text/javascript" src="./digitalPlayer/fs-enc.js"></script>
+	<script type="text/javascript" src="./digitalPlayer/DigitalPlayer.js"></script>
+  <script src="./pdfjs/pdf.js"></script>
+  <script src="./pdfjs/pdf.worker.js"></script>
+  <script src="./devjs/aip_server.js"></script>
+  <!-- 数字人资源 -->
+  <link rel='shortcut icon' href='./digitalPlayer/TemplateData/favicon.ico'>
+  <link rel='stylesheet' href='./digitalPlayer/TemplateData/style.css'>
+  <script language=javascript src=./digitalPlayer/TemplateData/UnityProgress.js></script>
+  <script language=javascript src=./digitalPlayer/Build/UnityLoader.js></script>
+	<style>
+		.testBtn{
+			width:120px;
+			height:35px;
+			border:1px #ffffee solid;
+			text-align: center;
+			line-height: 35px;
+			margin-top:10px;
+			cursor: pointer;
+		}
+		
+		.guideCover {
+			display: none;
+			position: absolute;
+			width: 0; height: 0;
+			left: 0; top: 0; right: 0; bottom: 0;
+			border: 0 solid #000;
+			opacity: .75;
+			filter: alpha(opacity=75);
+			z-index: 999;
+			/* 过渡效果 */
+			transition: all .25s;
+			/* 边缘闪动问题fix */
+			box-shadow: rgb(0 0 0) 0px 0px 0px 1px inset;
+			overflow: hidden;
+			visibility:hidden;
+		}
+		.guideType0::before {
+			content: '';
+			width: 100%; height:100%;
+			border-radius: 50%;
+			border: 400px solid #000;
+			position: absolute;
+			left: -400px; top: -400px;
+			box-shadow: inset 0 0 5px 2px rgba(0,0,0,.75);
+		}
+		
+		.guideType1::before {
+			content: '';
+			width: 100%; height:100%;
+			border-radius: 0;
+			border: 400px solid #000;
+			position: absolute;
+			left: -400px; top: -400px;
+			box-shadow: inset 0 0 5px 2px rgba(0,0,0,.75);
+		}
+		
+		/* IE7, IE8 img */
+		.guideCover > img {
+			width: 100%; height: 100%;    
+		}
+		
+		.guideBar{
+			position: fixed;
+			bottom: 100px;
+			height: 80px;
+			z-index: 1000;
+			left: 50%;
+			transform: translateX(-50%);
+			display:inline-flex;
+			visibility:hidden;
+		}
+		
+		.guideNext{
+			width:150px;
+			height:50px;
+			text-align:center;
+			line-height:50px;
+			font-size:16px;
+			color:#ffffff;
+			border: 1px solid #ffffff;
+			margin:auto 0;
+			background: coral;
+			cursor: pointer;
+		}
+		.guideClose{
+			width:150px;
+			height:50px;
+			line-height:50px;
+			text-align:center;
+			color:#ffffff;
+			font-size:16px;
+			margin:auto 0;   
+			border: 1px solid #ffffff;
+			margin-left:100px;
+			background: coral;
+			cursor: pointer;
+		}
+	</style>
+  </head>
+  <body style="width:100%; height: 100%;background:#aaaccc;" onload="load()" onresize="resize()">
+    <div id="digitalContainer"
+    style="position: absolute;top:0;visibility: hidden;z-index: 9999999;width: 1px;height: 1px;pointer-events: none;">
+</div>
+
+
+
+  	<div id="currentChar" style="position:absolute;width:400px;height:100px;color:red;font-size:30px;margin:80px 150px;"></div>
+	<div id="actionChar" style="position:absolute;width:400px;height:100px;color:red;font-size:30px;margin:180px 150px;"></div>
+	<div style="position:absolute;width:400px;height:50px;line-height: 20px;font-size:16px;margin:240px 150px;word-break:break-word;">
+		说话间隔 <input onchange="changeSpeakInterval()"  id="speakInterval" type="number" value="500" style="width:100px;"/>
+		音量阈值 <input onchange="changeSpeakThreshold()" id="speakThreshold"  type="number" value="20" style="width:100px;"/>
+		<audio controls autoplay style="visibility:hidden;"></audio>
+	</div>
+	<textarea id="actionList" rows="10" cols="30" disabled  style="position:absolute;width:400px;height:200px;line-height: 20px;font-size:16px;margin:300px 150px;word-break:break-word;"></textarea>
+	<textarea id="speakText"  style="position:absolute;width:400px;height:200px;font-size:20px;line-height: 22px;margin:550px 150px;word-break:break-word;" value=""></textarea>
+	<div id="recorgnizeRes" style="position:absolute;left:70%;margin-top:100px;color:red;height:500px;overflow-y:hidden;"></div>
+	<div class="testBtn"  onclick="sendMsg()">通信</div>
+	<div class="testBtn"  onclick="setPlayerState()">设置状态</div>
+    <div class="testBtn"  id="turnRight" onclick="turnRight()">右转</div>
+	<div class="testBtn"  onclick="turnLeft()">左转</div>
+	<div class="testBtn"  onclick="moveUp()">上移</div>
+	<div class="testBtn"  onclick="moveDown()">下移</div>
+	<div class="testBtn"  onclick="moveRight()">右移</div>
+	<div class="testBtn"  onclick="moveLeft()">左移</div>
+	<div class="testBtn"  onclick="enlarge()">放大</div>
+	<div class="testBtn" id="narrow"  onclick="narrow()">缩小</div>
+	<div class="testBtn"  onclick="showOrHide()">显示/隐藏</div>
+	<div class="testBtn"  onclick="doAllAction()">动作</div>
+	<div class="testBtn"  onclick="createAndPlay()">创建并播放</div>
+	<div class="testBtn"  onclick="stopPlay()">停止播放</div>
+	<div class="testBtn"  onclick="startRecording()">语音识别</div>
+	<div class="testBtn"  onclick="stopRecording()">停止语音识别</div>
+	<div class="testBtn"  onclick="changeMathType()">切换匹配模式</div>
+	<div class="testBtn"  onclick="startGuide()">指导指引</div>
+	<div class="testBtn"  onclick="changeGuideType()">形状</div>
+	<div id="guideCover" class="guideCover"></div>
+	<div id="guideBar" class="guideBar">
+		<div id="guideNext" class="guideNext">我知道了</div>
+		<div id="guideClose" class="guideClose">退出</div>
+	</div>
+    <div id="digitalPlayer" class="webgl-content" style="width:100%; height: 100%;pointer-events: none;position:fixed;z-index: 1001;">
+		<div id="unityContainer" style="width:100%; height: 100%;"></div>
+    
+    </div>
+	    <script>
+		var recorder;
+		var digitalPlayer;
+		var digitalShow = true;
+        var audio = document.querySelector('audio');
+		//文本不能带#
+		var originText = "";
+		var originText0 = "很好，收到了，我是数字人二号！很高兴认识您？";
+		var originText1 = "[a0006]很好，收到了，我是数字人二号！[a0004]很高兴认识您？如果正则表达式匹配成功的话,会返回一个数组,[a0005]而数组里的数据有两种形式,对应着匹配方式:全局匹配";
+		var matchType = 1;
+		var guideData = {
+			"url":"file:///C:/Users/huangqiliang/Desktop/web2aliyun/index.html",//页面路由
+			"alias":"预约资料填写首页",//页面标题或别名
+			"pageIcon":"http://address.jpg",//页面截图地址，可选
+			"number":"2021051710086",//页面代码或ID
+			"content":{
+				"pages":{//页面子节点(子页面)
+					"/":{//子页面路由
+						"subPageIcon":"http://subaddress.jpg",//子页面截图地址，可选
+						"flows":{//页面引导流程数据
+							"flow_0":{//操作指令
+								"isSpeak":true,//是否播报话术
+								"speakText":"这里展示方块区域",//数字人话术
+								"popup":{//弹窗配置
+									"isShow":true,//是否显示弹窗
+									"type":1,//0-根据组件ID显示弹窗，1-指定弹窗位置
+									"x":1020,//弹窗x坐标
+									"y":300,//弹窗y坐标
+									"width":200,//弹窗宽度
+									"height":150,//弹窗高度
+									"text":"看这里",//弹窗文本显示
+									"dialogType":1,//弹窗类型，0为椭圆，1为矩形.....
+								}
+							},
+							"flow_1":{
+								"isSpeak":true,
+								"speakText":"这里展示椭圆区域",
+								"popup":{
+									"isShow":true,
+									"type":1,
+									"x":920,
+									"y":300,
+									"width":150,
+									"height":300,
+									"text":"看这里",
+									"dialogType":0,
+								}
+							},
+							"flow_2":{
+								"isSpeak":true,
+								"speakText":"这里的动作列表",
+								"popup":{
+									"isShow":true,
+									"type":0,
+									"id":"actionList",//页面组件的唯一ID
+									"dialogType":0,
+									"text":"看这里",
+								}
+							},
+							"flow_3":{
+								"isSpeak":true,
+								"speakText":"这里的右转按钮，点击可以控制数字人右转噢",
+								"popup":{
+									"isShow":true,
+									"type":0,
+									"id":"turnRight",
+									"dialogType":0,
+									"text":"看这里",
+								}
+							},
+							"flow_4":{
+								"isSpeak":true,
+								"speakText":"这里是我要说话的文本",
+								"popup":{
+									"isShow":true,
+									"type":0,
+									"id":"speakText",
+									"dialogType":1,
+									"text":"看这里",
+								}
+							},
+							"flow_5":{
+								"isSpeak":true,
+								"speakText":"这里可以缩小数字人",
+								"popup":{
+									"isShow":true,
+									"type":0,
+									"id":"narrow",
+									"dialogType":1,
+									"text":"看这里",
+								}
+							}
+						},
+						"dialogs":[{//页面特定问答
+							"question":"%开户%",//客户问题
+							"answers":["请问您要开什么户呢?","开户有个人开户、产品开户、机构开户"],//答案，可选，有则播放，没则直接执行动作
+							"action":"action_6"//动作，指定要执行的动作，例如跳转、下一步等。flow_1,action_1等等
+						},{
+							"question":"个人开户",
+							"answers":["好的，马上给您个人开户"],
+							"action":"action_5"
+						},{
+							"question":"机构开户",
+							"answers":["好的，马上给您机构开户"],
+							"action":"action_5"
+						},{
+							"question":"产品开户",
+							"answers":["好的，马上给您产品开户"],
+							"action":"action_5"
+						},{
+							"question":"下一步",
+							"answers":[],
+							"action":"goNext"
+						}],
+						"inputs":{//输入框等事件
+							"VIEW_NAME":{//输入框ID
+								"isSpeak":true,//是否播报话术
+								"priority":5,//播报话术优先级
+								"right":"填写正确,请输入下一个",//校验正确话术
+								"wrong":"填写错误，请输入11位数字",//校验错误话术
+								"otherText":"其他话语",//其他话术
+								"popup":{
+									"isShow":true,//是否显示弹窗
+									"type":0,
+									"x":300,
+									"y":400,
+									"width":100,
+									"height":50,
+									"text":"看这里",
+									"dialogType":1,
+								}
+							},
+							"VIEW_NAME2":{
+								"isSpeak":true,
+								"priority":5,
+								"right":"填写正确,请输入下一个",
+								"wrong":"填写错误，请输入11位数字",
+								"otherText":"其他话语",
+								"popup":{
+									"isShow":true,
+									"type":0,
+									"x":300,
+									"y":500,
+									"width":100,
+									"height":50,
+									"text":"看这里",
+									"dialogType":0,
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		var sendMsg = function(){
+			if(digitalPlayer){
+				digitalPlayer.sendMsg("您好，我是网页！");
+			}
+		}
+		
+		var setPlayerState = function(){
+			if(digitalPlayer){
+				digitalPlayer.setPlayerState({
+					position:{x:840,y:80,z:3},
+					angle:{x:0,y:-20,z:0},
+					scale:{x:1.5,y:1.5,z:1.5},
+				});
+			}
+		}
+		
+		var turnRight = function(){
+			if(digitalPlayer){
+				console.log(digitalPlayer)
+				digitalPlayer.turnRight();
+			}
+		}
+		
+		
+		var turnLeft = function(){
+			if(digitalPlayer){
+				digitalPlayer.turnLeft();
+			}
+		}
+		
+		var moveUp = function(){
+			if(digitalPlayer){
+				digitalPlayer.moveUp();
+			}
+		}
+		
+		var moveDown = function(){
+			if(digitalPlayer){
+				digitalPlayer.moveDown();
+			}
+		}
+		
+		var moveRight = function(){
+			if(digitalPlayer){
+				digitalPlayer.moveRight();
+			}
+		}
+		
+		var moveLeft = function(){
+			if(digitalPlayer){
+				digitalPlayer.moveLeft();
+			}
+		}
+		
+		var enlarge = function(){
+			if(digitalPlayer){
+				digitalPlayer.enlarge();
+			}
+		}
+		
+		var narrow = function(){
+			if(digitalPlayer){
+				digitalPlayer.narrow();
+			}
+		}
+		
+		var showOrHide = function(){
+			if(digitalPlayer){
+				digitalShow = !digitalShow;
+				digitalPlayer.showOrHide(digitalShow);
+			}
+		}
+		
+		var doAllAction = function(){
+			if(digitalPlayer){
+				digitalPlayer.doAllAction();
+			}
+		}
+		
+		var guideIndex = 0,guideType = 0;
+		
+		var load = function(){
+			console.log("load");
+			console.log("URL:"+location.href);
+			initView();	
+			initGuide();		
+		}
+		
+		var hideGuide = function(){
+			document.getElementById('guideCover').style.visibility = "hidden";
+			document.getElementById('guideBar').style.visibility = "hidden";
+		}
+		
+		var showGuide = function(){
+			initGuideType();
+			document.getElementById('guideCover').style.visibility = "visible";
+			document.getElementById('guideBar').style.visibility = "visible";
+		
+		}
+		
+		var initDigitalPlayer = function(){
+			if(!digitalPlayer){
+				DigitalPlayer.init("digitalPlayer", "unityContainer", audio, function (instance) {
+					digitalPlayer = instance;
+					console.log(digitalPlayer);
+				});
+			}
+		}
+		
+		var initGuideType = function(){
+			if(guideType == 0){
+				document.getElementById('guideCover').className = "guideCover guideType0"
+			}else{
+				document.getElementById('guideCover').className = "guideCover guideType1"
+			}
+		}
+		
+		var changeGuide = function(){
+			var currentUrl = location.href;
+			var subPageUrl = "/";
+			if(guideData&&guideData.url==currentUrl&&guideData.content&&guideData.content.pages&&guideData.content.pages[subPageUrl]&&guideData.content.pages[subPageUrl].flows){
+				if (!guideData.content.pages[subPageUrl].flows["flow_" + guideIndex]) {
+						guideIndex = 0;    
+					}
+				guidePoint(guideData.content.pages[subPageUrl].flows["flow_" + guideIndex]);
+				guideIndex++;
+			}
+		}
+		
+		var startGuide = function(){
+			showGuide();
+			changeGuide();
+		}
+		
+		var initGuide = function(){
+			document.getElementById('guideNext').addEventListener("click",()=>{
+					changeGuide();
+				});
+				
+			document.getElementById('guideClose').addEventListener("click",()=>{
+				hideGuide();
+			});
+		}
+		
+		var guidePoint = function(item){
+			if(item&&item.popup&&item.popup.isShow&&item.popup.dialogType!=undefined){
+				guideType = item.popup.dialogType;
+				initGuideType();
+				if(item.popup.type == "0"){
+					coverGuide(document.getElementById('guideCover'), document.getElementById(item.popup.id));
+				}else if(item.popup.type == "1"){
+					coverGuideByPoint(item.popup.x, item.popup.y, item.popup.width, item.popup.height);
+				}
+			}
+			if(item&&item.isSpeak){
+				createAndPlayText(item.speakText);
+			}
+		}
+		
+		var changeGuideType = function(){
+			if(guideType == 0){
+				guideType = 1;
+			}else{
+				guideType = 0;
+			}
+		}
+		
+		var coverGuide = function(guideCover, target) {
+			var body = document.body, doc = document.documentElement;
+			if (guideCover && target) {
+				// target size(width/height)
+				var targetWidth = target.clientWidth,
+					targetHeight = target.clientHeight;
+
+				// page size
+				var pageHeight = doc.scrollHeight,
+					pageWidth = doc.scrollWidth;
+				
+				// offset of target    
+				var offsetTop = target.getBoundingClientRect().top + (body.scrollTop || doc.scrollTop),
+					offsetLeft = target.getBoundingClientRect().left + (body.scrollLeft || doc.scrollLeft);
+				
+				// set size and border-width
+				guideCover.style.width = targetWidth + 'px';
+				guideCover.style.height = targetHeight + 'px';    
+				guideCover.style.borderWidth = 
+					offsetTop + 'px ' + 
+					(pageWidth - targetWidth - offsetLeft) + 'px ' +
+					(pageHeight - targetHeight - offsetTop) + 'px ' + 
+					offsetLeft + 'px';
+				
+				guideCover.style.display = 'block';
+					
+				// resize
+				if (!guideCover.isResizeBind) {
+					if (window.addEventListener) {
+						window.addEventListener('resize', function() {
+							coverGuide(guideCover, target);
+						});    
+						guideCover.isResizeBind = true;
+					} else if (window.attachEvent) {
+						window.attachEvent('onresize', function() {
+							coverGuide(guideCover, target);
+						});
+						guideCover.isResizeBind = true;
+						
+						// IE7, IE8 box-shadow hack
+						guideCover.innerHTML = '<img src="guide-shadow.png">';
+					}
+				}
+			}
+		};
+		
+		var coverGuideByPoint = function (x, y, width, height){
+			var body = document.body, doc = document.documentElement;
+			if (body && doc) {
+				// target size(width/height)
+				var targetWidth = width,
+					targetHeight = height;
+
+				// page size
+				var pageHeight = doc.scrollHeight,
+					pageWidth = doc.scrollWidth;
+				
+				// offset of target    
+				var offsetTop = y + (body.scrollTop || doc.scrollTop),
+					offsetLeft = x + (body.scrollLeft || doc.scrollLeft);
+				
+				// set size and border-width
+				guideCover.style.width = targetWidth + 'px';
+				guideCover.style.height = targetHeight + 'px';    
+				guideCover.style.borderWidth = 
+					offsetTop + 'px ' + 
+					(pageWidth - targetWidth - offsetLeft) + 'px ' +
+					(pageHeight - targetHeight - offsetTop) + 'px ' + 
+					offsetLeft + 'px';
+				
+				guideCover.style.display = 'block';
+			}
+		}
+		
+		
+		var resize = function(){
+			console.log("resize");
+			if(digitalPlayer){
+				setTimeout(()=>{
+					digitalPlayer.changeCanvas();
+				},500);
+			}
+		
+			
+		}
+		
+		var changeMathType = function(){
+			console.log("changeMathType");
+			if(matchType == 0){
+				matchType = 1;
+				digitalPlayer.matchType = 1;
+				document.getElementById("actionList").value = JSON.stringify(digitalPlayer.testAnimateHasMap1);
+				document.getElementById("speakText").value = originText1;
+			}else{
+				matchType = 0;
+				digitalPlayer.matchType = 0;
+				document.getElementById("actionList").value = JSON.stringify(digitalPlayer.testAnimateHasMap0);
+				document.getElementById("speakText").value = originText0;
+			}
+			originText = document.getElementById("speakText").value;
+		}
+		
+		var initView = function(){
+			initDigitalPlayer();
+			if(matchType == 1){
+				document.getElementById("actionList").value = JSON.stringify(digitalPlayer.testAnimateHasMap1);
+				document.getElementById("speakText").value = originText1;
+			}else{
+				document.getElementById("actionList").value = JSON.stringify(digitalPlayer.testAnimateHasMap0);
+				document.getElementById("speakText").value = originText0;
+			}
+		}
+		
+		
+		function createAndPlay(){
+			document.getElementById("currentChar").innerHTML = "";
+			document.getElementById("actionChar").innerHTML = "";
+			originText = document.getElementById("speakText").value;
+			if(digitalPlayer){
+				aliyunTts(digitalPlayer.DeletePolyPhone(originText),function(action,e){
+					console.log("action: "+ action);
+					console.log(e);
+					if(action == 'ok'){
+						var retCode = JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_CODE;
+						if(retCode == 0){
+							var voiceData = JSON.parse(e.target.responseText).ANSWERS[0].ANS_COMM_DATA[0][0].result;
+							digitalPlayer.ttsAndPlay(originText,audio,voiceData);
+						}else{
+							console.error(JSON.stringify(JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_TEXT));
+						}			
+					}	
+				});
+			}else{
+				aliyunTts(originText,function(action,e){
+					console.log("action: "+ action);
+					console.log(e);
+					if(action == 'ok'){
+						var retCode = JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_CODE;
+						if(retCode == 0){
+							var voiceData = JSON.parse(e.target.responseText).ANSWERS[0].ANS_COMM_DATA[0][0].result;
+							if(voiceData){
+								console.log(voiceData.length);
+								audio.src = "data:audio/wav;base64,"+voiceData;
+							}
+						}else{
+							console.error(JSON.stringify(JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_TEXT));
+						}			
+					}	
+				});
+			
+			}
+		}
+		
+		function createAndPlayText(text){
+			document.getElementById("currentChar").innerHTML = "";
+			document.getElementById("actionChar").innerHTML = "";
+			document.getElementById("speakText").value = text;
+			originText = document.getElementById("speakText").value;
+			if(digitalPlayer){
+				aliyunTts(digitalPlayer.DeletePolyPhone(originText),function(action,e){
+					console.log("action: "+ action);
+					console.log(e);
+					if(action == 'ok'){
+						var retCode = JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_CODE;
+						if(retCode == 0){
+							var voiceData = JSON.parse(e.target.responseText).ANSWERS[0].ANS_COMM_DATA[0][0].result;
+							digitalPlayer.ttsAndPlay(originText,audio,voiceData);
+						}else{
+							console.error(JSON.stringify(JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_TEXT));
+						}			
+					}	
+				});
+			}else{
+				aliyunTts(originText,function(action,e){
+					console.log("action: "+ action);
+					console.log(e);
+					if(action == 'ok'){
+						var retCode = JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_CODE;
+						if(retCode == 0){
+							var voiceData = JSON.parse(e.target.responseText).ANSWERS[0].ANS_COMM_DATA[0][0].result;
+							console.log(voiceData.length);
+							audio.src = "data:audio/wav;base64,"+voiceData;
+						}else{
+							console.error(JSON.stringify(JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_TEXT));
+						}			
+					}	
+				});
+			
+			}
+		}
+		
+		function stopPlay(){
+			if(digitalPlayer){
+				digitalPlayer.stopPlay();
+			}
+		}
+		
+		
+        function startRecording() {
+			if(!recorder){
+				HZRecorder.get(function (rec) {
+					recorder = rec;
+					console.log("加载语音识别：", recorder);
+					intRecordData();
+					recorder.start();
+					if(digitalPlayer){
+						digitalPlayer.recorder = recorder;
+					}
+					initUploadData();
+
+				});
+			}else{
+				recorder.start();
+			}
+	
+        }
+        function pauseRecording() {
+			if(recorder){
+				recorder.pause();
+			}
+        }
+		function stopRecording() {
+			if(recorder){
+				recorder.stop();
+			}
+        }
+        function playRecording() {
+			if(recorder){
+				recorder.play(audio);
+			}
+            
+        }
+        function uploadAudio() {
+			if(recorder){
+				recorder.upload();
+			}
+            
+        }
+			
+		function aliyunTts(text, callback){
+			var fd = new FormData();
+			var busi_data = {};
+			busi_data["service"] = "W0000358";
+			busi_data["__RandomNo"] = new Date().getTime();
+			busi_data["text"] = text;
+			var request = {
+			  "REQUESTS": [{
+				"REQ_MSG_HDR": {
+					ACCESS_TOKEN:"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb29abEQ4YmhLNFdNdnZBTERyQnV3PT1BWFpRX1paR0ZfVlRNX1BBU1NXT1JEIiwiVElNRV9TVEFNUCI6IkJvb1psRDhiaEs0V012dkFMRHJCdXc9PUFYWlFfWlpHRl9WVE1fUEFTU1dPUkQiLCJleHAiOjE2Mjc3MTYwNTksImlhdCI6MTYyNzYzMzI1OSwianRpIjoiYWEzZjlkNzktMjRiNi00MDJhLTg0NzgtOThmOWY4MGM4MjY4In0.DE6px_C8o1-4GXSNaNXbCGmyjwTlXimjMTBy_U2apCY",
+					CURRENT_POST: undefined,
+					F_CHANNEL: "O",
+					F_CUST_ORG_CODE: "8908",
+					F_OP_BRANCH: undefined,
+					F_OP_LANGUAGE: "",
+					F_OP_PROGRAM: "0",
+					F_OP_SITE2: "LIP:undefined;MAC:undefined;HD:undefined;PCN:undefined;CPU:undefined",
+					F_OP_USER: "5081",
+					F_OP_USER_ENC: undefined,
+					F_OP_WAY: "",
+					F_SESSION: undefined,
+					F_YZT_CHANNEL: "4",
+					LOG_IP: undefined,
+					OP_CODE: "5081",
+					ORG_CODE: "8908",
+					TIME_STAMP: "BooZlD8bhK4WMvvALDrBuw==",
+					USER_CODE: "5081",
+					USER_POST: undefined,
+					USER_ROLE: "",
+					},
+				"REQ_COMM_DATA": busi_data
+			  }]
+			};
+			console.log(request);
+			const res = JSON.stringify(request); 
+			var data = fsEncrypt(res)
+			fd.append("data",data);
+			var xhr = new XMLHttpRequest();
+			if (callback) {
+				xhr.upload.addEventListener("progress", function (e) {
+					callback('uploading', e);
+				}, false);
+				xhr.addEventListener("load", function (e) {
+					callback('ok', e);
+				}, false);
+				xhr.addEventListener("error", function (e) {
+					callback('error', e);
+				}, false);
+				xhr.addEventListener("abort", function (e) {
+					callback('cancel', e);
+				}, false);
+			}
+			xhr.timeout = 10000;
+			xhr.ontimeout = function (e) {
+				console.error( "请求超时：" + e);
+			};
+			xhr.open("POST", "http://10.97.24.141:8089/vtm/services/RestService");
+			xhr.send(data);
+		}
+		
+		function intRecordData(){
+			if(recorder){
+				recorder.speakInterval = document.getElementById("speakInterval").value;
+				recorder.speakThreshold = document.getElementById("speakThreshold").value;
+				console.log("speakInterval:" + recorder.speakInterval);
+				console.log("speakThreshold:" + recorder.speakThreshold);
+			}
+		}
+		
+		function changeSpeakInterval(e) {
+            console.log("changeSpeakInterval");
+			let value = document.getElementById("speakInterval").value;
+			value = Math.max(value,200);
+			document.getElementById("speakInterval").value = value;
+			if(recorder){
+				recorder.speakInterval = value;
+				console.log("speakInterval:" + recorder.speakInterval);
+			}
+        }
+		
+		function changeSpeakThreshold(e) {
+            console.log("changeSpeakThreshold");
+			let value = document.getElementById("speakThreshold").value;
+			value = Math.max(value,5);
+			document.getElementById("speakThreshold").value = value;
+			if(recorder){
+				recorder.speakThreshold = value;
+				console.log("speakThreshold:" + recorder.speakThreshold);
+			}
+        }
+		
+		function initUploadData(){
+			if(recorder){
+				 recorder.setUploadData("http://10.97.24.141:8089/vtm/services/RestService", function (state, e) {
+					switch (state) {
+						case 'uploading':
+							var percentComplete = Math.round(e.loaded * 100 / e.total) + '%';
+							console.log(percentComplete);
+							break;
+						case 'ok':
+							console.log(e.target.responseText);
+							var retCode = JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_CODE;
+							if(retCode == 0){
+								var question = JSON.parse(e.target.responseText).ANSWERS[0].ANS_COMM_DATA[0][0].result;
+								if(question){
+									document.getElementById("recorgnizeRes").innerHTML =question + "<br>" + document.getElementById("recorgnizeRes").innerHTML;
+									console.log("语音识别成功，结果为：" + question);
+									answerTheQuestion(question);
+								}
+							}else{
+								console.error(JSON.stringify(JSON.parse(e.target.responseText).ANSWERS[0].ANS_MSG_HDR.MSG_TEXT));
+							}
+						
+							break;
+						case 'error':
+							console.error("上传语音数据到服务器失败");
+							break;
+						case 'cancel':
+							console.error("上传语音数据到服务器被取消");
+							break;
+					}
+				});
+			}
+		}
+		
+		var answerMap = {
+			"下班了" : {answers:["哈哈，我也下班了"],action:""},
+			"你好" : {answers:["您好，我是小金，请问有什么可以帮助您？"],action:""},
+			"听到吗" : {answers:["您好，我是小金，请问有什么可以帮助您？"],action:""},
+			"小金你好" : {answers:["您好，我是小金，请问有什么可以帮助您？"],action:""},
+			"再见" : {answers:["[a0003]再见，很高兴能为您服务！"],action:"goHome"},
+			"不开心" : {answers:["听到这个消息，[a0002]小金感同身受"],action:""},
+			"伸右手" : {answers:["[a0005]"],action:""},
+			"伸左手" : {answers:["[a0004]"],action:""},
+			"开心" : {answers:["[a0003]"],action:""},
+			"是":{answers:["收到！"],action:""},
+			"是的":{answers:["收到！"],action:""},
+			"否":{answers:["收到！"],action:""},
+			"不是":{answers:["收到！"],action:""},
+			"同意":{answers:["收到！"],action:""},
+			"不同意":{answers:["收到！"],action:""},
+			"好的":{answers:["收到！"],action:""},
+			"不对":{answers:["收到！"],action:""},
+			"对":{answers:["收到！"],action:""},
+			"对的":{answers:["收到！"],action:""},
+			"好":{answers:["好的！"],action:""},
+			"在吗":{answers:["我在，您请说"],action:""},
+			"说什么":{answers:["随便说两句呗！您说什么我都爱听。"],action:""},
+			"开户":{answers:["办理个人业务开户前，[a0005]请您把相关资料准备好。"],action:""},
+			"客户资料变更":{answers:["[a0002]对不起，暂时不支持客户资料变更的业务办理，我们正在努力中。"],action:""},
+			
+		}
+		
+		function answerTheQuestion(question){
+			var currentUrl = location.href;
+			var subPageUrl = "/";
+			if(guideData&&guideData.url==currentUrl&&guideData.content&&guideData.content.pages&&guideData.content.pages[subPageUrl]&&guideData.content.pages[subPageUrl].dialogs){
+				let dialogs = guideData.content.pages[subPageUrl].dialogs
+				for(let i=0;i<dialogs.length;i++){//优先完全匹配
+					if(dialogs[i].question == question){
+						if(dialogs[i].answers.length){
+							let random = parseInt(Math.random()*dialogs[i].answers.length,10);
+							createAndPlayText(dialogs[i].answers[random]);
+						}
+						takeAction(dialogs[i].action);
+						return;
+					}
+				}	
+				for(let i=0;i<dialogs.length;i++){//模糊匹配
+					if(dialogs[i].question.startsWith("%")&&dialogs[i].question.endsWith("%")){
+						if(question.indexOf(dialogs[i].question.slice(1,dialogs[i].question.length-1))>-1){
+							if(dialogs[i].answers.length){
+								let random = parseInt(Math.random()*dialogs[i].answers.length,10);
+								createAndPlayText(dialogs[i].answers[random]);
+							}
+							takeAction(dialogs[i].action);
+							return;
+						}
+					}
+				}
+			}
+			if(answerMap[question]){//数据库匹配
+				if(answerMap[question].answers.length){
+					let random = parseInt(Math.random()*answerMap[question].answers.length,10);
+					createAndPlayText(answerMap[question].answers[random]);
+				}
+				takeAction(answerMap[question].action);
+			}
+		}
+		
+		function takeAction(action){
+			switch(action){
+				case "goNext":
+					console.log("goNext");
+					break;
+				case "goHome":
+					console.log("goHome");
+					break;
+					
+			}
+			
+		}
+		
+    </script>
+  </body>
+</html>

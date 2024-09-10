@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/property_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M45,16 L24,1 C23.4161777,0.973967793 22.6126255,0.973967793 22,1 L1,16 C0.74754529,16.3017314 1.2873952,17.3430197 2,17 L6,17 L6,41 C6,42.6568542 7.34314575,44 9,44 L37,44 C38.6568542,44 40,42.6568542 40,41 L40,17 L44,17 C44.8583357,17.3430197 45.1966735,16.3017314 45,16 Z M30,36 L16,36 L16,33 L30,33 L30,36 Z M30,29 L16,29 L16,26 L30,26 L30,29 Z M30,22 L16,22 L16,19 L30,19 L30,22 Z" id="path-1"></path>
+        <filter x="-12.5%" y="-8.1%" width="124.9%" height="125.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/property_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/资产">
+            <g id="Grorup-11">
+                <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+                <g id="10仓库、仓储" transform="translate(19.000000, 19.000000)" fill-rule="nonzero">
+                    <g id="Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

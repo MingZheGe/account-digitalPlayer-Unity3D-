@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/w/Integrity_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M52,23.0016364 L55.7207273,23 C57.5272727,23 59,24.4629091 59,26.2596364 L59,55.742 C58.9972991,57.5395852 57.54122,58.996396 55.7436364,59 L26.2596364,59 C24.4612727,59 23,57.5387273 23,55.7403636 L23,26.2596364 C23.0027055,24.4607758 24.4607746,23.0034386 26.2596364,23.0016364 L30,23.0016364 C30,23.5563636 30,24.0472727 30,24.6527273 L30,27.8927273 C29.994565,29.702817 31.1899203,30.991883 33,31 L49,31 C50.8094403,30.9900839 52.0063445,29.7021837 52,27.8927273 L52,24.6527273 C52,24.0505455 51.9967273,23.0016364 52,23.0016364 Z M48.7007561,22.164928 C48.8869877,22.5144064 49,22.9090909 49,23.3437655 L49,25.6527571 C49,26.9480874 48.0449662,28 46.8702746,28 L35.1329089,28 C33.9550338,28 33,26.9480874 33,25.6527571 L33,23.3437655 C33.0021727,22.928221 33.1054482,22.5207786 33.2992439,22.1631893 C33.6685237,21.4694486 34.3481894,21 35.1329089,21 L46.8702746,21 C47.6272152,21.0029162 48.3251338,21.4470753 48.7007561,22.164928 Z M48.8905455,38.9709091 C49.4664645,38.2995208 49.4053008,37.2921623 48.7523825,36.6953853 C48.0994643,36.0986083 47.0906793,36.1280177 46.4736364,36.7618182 L38.7156364,45.2447273 L35.5394545,41.6856364 C35.1501,41.2495125 34.5576523,41.0542356 33.9852807,41.1733646 C33.412909,41.2924936 32.9475704,41.7079299 32.7645534,42.2631828 C32.5815363,42.8184356 32.7086454,43.4291489 33.098,43.8652727 L37.4818182,48.7743636 C37.7902616,49.1192358 38.2300566,49.3177379 38.6927273,49.3209091 L38.7009091,49.3209091 C39.1607273,49.3209091 39.5992727,49.1278182 39.9101818,48.7890909 L48.8905455,38.9709091 Z" id="path-1"></path>
+        <filter x="-6.9%" y="-6.6%" width="113.9%" height="113.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/w/Integrity_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape" fill="black" fill-opacity="1">
+            <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+        <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF">
+            <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="80" height="80"></rect>
+        </g>
+    </g>
+</svg>

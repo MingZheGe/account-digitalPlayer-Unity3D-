@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.128" x2="0.5" y2="1.13" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce47"/>
+      <stop offset="1" stop-color="#da9c53"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-biz-xzcg" transform="translate(-120 -5742)">
+    <path id="路径_12969" data-name="路径 12969" d="M42,0A42,42,0,1,1,0,42,42,42,0,0,1,42,0Z" transform="translate(120 5742)" fill="url(#linear-gradient)"/>
+    <rect id="矩形_12171" data-name="矩形 12171" width="48" height="48" transform="translate(138 5760)" fill="rgba(255,255,255,0)"/>
+    <g id="组_30030" data-name="组 30030" transform="translate(1.726 6.342)">
+      <g id="椭圆_805" data-name="椭圆 805" transform="translate(166.09 5781.674)" fill="none" stroke="#fff" stroke-width="2">
+        <circle cx="8.881" cy="8.881" r="8.881" stroke="none"/>
+        <circle cx="8.881" cy="8.881" r="7.881" fill="none"/>
+      </g>
+      <g id="组_31061" data-name="组 31061" transform="translate(171.605 5787.113)">
+        <line id="直线_363" data-name="直线 363" x2="6.879" transform="translate(0.001 3.44)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_364" data-name="直线 364" y2="6.879" transform="translate(3.44 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="组_31064" data-name="组 31064" transform="translate(140.261 5767.845)">
+      <path id="路径_13675" data-name="路径 13675" d="M18,0H39a2,2,0,0,1,2,2V27a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V11" transform="translate(41.739 29.156) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_368" data-name="直线 368" x2="40" transform="translate(1.238 9.656)" fill="none" stroke="#fff" stroke-width="3"/>
+      <g id="组_30047" data-name="组 30047" transform="translate(7.209 17.428)">
+        <line id="直线_369" data-name="直线 369" x2="1" transform="translate(-0.523 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_370" data-name="直线 370" x2="1" transform="translate(3.447 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="组_31065" data-name="组 31065" transform="translate(7.209 20.428)">
+        <line id="直线_369-2" data-name="直线 369" x2="1" transform="translate(-0.523 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_370-2" data-name="直线 370" x2="1" transform="translate(3.447 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_435" data-name="直线 435" x2="1" transform="translate(7.418 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_436" data-name="直线 436" x2="1" transform="translate(11.418 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="组_30046" data-name="组 30046" transform="translate(24.308 16.179)">
+        <path id="路径_13010" data-name="路径 13010" d="M169.279,5779.035h6.489v2.531a8.086,8.086,0,0,0-4.1,0,4.031,4.031,0,0,0-2.393,1.727Z" transform="translate(-162.343 -5779.035)" fill="#fff"/>
+        <path id="路径_13011" data-name="路径 13011" d="M169.279,5779.035h3.035v5.5h-3.035Z" transform="translate(-166.49 -5779.035)" fill="#fff"/>
+        <path id="路径_13012" data-name="路径 13012" d="M169.279,5779.035H170.8v5.5h-1.518Z" transform="translate(-169.279 -5779.035)" fill="#fff"/>
+      </g>
+      <text id="BANK" transform="translate(4.627 7.156)" fill="#fff" font-size="6" font-family="AlibabaPuHuiTi-Bold, Alibaba PuHuiTi" font-weight="700"><tspan x="0" y="0">BANK</tspan></text>
+    </g>
+  </g>
+</svg>

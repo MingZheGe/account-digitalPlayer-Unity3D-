@@ -1,12 +1,11 @@
 <template>
-    <el-container style="height: 100vh; solid #eee">
-        <el-aside width="15vw" style="background-color: #545c64;padding: 10px">
+    <el-container style="height: 100vh; solid #eee overflow: hidden;">
+        <el-aside width="15vw" style="background:transparent;padding: 10px;">
             <el-steps :active="active" direction="vertical" finish-status="success">
                 <!--<el-step title="资料录入" icon="el-icon-edit"></el-step>-->
                 <el-step title="资料录入证件信息"></el-step>
                 <el-step title="资料录入基本信息"></el-step>
                 <el-step title="资料录入联系信息"></el-step>
-                <el-step title="资料录入关联人信息"></el-step>
 
                 <!--<el-step title="风险测评" icon="el-icon-upload"></el-step>-->
                 <el-step title="风险测评答题"></el-step>
@@ -17,47 +16,48 @@
                 <el-step title="存管银行签约"></el-step>
                 <el-step title="设置交易账户密码"></el-step>
 
-                <el-step title="视频录入" icon="el-icon-picture"></el-step>
-                <el-step title="证件采集" icon="el-icon-picture"></el-step>
-                <el-step title="签署协议" icon="el-icon-picture"></el-step>
-                <el-step title="业务提交" icon="el-icon-picture"></el-step>
+                <el-step title="人脸验证"></el-step>
+                <el-step title="证件采集"></el-step>
+                <el-step title="签署协议"></el-step>
+                <el-step title="视频录入"></el-step>
+                <el-step title="最终确认"></el-step>
+
             </el-steps>
 
         </el-aside>
 
         <el-container>
-            <el-header style="text-align: right; font-size: 12px">
-                <el-dropdown>
-                    <i class="el-icon-setting" style="margin-right: 15px"></i>
-                    <el-dropdown-menu slot="dropdown">
-                        <el-dropdown-item>查看</el-dropdown-item>
-                        <el-dropdown-item>新增</el-dropdown-item>
-                        <el-dropdown-item>删除</el-dropdown-item>
-                    </el-dropdown-menu>
-                </el-dropdown>
-                <span>王小虎</span>
+            <el-header style="text-align: right; font-size: 12px;background: transparent;">
+                <el-button>联系客服</el-button>
             </el-header>
             <el-main>
-                <div style="width:80vw;height: 70vh;background-color: aqua;border: 3px solid #000000;">
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
 
+                <div style="width:80vw;height: 70vh;overflow-x: hidden;color:aqua">
 
-                    <form1 v-if="this.active === 0" />
-                    <form2 v-if="this.active === 1" />
-                    <form3 v-if="this.active === 2" />
-                    <form4 v-if="this.active === 3" />
-                    <questionire v-if="this.active === 4" />
-                    <questionireResult v-if="this.active === 5" />
-                    <stockAccount v-if="this.active === 6" />
-                    <bank v-if="this.active === 7" />
-                    <videooo v-if="this.active === 8" />
-                    <photoIDcard v-if="this.active === 9" />
-                    <deal v-if="this.active === 10" />
-                    <makeSure v-if="this.active === 11" />
-                    <setPassword v-if="this.active === 12" />
+                    <!-- <dperson /> -->
+                    <form1 v-if="this.active === 0" :nextClick="clickNext" @approve="nextOK" />
+                    <form2 v-if="this.active === 1" :nextClick="clickNext" @approve="nextOK" />
+                    <form3 v-if="this.active === 2" :nextClick="clickNext" @approve="nextOK" />
+                    <questionire v-if="this.active === 3" :nextClick="clickNext" @approve="nextOK" />
+                    <questionireResult v-if="this.active === 4" :nextClick="clickNext" @approve="nextOK" />
+                    <stockAccount v-if="this.active === 5" :nextClick="clickNext" @approve="nextOK" />
+                    <bank v-if="this.active === 6" :nextClick="clickNext" @approve="nextOK" />
+                    <videooo v-if="this.active === 7" :nextClick="clickNext" @approve="nextOK" />
+                    <photoIDcard v-if="this.active === 8" :nextClick="clickNext" @approve="nextOK" />
+                    <deal v-if="this.active === 9" :nextClick="clickNext" @approve="nextOK" />
+                    <makeSure v-if="this.active === 10" :nextClick="clickNext" @approve="nextOK" />
+                    <setPassword v-if="this.active === 11" :nextClick="clickNext" @approve="nextOK" />
+                    <total v-if="this.active === 12" :nextClick="clickNext" @approve="nextOK" />
 
                 </div>
+                <div style="position: absolute; top:90%; left: 40%;">
+                    <button @click="last" id="tech">上一步</button>
+                </div>
                 <div style="position: absolute; top:90%; left: 60%;">
-                    <button @click="next" id="tech">下一步</button>
+                    <button @click="next" id="tech" class="abcd">下一步</button>
                 </div>
             </el-main>
         </el-container>
@@ -65,6 +65,8 @@
 </template>
   
 <style>
+@import url("./background.css");
+
 .el-header {
     background-color: #B3C0D1;
     color: #333;
@@ -73,6 +75,11 @@
 
 .el-aside {
     color: #333;
+}
+
+.el-step__title {
+    font-size: 25px;
+
 }
 
 #tech,
@@ -177,14 +184,22 @@
         transform: translate(0);
     }
 }
+
+.el-step__title.is-process {
+    color: aqua
+}
+
+.el-step__title.is-wait {
+    color: white;
+}
 </style>
   
 
 <script>
 import form1 from '../components/1.vue';//证件信息
 import form2 from '../components/2.vue';//基本信息
-import form3 from '../components/3.vue';//联系信息
-import form4 from '../components/4.vue';//关联人信息
+import form3 from '../components/4.vue';//联系信息
+//import form4 from '../components/4.vue';//关联人信息
 import questionire from '../components/5.vue';//风险测评答题
 import questionireResult from '../components/6.vue';//风险测评结果
 import stockAccount from '../components/7.vue';//开立证券账户
@@ -194,13 +209,15 @@ import photoIDcard from '../components/10.vue';//证件采集
 import deal from '../components/11.vue';//协议签署
 import makeSure from '../components/12.vue';//业务提交
 import setPassword from '../components/13.vue';//设置交易账户密码
+import total from '../components/14.vue'
+//import dperson from '../test3D.vue';
+
 export default {
     components: {
         questionire,
         form1,
         form2,
         form3,
-        form4,
         questionireResult,
         stockAccount,
         bank,
@@ -208,24 +225,70 @@ export default {
         videooo,
         photoIDcard,
         deal,
-        makeSure
+        makeSure,
+        total
+        // dperson
     },
     mounted() {
+        // this.start();
+
 
     },
     data() {
         return {
-            active: 0
+            active: 0,
+            clickNext: 0,//只起调用子组件watch回调作用
+            timer: "",
+            value: 0,
         };
     },
 
     methods: {
         next() {
             console.log(this.active)
-            if (this.active++ > 12) this.active = 0;
+            this.clickNext++
+            this.active++ //调试
+            console.log(this.clickNext)
+            if (this.active == 13) {
+                wife.doAction("再见")
 
+                let signSucc = new Audio()
+                signSucc.src = require("../asset/video/18.wav")
+                signSucc.play()
+
+                this.$message.success('开户完成');
+                setTimeout(() => {
+                    this.$router.push({ path: '/' });
+                }, 3000);
+                //this.$router.push({ path: '/' });
+
+            }
+            //if (this.active++ > 12) this.active = 0;
+            //if (this.active++ > 12) this.active = 0;
+
+        },
+        last() {
+            console.log(this.active)
+            if (this.active-- < 1) this.active = 0;
+
+        },
+        nextOK(childValue) {
+            if (this.active++ > 11) this.active = 0;
+        },
+        start() {
+            this.timer = setInterval(this.valChange, 4000); // 注意: 第一个参数为方法名的时候不要加括号;
+        },
+        valChange() {
+            this.value++;
+            console.log(this.value);
+        },
+        over() {
+            clearInterval(this.timer);
         }
-    }
+    },
+    beforeDestroy() {
+        this.over();
+    },
 }
 </script>
 

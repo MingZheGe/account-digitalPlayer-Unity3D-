@@ -1,0 +1,490 @@
+{
+    "readini": {
+      "label": "readini",
+      "value": "readini",
+      "params": {
+        "filename": "D:/file.ini", "section": "File", "key": "name", "value": "defaultvalue"
+      }
+  },
+  "writeini": {
+      "label": "writeini",
+      "value": "writeini",
+      "params": {
+          "filename": "D:/file.ini", "section": "File", "key": "name", "value": "writedata"
+      }
+  },
+  "readfile64":
+  {
+      "label": "readfile64",
+      "value": "readfile64",
+      "params": {
+        "filename": "D:/wxj.jpg"
+      }
+  },
+  "64tofile":
+  {
+      "label": "64tofile",
+      "value": "64tofile",
+      "params": {
+        "base64": "VzBacGJHVmREUXB1WVcxbFBYUmhibWQ1ZFRNTkNnPT0NCg==", "filename": "D:/file2.ini"
+      }
+  },
+
+  "readproperties": {
+    "label": "readproperties",
+    "value": "readproperties",
+    "params": {
+        "filename": "D:/file.properties", "key": "name", "value": "writedata"
+    }
+  },
+  "writeproperties": {
+    "label": "writeproperties",
+    "value": "writeproperties",
+    "params": {
+        "filename": "D:/file.properties", "key": "port", "value": "8080"
+    }
+  },
+  "readxml": {
+    "label": "readxml",
+    "value": "readxml",
+    "params": {
+        "filename": "D:/tran.xml", "node": "/Trans/Tran-action/Packet/parameter[1]", "value": "read"
+    }
+  },
+  "writexml": {
+    "label": "writexml",
+    "value": "writexml",
+    "params": {
+        "filename": "D:/file.ini", "node": "/Trans/Tran-action/Packet/parameter[2]", "value": "writebyplugin"
+    }
+  },
+  "deletefile": {
+  
+      "label": "deletefile",
+      "value": "deletefile",
+      "params": {
+        "filename": "D:/test.txt"
+      }
+  },
+  "readfile":
+  {
+      "label": "readfile",
+      "value": "readfile",
+      "params": {
+        "filename": "D:/mx.txt"
+      }
+  },
+  "writefile":
+  {
+      "label": "writefile",
+      "value": "writefile",
+      "params": {
+        "filename": "D:/mx.txt", "content": "writed data"
+      }
+  },
+  "copyfile":
+  {
+      "label": "copyfile",
+      "value": "copyfile",
+      "params": {
+        "filename": "D:/file.ini", "targetname": "D:/file3.ini", "replace": "1"
+      }
+  },
+  "movefile":
+  {
+      "label": "movefile",
+      "value": "movefile",
+      "params": {
+        "filename": "D:/file.ini", "targetname": "D:/file3.ini"
+      }
+  },
+  "checkfile":
+  {
+      "label": "checkfile",
+      "value": "checkfile",
+      "params": {
+        "filename": "D:/file.ini"
+      }
+  },
+  "getmd5":
+  {
+      "label": "getmd5",
+      "value": "getmd5",
+      "params": {
+        "filename": "D:/file.ini"
+      }
+  },
+  "createfolder":
+  {
+      "label": "createfolder",
+      "value": "createfolder",
+      "params": {
+        "path": "D:/tmp"
+    }
+},
+"deletefolder":
+{
+    "label": "deletefolder",
+    "value": "deletefolder",
+    "params": {
+        "path": "D:/tmp"
+    }
+},
+"checkfolder":
+{
+    "label": "checkfolder",
+    "value": "checkfolder",
+    "params": {
+        "path": "D:/tmp"
+      }
+  },
+  "zip":
+  {
+      "label": "zip",
+      "value": "zip",
+      "params": {
+        "srcpath": "D:/file.ini", "destfile": "D:/file.zip", "password": "12345678"
+      }
+  },
+  "unzip":
+  {
+      "label": "unzip",
+      "value": "unzip",
+      "params": {
+        "srcfile": "D:/file.zip", "destpath": "D:/dest", "password": "12345678", "overwrite": "1"
+      }
+  },
+  "desktop":
+  {
+      "label": "desktop",
+      "value": "desktop",
+      "params": {
+        
+      }
+  },
+  "restart":
+  {
+      "label": "restart",
+      "value": "restart",
+      "params": {
+        
+      }
+  },
+  "shutdown":
+  {
+      "label": "shutdown",
+      "value": "shutdown",
+      "params": {
+        
+      }
+  },
+
+  "getlocalip": {
+    "label": "getlocalip",
+    "value": "getlocalip",
+    "params": {
+      
+    }
+  },
+  "getmac": {
+    "label": "getmac",
+    "value": "getmac",
+    "params": {
+      
+    }
+  },
+  "getcpuid": {
+    "label": "getcpuid",
+    "value": "getcpuid",
+    "params": {
+      
+    }
+  },
+  "setsystime": {
+    "label": "setsystime",
+    "value": "setsystime",
+    "params": {
+      "time": "20180503170400000"
+    }
+  },
+  "getsystime": {
+    "label": "getsystime",
+    "value": "getsystime",
+    "params": {
+      
+    }
+  },
+  "screencap": {
+    "label": "screencap",
+    "value": "screencap",
+    "params": {
+      
+    }
+  },
+  "killprocess": {
+    "label": "killprocess",
+    "value": "killprocess",
+    "params": {
+      "filename": "D:/killlist.ini"
+    }
+  },
+  "exec": {
+    "label": "exec(-show,-hide,-close,-icoshow,-icohide)",
+    "value": "exec",
+    "params": {
+      "path":"C:/Program Files (x86)/gwiwrite",
+      "file":"GWIIMEApp.exe",
+      "waitfor":"false", 
+      "param": "-x 100 -y 400 -cx 550 -cy 280"
+    }
+  },
+  "readregarb": {
+    "label": "readregarb",
+    "value": "readregarb",
+    "params": {
+        "location":"currentUser",
+        "path":"Software\\\\Microsoft\\\\Windows",
+        "key":"user",
+        "value":"nothing"
+    }
+  },
+  "writeregarb": {
+    "label": "writeregarb",
+    "value": "writeregarb",
+    "params": {
+        "location":"currentUser",
+        "path":"Software\\\\Microsoft\\\\Windows",
+        "key":"user",
+        "value":"1011"
+    }
+  },
+
+  "open": {
+    "label": "open",
+    "value": "open",
+    "params": {
+        "filename":"D:/database/sqlite3.db"
+    }
+  },
+  "exeselect": {
+    "label": "exeselect",
+    "value": "exeselect",
+    "params": {
+        "sql":"select TELLER_NO from GWI_DEV_INFO;"
+    }
+  },
+  "exeupdate": {
+    "label": "exeupdate",
+    "value": "exeupdate",
+    "params": {
+        "sql": "update GWI_DEV_INFO set TELLER_NO='22446688'"
+    }
+  },
+  "close": {
+    "label": "close",
+    "value": "close",
+    "params": {
+        
+    }
+  },
+
+  "ftpopen": {
+    "label": "ftpopen",
+    "value": "ftpopen",
+    "params": {
+      "ip":"127.0.0.1",
+      "port": "21",
+      "username": "shell",
+      "password": "shell",
+      "mode":"0"
+    }
+  },
+  "cd": {
+    "label": "cd",
+    "value": "cd",
+    "params": {
+      "dir": "/common"
+    }
+  },
+  "uploaddir": {
+    "label": "uploaddir",
+    "value": "uploaddir",
+    "params": {
+      "srcdir": "D:/tmp",
+      "destdir": "/common/tmp"  
+    }
+  },
+  "uploadfile": {
+    "label": "uploadfile",
+    "value": "uploadfile",
+    "params": {
+      "srcfilename": "D:/file.ini",
+      "destfilename": "/common/dest/file.ini"  
+    }
+  },
+  "downloaddir": {
+    "label": "downloaddir",
+    "value": "downloaddir",
+    "params": {
+      "srcdir": "/common/tmp",    
+      "destdir": "D:/tmp"
+    }
+  },
+  "downloadfile": {
+    "label": "downloadfile",
+    "value": "downloadfile",
+    "params": {
+      "srcfilename": "/common/dest/file.ini",
+      "destfilename": "D:/file.ini"      
+    }
+  },
+  "ftpclose": {
+    "label": "ftpclose",
+    "value": "ftpclose",
+    "params": {
+      
+    }
+  },
+
+	"systemfree":
+  {
+      "label": "systemfree",
+      "value": "systemfree",
+      "params": {
+        "timerflag": "enable"
+      }
+  },
+  "systembusy":
+  {
+      "label": "systembusy",
+      "value": "systembusy",
+      "params": {
+        "timerflag": "disable"
+      }
+  },
+  	"systeminit":
+  {
+      "label": "systeminit",
+      "value": "systeminit",
+      "params": {
+        "timerflag": "disable"
+      }
+  },
+  	"systemstopservice":
+  {
+      "label": "systemstopservice",
+      "value": "systemstopservice",
+      "params": {
+        "timerflag": "enable"
+      }
+  },
+  
+  
+  
+  "systempause":
+  {
+      "label": "systempause",
+      "value": "systempause",
+      "params": {
+        "timerflag": "enable"
+      }
+  },
+  
+  "facecheck":
+  {
+      "label": "facecheck",
+      "value": "facecheck",
+      "params": {
+        "filename1":"D:/face1.jpg","filename2":"D:/face2.jpg"
+      }
+  },
+  "default":
+  {
+      "label": "default",
+      "value": "default",
+      "params": {
+        "filename": "D:/file.ini", "section": "File", "key": "name", "value": "defaultvalue"
+      }
+  },
+  "PlayVideo":
+  {
+      "label": "PlayVideo",
+      "value": "PlayVideo",
+      "params": {
+        "wAction": 0, "pPath": "c:/test.mp4", "bPalyAudio": 1, "bShowWindow": 1,"nX": 0,"nY":0,
+        "nWidth":320,"nHeight":160,"hWnd":123456
+      }
+  },
+  "PlayVideoeOver":
+  {
+      "label": "PlayVideoeOver",
+      "value": "PlayVideoeOver",
+      "params": {
+        "wAction": "0"
+      }
+  },
+  "PlayFinished":
+  {
+      "label": "PlayFinished",
+      "value": "PlayFinished",
+      "params": {
+        "nFinishType":0
+      }
+  },
+  "signGen":
+  {
+      "label": "signGen",
+      "value": "signGen",
+      "params": {
+        "path": "C:\\hz", "exInfo": "helloeee", "outPath": "C:\\signGen", "exts": ".class:.xml:.jar", "excluded": "web.xml"
+      }
+  },
+  "checkVersion":
+  {
+      "label": "checkVersion",
+      "value": "checkVersion",
+      "params": {
+        "path":"C:\\hz", "md5Path": "C:\\signGen\\md5.txt", "exts": ".class:.xml:.jar", "excluded": "web.xml"
+      }
+  },
+  "Timeout":
+  {
+      "label": "Timeout",
+      "value": "Timeout",
+      "params": {
+        "wAction":0
+      }
+  },
+   "IMEShow":
+  {
+      "label": "IMEShow",
+      "value": "IMEShow",
+      "params": {
+        "mode":"",
+        "width":400,
+        "height":300,
+        "x":200,
+        "y":200
+      }
+  }, 
+  "IMEHide":
+  {
+      "label": "IMEHide",
+      "value": "IMEHide",
+      "params": {
+       
+      }
+  },
+   "GWILog":
+  {
+      "label": "GWILog",
+      "value": "GWILog",
+      "params": {
+      	"devName":"GWILog",
+        "actionName":"debug",
+        "param":1111111111111111
+      }
+  }
+  
+  
+}

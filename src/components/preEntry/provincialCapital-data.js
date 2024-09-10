@@ -1,0 +1,32 @@
+const capitalData = [
+	{"capital":"哈尔滨市","province":"黑龙江省"},
+	{"capital":"长春市","province":"吉林省"},
+	{"capital":"沈阳市","province":"辽宁省"},
+	{"capital":"呼和浩特市","province":"内蒙古自治区"},
+	{"capital":"石家庄市","province":"河北省"},
+	{"capital":"太原市","province":"山西省"},
+	{"capital":"济南市","province":"山东省"},
+	{"capital":"郑州市","province":"河南省"},
+	{"capital":"西安市","province":"陕西省"},
+	{"capital":"南京市","province":"江苏省"},
+	{"capital":"合肥市","province":"安徽省"},
+	{"capital":"武汉市","province":"湖北省"},
+	{"capital":"杭州市","province":"浙江省"},
+	{"capital":"长沙市","province":"湖南省"},
+	{"capital":"南昌市","province":"江西省"},
+	{"capital":"福州市","province":"福建省"},
+	{"capital":"广州市","province":"广东省"},
+	{"capital":"南宁市","province":"广西壮族自治区"},
+	{"capital":"海口市","province":"海南省"},
+	{"capital":"贵阳市","province":"贵州省"},
+	{"capital":"昆明市","province":"云南省"},
+	{"capital":"成都市","province":"四川省"},
+	{"capital":"兰州市","province":"甘肃省"},
+	{"capital":"银川市","province":"宁夏回族自治区"},
+	{"capital":"西宁市","province":"青海省"},
+	{"capital":"拉萨市","province":"西藏自治区"},
+	{"capital":"乌鲁木齐市","province":"新疆维吾尔自治区"},
+	{"capital":"台北市","province":"台湾省"}
+]
+
+export default capitalData;

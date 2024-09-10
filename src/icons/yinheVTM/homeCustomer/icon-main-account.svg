@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-main-account</title>
+    <defs>
+        <circle id="path-1" cx="42" cy="42" r="42"></circle>
+        <linearGradient x1="0%" y1="38.038322%" x2="101.999998%" y2="64.0730089%" id="linearGradient-3">
+            <stop stop-color="#6C5CFF" offset="0%"></stop>
+            <stop stop-color="#FF7EC3" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="415" height="218" rx="8"></rect>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-main-account">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="蒙版" fill="#000000" opacity="0.452648074" style="mix-blend-mode: soft-light;" xlink:href="#path-1"></use>
+            <g id="账户业务" mask="url(#mask-2)">
+                <g transform="translate(-37.000000, -67.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="蒙版" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <circle id="椭圆形" stroke="none" fill="#000000" fill-rule="evenodd" opacity="0.452648074" style="mix-blend-mode: soft-light;" cx="79" cy="109" r="42"></circle>
+                    <g id="icon账户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(56.000000, 90.000000)">
+                        <path d="M8.49719606,14.4532901 L8.60153351,14.5233548 L13.183,18.0303828 L17.5026414,14.53974 C17.8990847,14.2192247 18.4660817,14.2513867 18.824068,14.5960292 L18.9089905,14.6886765 C19.2295058,15.0851199 19.1973437,15.6521169 18.8527013,16.0101031 L18.760054,16.0950257 L15.1666009,18.9993314 L18,19 C18.5522847,19 19,19.4477153 19,20 C19,20.5522847 18.5522847,21 18,21 L13.9996009,20.9993314 L13.9996009,23.9993314 L18,24 C18.5522847,24 19,24.4477153 19,25 C19,25.5522847 18.5522847,26 18,26 L13.9996009,25.9993314 L14,30 C14,30.5522847 13.5522847,31 13,31 C12.4477153,31 12,30.5522847 12,30 L11.9996009,25.9993314 L8,26 C7.44771525,26 7,25.5522847 7,25 C7,24.4477153 7.44771525,24 8,24 L11.9996009,23.9993314 L11.9996009,20.9993314 L8,21 C7.44771525,21 7,20.5522847 7,20 C7,19.4477153 7.44771525,19 8,19 L11.1586009,18.9993314 L7.38577118,16.1114108 C6.94724162,15.7756873 6.86390083,15.1480312 7.19962433,14.7095016 C7.50952294,14.3047051 8.06816887,14.2025547 8.49719606,14.4532901 Z M38,24 C38.5522847,24 39,24.4477153 39,25 C39,25.5522847 38.5522847,26 38,26 L24,26 C23.4477153,26 23,25.5522847 23,25 C23,24.4477153 23.4477153,24 24,24 L38,24 Z M38,19 C38.5522847,19 39,19.4477153 39,20 C39,20.5522847 38.5522847,21 38,21 L24,21 C23.4477153,21 23,20.5522847 23,20 C23,19.4477153 23.4477153,19 24,19 L38,19 Z" id="形状结合" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="0" y="0" width="46" height="36" rx="2"></rect>
+                        <rect id="矩形" fill="#FFFFFF" x="0" y="8" width="46" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/w/bankcard_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28,27 L28,22 L63,22 L63,51 L61,51 L58,51 L58,48 L60,48 L60,25 L31,25 L31,27 L28,27 Z M17,55 L17,33 C17,31.3431458 18.3431458,30 20,30 L52,30 C53.6568542,30 55,31.3431458 55,33 L55,55 C55,56.6568542 53.6568542,58 52,58 C51.3333333,58 50.6666667,58 50,58 L20,58 C18.3431458,58 17,56.6568542 17,55 Z M42.5,49 L40,54 L48.335,54 L50.835,49 L42.5,49 Z M53,37 L19,37 L19,42 L53,42 L53,37 Z" id="path-1"></path>
+        <filter x="-5.4%" y="-6.9%" width="110.9%" height="113.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/w/bankcard_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape" fill="black" fill-opacity="1">
+            <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+        <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF">
+            <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="80" height="80"></rect>
+        </g>
+    </g>
+</svg>

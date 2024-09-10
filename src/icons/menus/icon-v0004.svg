@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_ktsjwt开通市价委托);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #ffffff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #ffffff;
+        font-size: 20px;
+        font-family: YuGothicUI-Regular, Yu Gothic UI;
+      }
+    </style>
+    <clipPath id="clip-ic_ktsjwt开通市价委托">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="ic_ktsjwt开通市价委托" data-name="ic/ktsjwt开通市价委托" class="cls-1">
+    <g id="_0.2emergency_copy_4" data-name="0.2emergency copy 4" transform="translate(-6.722 -7.5)">
+      <g id="Group_47" data-name="Group 47" transform="translate(15 15.223)">
+        <path id="Stroke_11_Copy" data-name="Stroke 11 Copy" class="cls-2" d="M35.243,34.956c-1.994-.258-11.065,2.081-13.593,2.27s-5.375-2.422-7.23-3.406S6.612,29,6.612,29s-.3-2.7,2.892-1.987a41.641,41.641,0,0,1,8.1,3.405s3.537,1.066,6.03.334c1.724-.509,4.019-1.261,4.921-2.161.841-.84.749-1.687.038-1.578-1.471.229-7.136.76-8.676.284s-2.4-2.289-1.735-3.4a48.5,48.5,0,0,0,6.652-1.134c4.646-1.021,5.8-1.734,7.808-.852a57.026,57.026,0,0,0,7.888,3.414V6.617A6.616,6.616,0,0,0,33.912,0H6.617A6.617,6.617,0,0,0,0,6.617V33.912a6.617,6.617,0,0,0,6.617,6.617H33.912a6.614,6.614,0,0,0,6.2-4.325C38.443,35.763,36.13,35.07,35.243,34.956Z" transform="translate(0.028 0.478)"/>
+        <text id="市" class="cls-3" transform="translate(3.838 0.478)"><tspan x="-0.075" y="22">市</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

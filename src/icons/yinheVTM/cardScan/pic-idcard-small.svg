@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="326" height="228" viewBox="0 0 326 228">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#eaf3ff"/>
+    </linearGradient>
+    <filter id="矩形-copy-22" x="0" y="0" width="326" height="228" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#335add" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#272e5f"/>
+      <stop offset="1" stop-color="#3c3e6c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="-0.151" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2781fe"/>
+      <stop offset="1" stop-color="#b9d3ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd7ba"/>
+      <stop offset="1" stop-color="#ffecc9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="0.982" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd5b5"/>
+      <stop offset="1" stop-color="#ffefdd"/>
+    </linearGradient>
+  </defs>
+  <g id="pic-idcard-small" transform="translate(30 25)">
+    <g id="分组-27">
+      <rect id="矩形" width="252.693" height="144.608" rx="4" transform="translate(6.653 14.838)" fill="#a4c0eb"/>
+      <g transform="matrix(1, 0, 0, 1, -30, -25)" filter="url(#矩形-copy-22)">
+        <rect id="矩形-copy-22-2" data-name="矩形-copy-22" width="266" height="168" rx="4" transform="translate(30 25)" fill="url(#linear-gradient)"/>
+      </g>
+      <rect id="矩形-2" data-name="矩形" width="67.971" height="11.448" rx="5.724" transform="translate(24.541 37.753)" fill="#cbe0ff"/>
+      <rect id="矩形-copy-23" width="137.374" height="11.448" rx="5.724" transform="translate(24.541 65.671)" fill="#cbe0ff"/>
+      <rect id="矩形-copy-24" width="91.582" height="10.017" rx="5.008" transform="translate(24.541 94.305)" fill="#cbe0ff"/>
+      <rect id="矩形-copy-25" width="221.212" height="11.448" rx="5.724" transform="translate(24.541 120.792)" fill="#cbe0ff"/>
+      <g id="分组-25" transform="translate(176.219 27.801)">
+        <path id="路径-19" d="M29.194,20.367c-2.9,10.161-7.378,5.008-2.377,21.559,6.086,6.526-3.536,5.456,9.365,8.313s27.554.122,29.768-8.152-.481-24.888-6.943-25.78c-1.768-3-7.754-5.606-13.881-5.425C38.079,11.09,30.777,14.829,29.194,20.367Z" transform="translate(-12.775 -10.873)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+        <path id="路径-15" d="M25.637,117,0,127.863v15.053H67.19V127.863L42.521,117Z" transform="translate(0 -66.067)" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+        <path id="路径-17" d="M55,104.947q2.355,7.25,8.159,7.25t8.159-7.25V93H55.01Z" transform="translate(-28.604 -53.585)" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+        <path id="路径-18" d="M61.931,36.934q-6.746-2.283-7.805,1.015c-1.059,3.3-12.949-4.985-14.844,7.1s6.058,26.562,14.353,25.965q8.3-.6,12.537-8.865,3.335-7.361,1.381-18.876A10.282,10.282,0,0,0,61.931,36.934Z" transform="translate(-20.283 -23.941)" fill-rule="evenodd" fill="url(#linear-gradient-5)"/>
+      </g>
+    </g>
+  </g>
+</svg>

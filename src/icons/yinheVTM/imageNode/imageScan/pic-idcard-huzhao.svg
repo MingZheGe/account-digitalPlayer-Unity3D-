@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="353" height="206" viewBox="0 0 353 206">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fafcff"/>
+      <stop offset="1" stop-color="#e5efff"/>
+    </linearGradient>
+  </defs>
+  <g id="pic-idcard-huzhao" transform="translate(0 36.742)">
+    <g id="分组-27" transform="translate(0 -36.742)">
+      <rect id="矩形" width="353" height="173" rx="4" transform="translate(0 33)" fill="#cee1ff"/>
+      <g id="矩形-copy-22" transform="translate(0)" stroke="#bccef7" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)">
+        <rect width="353" height="202" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="352" height="201" rx="3.5" fill="none"/>
+      </g>
+      <rect id="矩形-2" data-name="矩形" width="133" height="14" rx="7" transform="translate(127 65)" fill="#a5c6fc"/>
+      <rect id="矩形-copy-24" width="133" height="7" rx="3.5" transform="translate(127 99)" fill="#deebff"/>
+      <rect id="矩形-copy-24-2" data-name="矩形-copy-24" width="133" height="7" rx="3.5" transform="translate(127 124)" fill="#deebff"/>
+      <rect id="矩形-copy-24-3" data-name="矩形-copy-24" width="204" height="7" rx="3.5" transform="translate(127 148)" fill="#deebff"/>
+      <rect id="矩形-copy-24-4" data-name="矩形-copy-24" width="204" height="6" rx="3" transform="translate(127 27)" fill="#deebff"/>
+      <rect id="矩形_12258" data-name="矩形 12258" width="83" height="99" rx="1" transform="translate(28 60)" fill="#f8fbff"/>
+      <rect id="矩形-copy-25" width="159" height="6" rx="3" transform="translate(28 174)" fill="#a5c6fc"/>
+      <g id="组_5045" data-name="组 5045" transform="translate(30.094 64.58)">
+        <path id="路径_5788" data-name="路径 5788" d="M162.275,706.61c14.909-.016,29.145,4.948,39.248,13.684-2.141,2.593-18.4,11.855-39.093,11.824s-38-9.864-39.364-11.824C133.16,711.565,147.379,706.6,162.275,706.61Zm0,0" transform="translate(-123.043 -650.306)" fill="#5d9ffe"/>
+        <path id="路径_5789" data-name="路径 5789" d="M427.555,553.822c5.394,0,9.768,3.773,9.773,8.431v8.432c-.169,4.554-4.492,8.17-9.768,8.17s-9.6-3.616-9.768-8.17v-8.432C417.8,557.6,422.167,553.831,427.555,553.822Zm0,0" transform="translate(-388.32 -509.798)" fill="#ffdcbf"/>
+        <path id="路径_5790" data-name="路径 5790" d="M229.759,111.985V93.732c0-5.063,5.125-10.088,10.3-10.088h24.752c5.171,0,10.3,5.024,10.3,10.088v18.253Zm0,0" transform="translate(-213.191 -77.408)" fill="#434343"/>
+        <path id="路径_5791" data-name="路径 5791" d="M182.78,384.12a6.752,6.752,0,0,0,3.413,6.215,5.085,5.085,0,0,0,6.222-1.342,7.428,7.428,0,0,0,1.282-7.228,5.74,5.74,0,0,0-5.254-4.113C185.363,377.655,182.848,380.527,182.78,384.12Zm34.008,0c0,3.653,2.539,6.614,5.67,6.614s5.67-2.961,5.67-6.614-2.539-6.614-5.67-6.614S216.788,380.467,216.788,384.12Zm0,0" transform="translate(-166.21 -347.652)" fill="#ffd9b9"/>
+        <path id="路径_5792" data-name="路径 5792" d="M295.613,165.945a18.894,18.894,0,0,1,18.925,18.894v7.556a18.909,18.909,0,0,1-37.819,0v-7.556A18.894,18.894,0,0,1,295.613,165.945Zm0,0" transform="translate(-256.377 -153.094)" fill="#ffe0c6"/>
+        <path id="路径_5794" data-name="路径 5794" d="M356.285,23.192c7.51,0,13.6-3.4,13.6-7.587V6.05q-9.4,1.96-13.6,1.96c-7.5,0-13.592,3.4-13.592,7.595S348.783,23.192,356.285,23.192Zm0,0" transform="translate(-317.049 -6.05)" fill="#434343"/>
+        <path id="路径_5795" data-name="路径 5795" d="M123.066,876.877h78.48v22.835h-78.48Z" transform="translate(-123.066 -806.889)" fill="#5d9ffe"/>
+      </g>
+      <g id="组_30629" data-name="组 30629" transform="translate(274.866 69.214)" opacity="0.199">
+        <path id="路径_5788-2" data-name="路径 5788" d="M149.889,706.61c10.2-.011,19.938,3.385,26.85,9.361-1.464,1.774-12.59,8.11-26.744,8.089s-25.995-6.748-26.929-8.089c6.905-5.971,16.633-9.366,26.823-9.361Zm0,0" transform="translate(-123.05 -668.092)" fill="#5d9ffe"/>
+        <path id="路径_5789-2" data-name="路径 5789" d="M424.471,553.822c3.69,0,6.682,2.581,6.686,5.768v5.768c-.115,3.115-3.073,5.589-6.683,5.589s-6.567-2.474-6.683-5.589V559.59C417.8,556.407,420.785,553.828,424.471,553.822Zm0,0" transform="translate(-397.63 -523.705)" fill="#ffdcbf"/>
+        <path id="路径_5790-2" data-name="路径 5790" d="M229.759,103.033V90.546c0-3.464,3.506-6.9,7.043-6.9h16.933c3.538,0,7.044,3.437,7.044,6.9v12.487Zm0,0" transform="translate(-218.424 -79.378)" fill="#2c3262"/>
+        <path id="路径_5791-2" data-name="路径 5791" d="M182.779,382.03a4.619,4.619,0,0,0,2.335,4.252,3.479,3.479,0,0,0,4.257-.918,5.081,5.081,0,0,0,.877-4.945,3.927,3.927,0,0,0-3.595-2.814C184.546,377.608,182.826,379.573,182.779,382.03Zm23.265,0c0,2.5,1.737,4.525,3.879,4.525s3.879-2.026,3.879-4.525-1.737-4.525-3.879-4.525S206.045,379.531,206.045,382.03Zm0,0" transform="translate(-171.444 -357.082)" fill="#ffd9b9"/>
+        <path id="路径_5792-2" data-name="路径 5792" d="M289.644,165.945a12.925,12.925,0,0,1,12.947,12.925v5.169a12.936,12.936,0,1,1-25.872,0V178.87A12.925,12.925,0,0,1,289.644,165.945Zm0,0" transform="translate(-262.803 -157.153)" fill="#ffe0c6"/>
+        <path id="路径_5794-2" data-name="路径 5794" d="M351.992,17.777c5.137,0,9.3-2.323,9.3-5.19V6.05a51.9,51.9,0,0,1-9.3,1.341c-5.132,0-9.3,2.323-9.3,5.2S346.859,17.777,351.992,17.777Zm0,0" transform="translate(-325.15 -6.05)" fill="#2c3262"/>
+        <path id="路径_5795-2" data-name="路径 5795" d="M123.066,876.877h53.689V892.5H123.066Z" transform="translate(-123.066 -828.998)" fill="#5d9ffe"/>
+      </g>
+      <g id="组_30630" data-name="组 30630" transform="translate(197 163)">
+        <text id="_" data-name="&lt;" transform="translate(4 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_2" data-name="&lt;" transform="translate(56 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_3" data-name="&lt;" transform="translate(108 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_4" data-name="&lt;" transform="translate(30 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_5" data-name="&lt;" transform="translate(82 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_6" data-name="&lt;" transform="translate(17 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_7" data-name="&lt;" transform="translate(69 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_8" data-name="&lt;" transform="translate(121 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_9" data-name="&lt;" transform="translate(43 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+        <text id="_10" data-name="&lt;" transform="translate(95 17)" fill="#bad3fc" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-4.416" y="0">&lt;</tspan></text>
+      </g>
+      <text id="护照" transform="translate(70 30)" fill="#799ae3" font-size="21" font-family="AlibabaPuHuiTi-Bold, Alibaba PuHuiTi" font-weight="700"><tspan x="-20.664" y="0">护照</tspan></text>
+      <text id="PASSPORT" transform="translate(72 47)" fill="#799ae3" font-size="16" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi"><tspan x="-38.216" y="0">PASSPORT</tspan></text>
+    </g>
+  </g>
+</svg>

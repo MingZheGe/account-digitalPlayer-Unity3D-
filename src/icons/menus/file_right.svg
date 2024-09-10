@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/file_right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic/file_right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="41" cy="41" r="41"></circle>
+        <rect id="Rectangle-11" fill="#4A90E2" x="21" y="20" width="40" height="40" rx="4"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="28" y="27" width="26" height="3"></rect>
+        <path d="M53.2082701,44.7044736 L44.2279065,54.5226554 C43.9169974,54.8613826 43.4784519,55.0544736 43.0186338,55.0544736 L43.0104519,55.0544736 C42.5477813,55.0513023 42.1079863,54.8528002 41.7995429,54.5079281 L37.4157247,49.5988372 C37.0263701,49.1627133 36.899261,48.5520001 37.082278,47.9967472 C37.2652951,47.4414944 37.7306337,47.026058 38.3030053,46.906929 C38.8753769,46.7878 39.4678247,46.983077 39.8571792,47.4192008 L43.033361,50.9782917 L50.791361,42.4953826 C51.4084039,41.8615821 52.417189,41.8321728 53.0701072,42.4289498 C53.7230255,43.0257268 53.7841892,44.0330853 53.2082701,44.7044736" id="Path" fill="#FFFFFF"></path>
+        <rect id="Rectangle-Copy" fill="#FFFFFF" x="28" y="36" width="26" height="3"></rect>
+        <rect id="Rectangle-Copy-2" fill="#FFFFFF" x="28" y="45" width="6" height="3"></rect>
+    </g>
+</svg>

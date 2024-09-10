@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01客户资料变更" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-10-06" transform="translate(-590.000000, -917.000000)">
+            <rect fill="#000000" x="0" y="0" width="1280" height="1024"></rect>
+            <g id="home" transform="translate(590.000000, 917.000000)">
+                <g id="Group-8">
+                    <circle id="Oval" fill-opacity="0.1" fill="#001633" cx="50" cy="50" r="50"></circle>
+                    <g id="主页" transform="translate(28.000000, 12.000000)" fill-rule="nonzero">
+                        <rect id="Rectangle-path" opacity="0" x="0" y="0" width="45" height="45"></rect>
+                        <path d="M28.0437045,41.1732667 L16.6753742,41.1732667 C16.6753742,41.1732667 16.6753742,32.9361659 16.6753742,28.4529669 C16.6753742,27.7024692 16.9752139,26.984479 17.5081044,26.4544665 C18.0409948,25.924454 18.7643049,25.6262336 19.5174567,25.6262336 C21.2539692,25.6262336 23.4651094,25.6262336 25.2016219,25.6262336 C25.9547738,25.6262336 26.6780838,25.924454 27.2109743,26.4544665 C27.7438648,26.984479 28.0437045,27.7024692 28.0437045,28.4529669 C28.0437045,32.9361659 28.0437045,41.1732667 28.0437045,41.1732667 Z M42.7102716,21.2758911 L24.412944,3.81515956 C23.2761109,2.72969397 21.4358625,2.72686724 20.2947663,3.81515956 L1.99743872,21.2758911 C0.299294387,22.8970226 0.817974456,24.212867 3.1840082,24.212867 L6.83040014,24.212867 L8.06954814,41.1888137 C8.19175769,42.7350369 9.5687467,44 11.1446815,44 L33.5758182,44 C35.1460688,44 36.5273209,42.7421037 36.6509515,41.1888137 L37.8886785,24.212867 L41.5237021,24.212867 C43.8783675,24.212867 42.7102716,21.2758911 42.7102716,21.2758911 Z" id="Shape" fill-opacity="0.75" fill="#FFFFFF"></path>
+                    </g>
+                    <text id="首页" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="32" fill="#FFFFFF" fill-opacity="0.75">
+                        <tspan x="34" y="76">首页</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/experience_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M56.4204069,39.2700878 L47.7979064,47.6173888 C47.4275661,47.977967 46.9239993,48.1807116 46.3987538,48.1807116 C45.8735083,48.1807116 45.3699415,47.977967 44.9996012,47.6173888 L38.670761,41.4905427 L30.3708374,49.4450971 C29.9981365,49.8031802 29.4934826,50.0028453 28.9683972,49.9999694 C28.4433118,49.9970934 27.9410239,49.7919131 27.5725322,49.4297704 C26.8037789,48.6779392 26.8099804,47.4652032 27.5863852,46.7207772 L37.2854614,37.4251369 C38.0597528,36.683166 39.307896,36.6865914 40.0778296,37.4328003 L46.3987538,43.5538989 L53.6221017,36.5610945 C54.1219708,36.0771795 54.8505459,35.8881891 55.5333797,36.0653143 C56.2162136,36.2424395 56.7495676,36.7587707 56.9325323,37.419811 C57.1154971,38.0808512 56.920276,38.7861728 56.4204069,39.2700878 M59.1970909,20 L24.8029091,20 C22.7034928,20.0021047 21.0021047,21.7034928 21,23.8029091 L21,58.1970909 C21,60.2951818 22.7048182,62 24.8029091,62 L59.1970909,62 C61.2965072,61.9978953 62.9978953,60.2965072 63,58.1970909 L63,23.8029091 C62.996846,21.7039282 61.2960718,20.003154 59.1970909,20" id="path-1"></path>
+        <filter x="-13.1%" y="-8.3%" width="126.2%" height="126.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/experience_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/金融">
+            <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+            <g id="Shape" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

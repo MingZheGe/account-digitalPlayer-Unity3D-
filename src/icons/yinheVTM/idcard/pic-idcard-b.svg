@@ -1,0 +1,22 @@
+<svg id="pic-idcard-b" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="206" viewBox="0 0 354 206">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f9ff"/>
+      <stop offset="1" stop-color="#e8f1ff"/>
+    </linearGradient>
+  </defs>
+  <g id="分组-26" transform="translate(0)">
+    <rect id="矩形-copy-26" width="354" height="202" rx="4" transform="translate(0 4)" fill="#a4c0eb"/>
+    <g id="矩形-copy-27" stroke="#bfdfff" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="354" height="202" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="353" height="201" rx="3.5" fill="none"/>
+    </g>
+    <rect id="矩形-copy-28" width="203.02" height="15.354" rx="7.677" transform="translate(124.324 36.464)" fill="#d0e3ff"/>
+    <rect id="矩形-copy-29" width="105.206" height="15.354" rx="7.677" transform="translate(124.324 73.429)" fill="#d0e3ff"/>
+    <rect id="矩形-copy-32" width="286.616" height="15.354" rx="7.677" transform="translate(40.728 116.648)" fill="#d0e3ff"/>
+    <rect id="矩形-copy-31" width="286.616" height="15.354" rx="7.677" transform="translate(40.728 153.044)" fill="#d0e3ff"/>
+    <g id="guohui-copy" transform="translate(34.542 22.247)">
+      <path id="合并形状" d="M37.71,18.167l1.782,5.483-4.665-3.389L30.162,23.65l1.782-5.483-4.665-3.39h5.767l1.782-5.484,1.782,5.484h5.767ZM22.367,21.459l2.758-.23-2.1,1.807L24.1,25.589l-2.367-1.437-2.1,1.807.634-2.694L17.9,21.831l2.758-.23.634-2.695Zm8.612,5.491-.2,2.76,2.562,1.047-2.688.658-.2,2.761-1.457-2.353-2.689.659,1.788-2.113L26.63,28.016l2.562,1.047Zm12.177.975-1.435,2.366,1.808,2.1-2.694-.633L39.4,34.121l-.229-2.758-2.694-.633,2.552-1.072L38.8,26.9,40.6,29ZM48.984,21.7l2.76.2-2.353,1.457.658,2.688-2.113-1.787-2.353,1.456,1.047-2.562-2.112-1.788,2.76.2,1.047-2.561ZM69.362,34.618A34.514,34.514,0,0,1,58.822,59.489l1.549,6.841c0,2.974-2.411,6.461-5.383,6.461H14.5c-2.973,0-5.384-3.487-5.384-6.461l1.442-6.945A34.618,34.618,0,1,1,69.362,34.618ZM34.743,60.3a25.591,25.591,0,0,0,17.5-6.891H17.239A25.59,25.59,0,0,0,34.743,60.3ZM54.9,50.534a25.682,25.682,0,1,0-40.311,0l.653-2.94h9.651v-2.26h-.875l1.292-2.585H26.5l.6-2.262h15.29l.6,2.262h1.187l1.292,2.585H44.6v2.26h9.65Z" transform="translate(-0.124)" fill="#ff7171"/>
+    </g>
+  </g>
+</svg>

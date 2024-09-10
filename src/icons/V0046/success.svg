@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <polygon id="success-a" points="29.753 62.173 13.333 45.75 19.223 39.857 29.47 50.103 59.863 16.667 66.027 22.273"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <polygon points="0 0 80 0 80 80 0 80"/>
+    <mask id="success-b" fill="#fff">
+      <use xlink:href="#success-a"/>
+    </mask>
+    <g fill="#FFF" mask="url(#success-b)">
+      <rect width="80" height="80"/>
+    </g>
+  </g>
+</svg>

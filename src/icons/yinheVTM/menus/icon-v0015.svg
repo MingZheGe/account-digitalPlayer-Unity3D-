@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_xh销户);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-ic_xh销户">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="ic_xh销户" data-name="ic/xh销户" class="cls-1">
+    <g id="_0.2personal_copy_5" data-name="0.2personal copy 5" transform="translate(-7.546 -8)">
+      <g id="Group_13" data-name="Group 13" transform="translate(12 16)">
+        <path id="Fill_65_Copy" data-name="Fill 65 Copy" class="cls-2" d="M0,10.975A19.119,19.119,0,0,0,10.265,14,19.986,19.986,0,0,0,29,0" transform="translate(31 35) rotate(180)"/>
+        <ellipse id="Oval_6" data-name="Oval 6" class="cls-3" cx="11" cy="10.5" rx="11" ry="10.5" transform="translate(10)"/>
+        <circle id="Oval_6_Copy" data-name="Oval 6 Copy" class="cls-3" cx="8" cy="8" r="8" transform="translate(30 25)"/>
+        <path id="路径_765" data-name="路径 765" class="cls-4" d="M0,0,5.58,5.58" transform="translate(35.401 30.401)"/>
+        <line id="直线_9" data-name="直线 9" class="cls-4" x1="5.58" y2="5.58" transform="translate(35.401 30.401)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThreeJs演示页面一</title>
+  <script src="./vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/examples/js/loaders/GLTFLoader.js"></script>
+</head>
+
+<body>
+  <template type="text/x-template" id="Timmy">
+    <div style="width:700px;height: 950px;position: absolute;background:aqua;">
+      <div style="width:100%;height: 100%;">
+        <div class="bodys" id="bodys"></div>
+      </div>
+    </div>
+  </template>
+
+  <div id="ap"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      Vue.component("Timmy", {
+        template: "#Timmy",
+        data() {
+          return {
+            title: 'ThreeJs演示页面一',
+            scene: null,
+            camera: null,
+            renderer: null,
+            control: null,
+            mixer: null,
+            clock: null
+          };
+        },
+        mounted() {
+          console.log("aaa")
+          this.init();
+          this.animate();
+        },
+        methods: {
+          init() {
+            console.log('Initializing scene...');
+            this.scene = new THREE.Scene();
+
+            const width = document.getElementById('bodys').offsetWidth;
+            const height = document.getElementById('bodys').offsetHeight;
+            console.log('Canvas dimensions:', width, height);
+
+            this.camera = new THREE.PerspectiveCamera(45, width / height, 1, 1000);
+            this.camera.position.set(0, 5, 33);
+            this.camera.lookAt(0, 0, 0);
+
+            this.renderer = new THREE.WebGLRenderer({ alpha: true });
+            this.renderer.setSize(width, height);
+            this.renderer.setClearColor(0x000000, 0);
+            document.getElementById('bodys').appendChild(this.renderer.domElement);
+
+            this.control = new THREE.OrbitControls(this.camera, this.renderer.domElement);
+
+            const ambientLight = new THREE.AmbientLight(0xffffff, 1);
+            this.scene.add(ambientLight);
+
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+            directionalLight.position.set(10, 10, 10);
+            this.scene.add(directionalLight);
+
+            const loader = new THREE.GLTFLoader();
+            loader.load(
+              '../model/dance1.glb', // Ensure the path is correct
+              gltf => {
+                console.log('Model loaded:', gltf);
+                const model = gltf.scene;
+                model.scale.set(10, 10, 10);
+                model.position.set(0, -8, 0);
+                this.scene.add(model);
+
+                this.mixer = new THREE.AnimationMixer(model);
+                const animations = gltf.animations;
+                if (animations && animations.length) {
+                  animations.forEach(clip => {
+                    const action = this.mixer.clipAction(clip);
+                    action.play();
+                  });
+                }
+                console.log('Model animations loaded and playing');
+              },
+              undefined,
+              error => {
+                console.error('An error occurred while loading the model:', error);
+              }
+            );
+
+            this.clock = new THREE.Clock();
+          },
+          animate() {
+            requestAnimationFrame(this.animate.bind(this));
+
+            const delta = this.clock.getDelta();
+            if (this.mixer) {
+              this.mixer.update(delta);
+            }
+            this.renderer.render(this.scene, this.camera);
+          }
+        }
+      });
+
+      new Vue({
+        el: "#ap"
+      });
+    });
+  </script>
+
+  <style>
+    .bodys {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+</body>
+
+</html>

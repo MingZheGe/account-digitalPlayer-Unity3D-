@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-ic_jgkh机构开户);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #ffffff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        fill: #ffffff;
+      }
+    </style>
+    <clipPath id="clip-ic_jgkh机构开户">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="ic_jgkh机构开户" data-name="ic/jgkh机构开户" class="cls-1">
+    <g id="机构" transform="translate(2 -5)">
+      <path id="Oval_6_Copy" data-name="Oval 6 Copy" class="cls-2" d="M8,0A8,8,0,1,1,0,8,8,8,0,0,1,8,0Z" transform="translate(31.643 38)"/>
+      <path id="路径_741" data-name="路径 741" class="cls-3" d="M34.183,33h7.882" transform="translate(1.643 13)"/>
+      <path id="路径_742" data-name="路径 742" class="cls-3" d="M34.183,33h7.882" transform="translate(72.766 7.877) rotate(90)"/>
+      <path id="减去_1" data-name="减去 1" class="cls-4" d="M14300.2,9499.466h-20.556a1.1,1.1,0,0,1-.867-1.032,1.138,1.138,0,0,1,.867-1.054h3.128v-27.211a4.173,4.173,0,0,1,4.168-4.168h14.6a4.172,4.172,0,0,1,4.167,4.168v8.34h8.343a4.174,4.174,0,0,1,4.168,4.171v5.89a13.714,13.714,0,0,0-2.063-.475v-5.415a2.088,2.088,0,0,0-2.086-2.086h-8.339v10.261a14.757,14.757,0,0,0-2.064,1.936v-22.621h-.021a2.086,2.086,0,0,0-2.082-2.085h-14.6a2.088,2.088,0,0,0-2.085,2.085v27.211h15.985a15.992,15.992,0,0,0-.662,2.085Zm1.358-9.49h-6.257v-2.082h6.257v2.081Zm-8.361,0h-6.257v-2.082h6.257v2.081Zm20.868-2.082h-6.254v-2.085h6.254v2.084Zm-12.507-4.171h-6.257v-2.086h6.257v2.085Zm-8.361,0h-6.257v-2.086h6.257v2.085Zm8.361-6.254h-6.257v-2.085h6.257v2.084Zm-8.361,0h-6.257v-2.085h6.257v2.084Z" transform="translate(-14273.008 -9453.106)"/>
+    </g>
+  </g>
+</svg>

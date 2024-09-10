@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="35px" viewBox="0 0 32 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-login-user</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-login-user" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="2">
+            <circle id="椭圆形" cx="15" cy="9" r="9"></circle>
+            <path d="M30,33 C29.530986,25.1900616 22.9942569,19 14.9993214,19 C7.01200343,19 0.480114407,25.1782716 0,32.9776809" id="路径" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

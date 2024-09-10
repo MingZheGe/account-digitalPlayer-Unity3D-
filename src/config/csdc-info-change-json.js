@@ -1,0 +1,137 @@
+/**
+ * 前端常见字段翻译
+ *
+ */
+ define(function (require, exports, module) {
+    var custJson = {
+        CUST_CODE:"客户代码",
+        CUST_NAME:"客户简称",
+        CUST_FNAME:"客户全称",
+        USER_NAME:"客户简称",
+        USER_FNAME:"客户全称",
+        ID_TYPE: "证件类型",
+        ID_CODE: "证件号码",
+        SEX: "性别",
+        BIRTHDAY: "出生日期",
+        CITIZENSHIP: "国籍",
+        EDUCATION: "学历",
+        ID_ADDR: "证件地址",
+        ID_BEG_DATE: "证件开始日期",
+        ID_EXP_DATE: "证件结束日期",
+        ID_ISS_AGCY: "发证机关",
+        OCCU_TYPE: "职业",
+        OCCU_STATUS:"在职状态",
+        POSITION:"职位",
+        INOUTSIDE_IDENTITY: "境内外身份",
+        SUBJECT_IDENTITY:"主体身份",
+        NATIONALITY: "民族",
+        NATIVE_PLACE: "籍贯",
+        MOBILE_TEL:"手机号码",
+        TEL:"固定电话",
+        EMAIL:"电子邮箱",
+        ADDRESS:"联系地址",
+        ZIP_CODE:"邮政编码",
+        FAX:"传真",
+        BENEFICIARY_ID_TYPE: "受益人证件类型",
+        BENEFICIARY_NAME: "受益人",
+        BENEFICIARY_OWNER: "受益人与本人关系",
+        BENEFICIARY_PHONE: "受益人联系电话",
+        BENEFICIARY_SFZH: "受益人证件号码",
+        LINKMAN:"联系人姓名",
+        LINKMAN_TEL:"联系人联系电话"
+    };
+    var orgJson = {
+        CUST_CODE:"客户代码",
+        CUST_NAME:"机构简称",
+        CUST_FNAME:"机构全称",
+        USER_NAME:"机构简称",
+        USER_FNAME:"机构全称",
+        ORG_ENGLISH_NAME:"英文名称",
+        ORG_SIMPLE_NAME:"机构简称",
+        ORGANIZATION_CLS:"机构类别",
+        ID_TYPE: "证件类型",
+        ID_CODE: "证件号码",
+        BIRTHDAY: "注册日期",
+        CITIZENSHIP: "注册国家",
+        NATIONAL_ATTR: "国有属性",
+        CAPITAL_ATTR:"资本属性",
+        SZORG_TYPE:"机构类别",
+        ID_ADDR: "证件地址",
+        ID_BEG_DATE: "证件开始日期",
+        ID_EXP_DATE: "证件结束日期",
+        ID_CODE2: "组织机构代码",
+        ID_EXP_DATE2: "组织机构代码证有效期",
+        ZD_REMARK1:"私募基金管理人编码",
+        ID_ISS_AGCY: "发证机关",
+        ORG_ID_CODE: "组织机构代码证",
+        ORG_ID_EXP_DATE:"组织机构代码证有效期",
+        INOUTSIDE_IDENTITY: "境内外身份",
+        SUBJECT_IDENTITY:"主体身份",
+        MOBILE_TEL:"手机号码",
+        TEL:"固定电话",
+        OFFICE_TEL:"办公电话",
+        OFFICE_ADDR:"公司地址",
+        ID_ZIP_CODE:"公司邮编",
+        EMAIL:"电子邮箱",
+        ADDRESS:"联系地址",
+        NATIVE_PLACE: "注册地",
+        ZIP_CODE:"邮政编码",
+        FAX:"传真",
+        ORG_SITE:"公司网址",
+        LEGAL_REP:"法定代表人名称",
+        LEGAL_REP_ID_TYPE:"法定代表人证件类型",
+        LEGAL_REP_ID_CODE:"法定代表人证件号码",
+        LINKMAN_NAME:"联系人姓名",
+        LINKMAN:"联系人姓名",
+        LINKMAN_ID_TYPE:"联系人证件类型",
+        LINKMAN_ID_CODE:"联系人证件号码",
+        LINKMAN_MOBILE_TEL:"联系人联系电话",
+        LINKMAN_EMAIL:"联系人电子邮箱",
+        BENEFICIARY_ID_TYPE: "受益人证件类型",
+        BENEFICIARY_NAME: "受益人",
+        BENEFICIARY_RELA: "受益人与本人关系",
+        BENEFICIARY_TEL: "受益人联系电话",
+        BENEFICIARY_ID: "受益人证件号码",
+        BENEFICIARY_EXP_DATE: "受益人证件有效期",
+        CONTROLER_NAME: "控制人",
+        CONTROLER_ID_TYPE: "控制人证件类型",
+        CONTROLER_ID_NO: "控制人证件号码",
+        CONTROLER_ID_EXP_DATE: "控制人证件有效期",
+        CONTROLER_TEL: "控制人联系电话",
+        RISK_FACTOR:"风险因素"
+    };
+    var productJson = {
+        PRO_MANAGER_NAME: "管理人名称",
+        PRO_MANAGER_ID_TYPE: "管理人证件类型",
+        PRO_MANAGER_ID_CODE: "管理人证件号码",
+        PRO_MANAGER_QUAL_TYPE: "管理人资质类型",
+        PRO_MANAGER_QUAL_CODE: "管理人资质编号",
+        PRO_TRUSTEE_NAME: "托管人名称",
+        PRO_TRUSTEE_ID_TYPE: "托管人证件类型",
+        PRO_TRUSTEE_ID_CODE: "托管人证件号码",
+        PRO_TRUSTEE_QUAL_TYPE: "托管人资质类型",
+        PRO_TRUSTEE_QUAL_CODE: "托管人资质编号",
+        PRO_CLS: "产品类别",
+        PRO_EXP_DATE: "产品到期日",
+        INIT_LEVERAGE: "初始杠杆率",
+        STRUCT_PRO_FLAG: "是否结构化产品",
+        INVEST_ADVISER: "投资顾问",
+        PRO_NAME :"产品名称",
+        PRO_BAK_CODE:"产品备案号",
+        FULLNAME:"银证账户信息-客户名称",
+        IDTYPE:"银证账户信息-证件类型",
+        IDNO:"银证账户信息-证件号码",
+    };
+
+    exports.tranCodeKeysText  = function(user_type){
+            if(user_type == "0"){
+                return custJson;
+            }
+            else if(user_type == "2") {
+                return productJson;
+            }
+            else {
+                return orgJson;
+            }
+    }
+});

@@ -1,0 +1,280 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>个人税收居民身份声明文件</title><style>* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+}
+body i.expression-label {
+    font-style: normal;
+}
+.khdp-layout {
+    width:100%;*zoom:1;
+}
+.khdp-layout:before,.khdp-layout:after {
+    display:table;
+    content:"";
+    line-height:0;
+}
+.khdp-layout:after {
+    clear:both;
+}
+
+.khdp-layout [class*="span"]{
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 15px auto;
+    background: #FFFFFF;
+    
+    border-radius: 4px 4px 4px 4px;
+    padding: 20px 15px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.khdp-layout .span-a4{
+    width: 794px;
+    min-height: 500px;
+}
+
+.download .khdp-layout [class*="span"]{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.download .khdp-layout .span-a4 {
+    width:100%;
+}
+
+body.download{
+    width:794px;
+    box-sizing:border-box;
+    margin: 0 auto;
+}.khdp-h2 {
+    text-align: center;
+}.khdp-brline{
+    border: none;
+}
+.download .khdp-brline {
+    border: none
+}.khdp-textline {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.khdp-textline.horizontal {
+    min-width: 5px;
+}
+
+.khdp-textline.vertical {
+    min-width: 30px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.khdp-paragraph {
+    clear: both;
+    width: 100%;
+    line-height: 27px;
+    text-align: justify;
+}.khdp-table {
+    padding: 0 10px;
+}
+.khdp-table table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid;
+}
+.khdp-table table.no-border {
+    border-color: transparent;
+}
+.khdp-table table tr {
+    position: relative;
+    height: 26px;
+}
+.khdp-table table td,.khdp-table table th{
+	border: 1px solid grey;
+    width: 120px;
+    position: relative;
+}
+.khdp-table table.no-border td,.khdp-table table.no-border th {
+    border-color: transparent;
+}
+
+.khdp-table table .ui-selected,.ui-selecting{
+    position: relative ;
+}
+.khdp-table table .ui-selected:after,.ui-selecting:after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    width: 100%;
+    height: 100%;
+    border: dashed 2px #4DA2FD;
+}
+
+.khdp-input {
+    display: inline-block;
+    min-height: 20px;
+    float: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.khdp-input.separate {
+    display: block;
+}
+
+.khdp-input label {
+    display: inline-block;
+    min-height: 20px;
+    float: left;
+}
+.khdp-input .keyname {
+    /*font-weight: bold;*/
+    position: relative;
+}
+
+.khdp-input .value {
+    width: 150px;
+    border-bottom: 1px solid grey;
+    padding: 0 5px;
+    margin-left: 6px;
+}
+.khdp-input .value.hide-border {
+    border: none;
+}.khdp-checkbox {
+    display: inline-block;
+    margin-left: 5px;
+    height: 27px;
+    line-height: 27px;
+}
+.khdp-checkbox.center {
+    text-align: center;
+}
+.khdp-checkbox.left {
+    text-align: left;
+}
+.khdp-checkbox.right {
+    text-align: right;
+}
+
+.khdp-checkbox .item-row {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.khdp-checkbox .item-row.horizontal {
+    width: 100%;
+}
+
+.khdp-checkbox .item-row.vertical {
+    width: auto;
+}
+
+.khdp-checkbox .checkbox-text {
+    display: inline-block;
+}
+
+.khdp-checkbox .checkbox-input {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    border: 1px solid #666;
+    position: relative;
+    top: 1px;
+    margin: 0 5px;
+}
+
+.khdp-checkbox .checkbox-input.checked:after
+{
+    opacity: 1;
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 11px;
+    background: transparent;
+    top: -4px;
+    right: 1px;
+    border: 1.5px solid #000;
+    border-top: none;
+    border-left: none;
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}.khdp-hline {
+    display: inline-block;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 1px solid #666;
+}.khdp-radio {
+    display: inline-block;
+    margin-left: 5px;
+    height: 27px;
+    line-height: 27px;
+}
+.khdp-radio.center {
+    text-align: center;
+}
+.khdp-radio.left {
+    text-align: left;
+}
+.khdp-radio.right {
+    text-align: right;
+}
+
+.khdp-radio .item-row {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.khdp-radio .item-row.horizontal {
+    width: 100%;
+}
+
+.khdp-radio .item-row.vertical {
+    width: auto;
+}
+
+.khdp-radio .radio-text {
+    display: inline-block;
+}
+
+.khdp-radio .radio-input {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    position: relative;
+    top: 1px;
+    margin: 0 5px;
+}
+
+.khdp-radio .radio-input.checked:after {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #666;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: -3px;
+}</style></head><body class="download"><div class="khdp-layout" style="opacity: 1;"><div class="span-a4 column         ui-droppable ui-sortable ui-droppable-hover" style="padding: 35px 35px 20px; width: 794px;background: transparent;color: white;"><h2 class="khdp-h2   ui-droppable" contenteditable="true1">个人税收居民身份声明文件</h2><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">客户代码:</label><label class="value floatTarget" style="height: 20px;" variable="USER_CODE" variable-style="width:148px">161101209506</label></span><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;客户名称:</label><label class="value floatTarget" style="height: 20px;" variable="USER_NAME" variable-style="width:148px">硫苷</label></span><div class="khdp-brline   ui-droppable" style="height: 20px;"></div><div class="khdp-table         ui-selectable ui-droppable"><table class="no-border"><tbody><tr class="forDrag" style="height: 1px;"><th colspan="1" style="border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; width: 11.71%;" class=""></th><th colspan="1" style="border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; width: 88.43%;" class=""></th></tr><tr><td colspan="1" rowspan="1"><span class="khdp-textline horizontal   ui-droppable" contenteditable="true1" style="left: 0px; top: 0px; right: 0px; bottom: 0px;">本人声明：</span></td><td colspan="1" rowspan="1"><form class="khdp-checkbox   ui-droppable"><div class="item-row"><label class="checkbox-input floatTarget checked" type="checkbox" condition="1=='1'"></label><label class="checkbox-text" contenteditable="true1">1.仅为中国税收居民</label></div><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">2.仅为非居民</label></div></form></td></tr><tr><td colspan="1" rowspan="1"></td><td colspan="1" rowspan="1"><form class="khdp-checkbox   ui-droppable"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">3.既是中国税收居民又是其他国家（地区）税收居民 </label></div></form></td></tr></tbody></table></div><p class="khdp-paragraph   ui-droppable" contenteditable="true1">如在以上选项中勾选第2项或者第3项，请填写下列信息：</p><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">姓（英文或拼音）:</label><label class="value" style="height: 20px;"></label></span><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">名（英文或拼音）:</label><label class="value" style="height: 20px;"></label></span><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">出生日期:</label><label class="value" style="height: 20px;"></label></span><span class="khdp-textline horizontal   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span class="khdp-input   ui-droppable" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px; font-size: 14px; margin-left: 20px;"><label contenteditable="true1" class="keyname">现居地址（中文）:</label><label class="value" style="height: 20px; width: 300px;"></label></span><span class="khdp-input   ui-droppable" style="font-size: 14px;"><label contenteditable="true1" class="keyname">（境外地址可不填此项）</label><label class="value hide-border" style="width: 0px; height: 20px;"></label></span><span class="khdp-input   ui-droppable" style="font-size: 14px;"><label contenteditable="true1" class="keyname">&nbsp; &nbsp; &nbsp; &nbsp;（英文或拼音）:</label><label class="value" style="height: 20px; width: 550px;"></label></span><span class="khdp-input   ui-droppable" style="font-size: 14px; margin-left: 20px;"><label contenteditable="true1" class="keyname">出生地（中文）:</label><label class="value" style="height: 20px; width: 300px;"></label></span><span class="khdp-input   ui-droppable" style="font-size: 14px; opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><label contenteditable="true1" class="keyname">（境外地址可不填此项）</label><label class="value hide-border" style="width: 0px; height: 20px;"></label></span><span class="khdp-input   ui-droppable" style="font-size: 14px; opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><label contenteditable="true1" class="keyname">&nbsp; &nbsp; &nbsp;（英文或拼音）:</label><label class="value" style="height: 20px; width: 550px;"></label></span><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">税收居民国（地区）及纳税人识别号：</label><label class="value hide-border" style="height: 20px;"></label></span><span class="khdp-textline horizontal   ui-droppable" contenteditable="true1" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><div contenteditable="true1" class="khdp-hline   ui-droppable">&nbsp;1.</div><div contenteditable="true1" class="khdp-hline   ui-droppable">&nbsp;2.(如有)</div><p class="khdp-paragraph" contenteditable="true1">如不能提供居民国（地区）纳税人识别号，请选择原因：（需在系统中“纳税人识别号”栏录入开户证件号码）</p><div class="khdp-table     ui-selectable ui-droppable" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><table class="no-border"><tbody><tr class="forDrag" style="height: 1px;"><th colspan="1" style="border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; width: 100.14%;"></th></tr><tr><td colspan="1" rowspan="1"><form class="khdp-checkbox   ui-droppable"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">居民国（地区）不发放纳税人识别号</label></div></form></td></tr><tr><td colspan="1" rowspan="1"><form class="khdp-checkbox   ui-droppable" style="opacity: 1;"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">账户持有人未能取得纳税人识别号，如选此项，请解释具体原因：</label></div></form></td></tr></tbody></table></div><span class="khdp-input   ui-droppable" style="font-size: 14px;"><label contenteditable="true1" class="keyname">&nbsp; &nbsp; &nbsp;</label><label class="value" style="width: 600px; height: 20px;"></label></span><p class="khdp-paragraph   ui-droppable" contenteditable="true1" style="font-weight: bold; opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;">&nbsp; &nbsp; &nbsp;本人确认上述信息的真实、准确和完整，且当这些信息发生变更时，将在30日内通知贵机构，否则本人承担由此造成的不利后果。</p><div class="khdp-brline   ui-droppable" style="height: 20px; opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"></div><span class="khdp-input   ui-droppable" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><label contenteditable="true1" class="keyname">签名:</label><label class="value hide-border" style="height: 20px;"></label></span><span class="khdp-input   ui-droppable" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><label contenteditable="true1" class="keyname"></label></span><span class="khdp-input   ui-droppable"><label contenteditable="true1" class="keyname">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;日期:</label><label class="value floatTarget hide-border" style="height: 20px;" variable="APPLY_DATE" variable-style="width:148px">2024年07月05日</label></span><div class="khdp-brline   ui-droppable" style="height: 20px; opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"></div><span class="khdp-textline horizontal   ui-droppable" contenteditable="true1" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;">&nbsp;签名人身份:</span><form class="khdp-checkbox   ui-droppable"><div class="item-row"><label class="checkbox-input floatTarget checked" type="checkbox" condition="IS_AGENT!='1'"></label><label class="checkbox-text" contenteditable="true1">本人&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</label></div><div class="item-row"><label class="checkbox-input floatTarget " type="checkbox" condition="IS_AGENT=='1'"></label><label class="checkbox-text" contenteditable="true1">代理人</label></div></form><div class="khdp-brline   ui-droppable" style="height: 20px;"></div><div class="khdp-table ui-selectable" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><table><tbody><tr class="forDrag" style="height: 1px;"><th colspan="1" style="border-top-color: transparent; border-left-color: transparent; border-right-color: transparent; width: 100.14%;"></th></tr><tr><td colspan="1" rowspan="1"><span class="khdp-textline horizontal" contenteditable="true1" style="font-weight: bold;">以下内容请柜台经办人员确认：</span><p class="khdp-paragraph" contenteditable="true1" style="width: 700px; font-size: 14px; line-height: 27px; text-indent: 2em;">已按《非居民金融账户涉税信息尽职调查管理办法》要求，完成客户声明文件合理性的审核，确认客户声明文件所填写信息与客户开户预留的相关信息不存在明显矛盾（如选择“否”，客户应给予合理解释，营业部做好留痕。）：</p><span class="khdp-textline horizontal" contenteditable="true1">①声明文件中的现居地址与系统中留存的家庭地址是否一致？</span><form class="khdp-checkbox" style="opacity: 1;"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">是</label></div><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">否</label></div></form><span class="khdp-textline horizontal" contenteditable="true1">②客户税收居民国与客户国籍是否一致？</span><form class="khdp-checkbox" style="opacity: 1;"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">是</label></div><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">否</label></div></form><span class="khdp-textline horizontal" contenteditable="true1" style="opacity: 1;">③声明文件中现居地址中的“国家”与税收居民国是否一致？</span><form class="khdp-checkbox" style="opacity: 1;"><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">是</label></div><div class="item-row"><label class="checkbox-input" type="checkbox"></label><label class="checkbox-text" contenteditable="true1">否</label></div></form><div class="khdp-brline" style="height: 20px; opacity: 1;"></div><span class="khdp-input separate" style="font-size: 14px; margin-left: 0px; opacity: 1;"><label contenteditable="true1" class="keyname">经办人员：</label><label class="value floatTarget hide-border" style="height: 20px; width: 150px;" variable="F_OP_USER" variable-style="width:148px">16110105</label></span></td></tr></tbody></table></div><div contenteditable="true1" class="khdp-hline"></div><p class="khdp-paragraph   ui-droppable" contenteditable="true1" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;"><b>说明：</b></p><p class="khdp-paragraph   ui-droppable" contenteditable="true1" style="opacity: 1; left: 0px; top: 0px; right: 0px; bottom: 0px;">&nbsp; &nbsp;1.本表所称<b>中国税收居民</b>是指在中国境内有住所，或者无住所而在一个纳税年度内在中国境内居住累计满183天</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 的个人。<b>非居民个人</b>是指在中国境内无住所又不居住，或者无住所而一个纳税年度内在中国境内居住累计不满</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 183天的个人。<b>纳税年度</b>，自公历1月1日起至12月31日止。在中国境内有住所是指因户籍、家庭、经济利益关</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 系而在中国境内习惯性居住。<b>所谓习惯性居住</b>，是判定纳税义务人是居民或非居民的一个法律意义上的标准，</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 不是指实际居住或在某一个特定时期内的居住地。如因学习、工作、探亲、旅游等而在中国境外居住的，在其</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 原因消除之后，必须回到中国境内居住的个人，则中国即为该纳税人习惯性居住地。</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp;2.本表所称非居民是指中国税收居民以外的个人。其他国家（地区）税收居民身份认定规则及纳税人识别号相关信</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 息请参见国家税务总局网（http://www.chinatax.gov.cn/aeoi_index.html）。</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp;3.军人、武装警察无需填写此声明文件。</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp;4.若客户的法律姓名是一个单名，那么应在“名”对应的数据项下填“NFN”（“没有名”），而在“姓”对应的数据项下填</p><p class="khdp-paragraph   ui-droppable" contenteditable="true1">&nbsp; &nbsp; &nbsp; 账户持有人的单名。</p><span class="khdp-textline horizontal  ui-droppable" contenteditable="true1" style="width: 68px; height: 19px; position: absolute; opacity: 0.35; z-index: 1000; left: 36px; top: 1972.5px;">   1.本表所称</span><span class="khdp-textline horizontal ui-droppable" style="visibility: hidden; height: 19px;"></span></div></div></body></html>

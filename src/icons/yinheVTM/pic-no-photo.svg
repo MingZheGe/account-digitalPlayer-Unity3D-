@@ -1,0 +1,41 @@
+<svg id="pic-no-photo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198" height="198" viewBox="0 0 198 198">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.153" y1="0.201" x2="0.975" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3f5bd3"/>
+      <stop offset="1" stop-color="#132b94"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="椭圆_378" data-name="椭圆 378" cx="91" cy="91" r="91" transform="translate(5 5)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="椭圆_377" data-name="椭圆 377" stroke="#bfdfff" stroke-miterlimit="10" stroke-width="8" fill="url(#linear-gradient)">
+    <circle cx="99" cy="99" r="99" stroke="none"/>
+    <circle cx="99" cy="99" r="95" fill="none"/>
+  </g>
+  <rect id="矩形_1375" data-name="矩形 1375" width="130.137" height="10.781" transform="translate(25.076 110.644)" fill="#d8ebff" opacity="0.503"/>
+  <g id="蒙版组_96" data-name="蒙版组 96" transform="translate(3 3)" clip-path="url(#clip-path)">
+    <g id="组_1686" data-name="组 1686" transform="translate(21.777 23.862)">
+      <g id="img-tip-photo" transform="translate(0)">
+        <path id="路径_3161" data-name="路径 3161" d="M500.515,490.242m-3.933,0a3.933,3.933,0,1,0,3.933-3.933A3.933,3.933,0,0,0,496.582,490.242Z" transform="translate(-440.417 -450.553)" fill="#f8f8f8"/>
+        <g id="组_1687" data-name="组 1687" transform="translate(0 85.743) rotate(-90)">
+          <path id="路径_3157" data-name="路径 3157" d="M84.732,127.913a2.773,2.773,0,0,1-2.1.765l-82.475.133L0,3.413A3.054,3.054,0,0,1,2.765.136L82.835,0a3.051,3.051,0,0,1,2.773,3.267l.134,122.316A3.313,3.313,0,0,1,84.732,127.913Z" fill="#131318"/>
+          <path id="路径_3158" data-name="路径 3158" d="M77.92,119.109l-77.778.128L0,.128,77.778,0Z" transform="translate(3.914 4.891)" fill="#b4d9ff"/>
+          <rect id="矩形_768" data-name="矩形 768" width="57" height="70" rx="3" transform="translate(18.605 12.223)" fill="#fff" opacity="0.354"/>
+          <rect id="矩形_1376" data-name="矩形 1376" width="57" height="32" rx="3" transform="translate(18.605 83.223)" fill="#fff" opacity="0.354"/>
+          <path id="矩形_1375-2" data-name="矩形 1375" d="M2,0H8A0,0,0,0,1,8,0V32a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(18.605 83.223)" fill="#fff" opacity="0.708"/>
+          <rect id="矩形_1377" data-name="矩形 1377" width="8" height="29" rx="2" transform="translate(7.605 51.223)" fill="#fff" opacity="0.33"/>
+        </g>
+        <g id="组_4230" data-name="组 4230" transform="translate(92.741 57.9)">
+          <path id="路径_3163" data-name="路径 3163" d="M531.649,517.926c3.456,13.675,5.192,25.115,11.447,36.188l8.649,6.422,5.141-2.947Z" transform="translate(-529.195 -513.225)" fill="rgba(90,90,90,0.42)"/>
+          <path id="路径_3164" data-name="路径 3164" d="M425.584,551.606c-.529-6.581-7.834-22.746-12.666-25.832-.747-.449-1.239-1.307-2.41-1.169-1.109.134-1.945-1.172-2.94-1.258-7.546-3.516-15.725,3.5-15.725,3.5-3.684-6.06-12.974-18.244-12.974-18.244-2.992-3.166-8.294-.4-6.244,3.961,0,0,16.848,28.073,18.046,29.817.249.884-.074,1.37-1.172.829s-5.647-13.225-14.281-10.548c-1.42,1.019-1.782,1.925-.729,3.953,0,0,6.9,8.994,7.827,11.66s2.565,8.905,16.353,11.366c8.486,1.515,12.451,9.054,14.25,14.632L429.1,563.655c-1.745-4.534-3.287-9.206-3.516-12.05Z" transform="translate(-371.221 -504.017)" fill="#ffd7b4"/>
+          <g id="组_1688" data-name="组 1688" transform="translate(34.49 53.386) rotate(-9)">
+            <path id="路径_3169" data-name="路径 3169" d="M0,17.761C7.934,11.787,14.815,5.57,16.608,0c0,0,.565,10.107,3.784,11.39s-6.886,4.605-6.886,4.605Z" transform="translate(3.675)" fill="rgba(90,90,90,0.42)"/>
+            <path id="路径_3170" data-name="路径 3170" d="M21.95,4.873,19.926,0,0,14.369l.927,5.145Z" transform="translate(2.938 2.656)" fill="#f8f8f8"/>
+            <path id="路径_3171" data-name="路径 3171" d="M25.894,0,0,13.822,1.675,28.338s20.939-9.77,26.989-20.071Z" transform="translate(0 4.953)" fill="#7098f0"/>
+            <path id="路径_3172" data-name="路径 3172" d="M3.778,3.778,0,3.778A3.778,3.778,0,1,0,3.778,0,3.778,3.778,0,0,0,0,3.778Z" transform="translate(16.704 8.903)" fill="#f8f8f8"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

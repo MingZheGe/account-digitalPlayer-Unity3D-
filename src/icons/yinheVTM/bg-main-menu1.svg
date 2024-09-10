@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="461.288" height="265.187" viewBox="0 0 461.288 265.187">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.298" y1="0.298" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2cef4"/>
+      <stop offset="1" stop-color="#96bdef"/>
+    </linearGradient>
+    <filter id="蒙版" x="0" y="0" width="461.288" height="265.187" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="蒙版-2" data-name="蒙版" width="413.288" height="216.845" rx="8" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="bg-main-menu1" transform="translate(24 20)">
+    <g id="路径_6_形状结合_椭圆形_椭圆形蒙版" data-name="路径 6 + 形状结合 + 椭圆形 + 椭圆形蒙版" transform="translate(0)">
+      <g transform="matrix(1, 0, 0, 1, -24, -20)" filter="url(#蒙版)">
+        <rect id="蒙版-3" data-name="蒙版" width="413.288" height="217.187" rx="8" transform="translate(24 20)" fill="#76c1f8"/>
+      </g>
+      <g id="路径_6_形状结合_椭圆形_椭圆形蒙版-2" data-name="路径 6 + 形状结合 + 椭圆形 + 椭圆形蒙版" clip-path="url(#clip-path)">
+        <g id="组_3746" data-name="组 3746" transform="translate(213.534 0)">
+          <path id="路径_6" data-name="路径 6" d="M0,177.954v10.127H190.969V0L95.484,138.891l-58.352,1.447Z" transform="translate(9.843 27.271)" fill="rgba(255,255,255,0.08)"/>
+          <path id="形状结合" d="M95.545,148.5,193.193,9.61,181.531,0,88.273,132.589H36L2.256,164.049c-2.629,2.452-3.047,8.36-.793,11.22h0c2.254,2.86,7.686,3.315,10.315.863L41.411,148.5Z" transform="translate(0 0)" fill="rgba(255,255,255,0.08)"/>
+        </g>
+        <ellipse id="椭圆形" cx="79.285" cy="79.058" rx="79.285" ry="79.058" transform="translate(-67.328 -63.246)" fill="rgba(255,255,255,0.11)"/>
+      </g>
+    </g>
+  </g>
+</svg>

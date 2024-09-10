@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/funds_remove_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.8%" y="-7.8%" width="119.6%" height="124.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/funds_remove_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <rect id="Rectangle-10" fill="#4A90E2" x="47" y="29" width="11" height="3" rx="1.5"></rect>
+        <g id="身份证" filter="url(#filter-1)" transform="translate(16.000000, 23.000000)" fill="#FFFFFF">
+            <path d="M49,19.7523156 C46.7940633,18.0277783 44.0170569,17 41,17 C33.8202983,17 28,22.8202983 28,30 C28,32.1642533 28.5288696,34.2049825 29.4644213,36 L4,36 C1.790861,36 2.705415e-16,34.209139 0,32 L-4.4408921e-16,4 C-7.1463071e-16,1.790861 1.790861,4.05812251e-16 4,0 L45,0 C47.209139,-4.05812251e-16 49,1.790861 49,4 L49,19.7523156 Z M23,21.5 C23,20.6334286 22.3,20.0059764 21.4529412,20 L16.0470588,20 L16.0470588,17 L21.4529412,17 C22.3058824,17 23,16.360595 23,15.5 C23,14.6334286 22.3,14 21.4529412,14 L17.8882353,14 L21.9176471,9.6744186 C22.5176471,9.06483045 22.5176471,8.06677926 21.9176471,7.45719111 C21.3176471,6.84760296 20.3352941,6.84760296 19.7352941,7.45719111 L14.5,12.3398727 L10.1235294,7.45719111 C9.52352941,6.84760296 8.54117647,6.84760296 7.94117647,7.45719111 C7.34117647,8.06677926 7.34117647,9.06483045 7.94117647,9.6744186 L11.9705882,14 L7.54705882,14 C6.69411765,14 6,14.639405 6,15.5 C6,16.3665714 6.7,17 7.54705882,17 L12.9529412,17 L12.9529412,20 L7.54705882,20 C6.69411765,20 6,20.6334286 6,21.5 C6,22.3665714 6.7,23 7.54705882,23 L12.9529412,23 L12.9529412,28.4282188 C12.9529412,29.2947902 13.6470588,30 14.5,30 C15.3529412,30 16.0470588,29.2888138 16.0470588,28.4282188 L16.0470588,23 L21.4529412,23 C22.3,23 23,22.3665714 23,21.5 Z M32.5,6 C31.6715729,6 31,6.67157288 31,7.5 C31,8.32842712 31.6715729,9 32.5,9 L40.5,9 C41.3284271,9 42,8.32842712 42,7.5 C42,6.67157288 41.3284271,6 40.5,6 L32.5,6 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+            <path d="M40,29 L36,29 L36,31 L40,31 L40,35 L42,35 L42,31 L46,31 L46,29 L42,29 L42,25 L40,25 L40,29 Z M41,40 C35.4771525,40 31,35.5228475 31,30 C31,24.4771525 35.4771525,20 41,20 C46.5228475,20 51,24.4771525 51,30 C51,35.5228475 46.5228475,40 41,40 Z" id="Combined-Shape" transform="translate(41.000000, 30.000000) rotate(45.000000) translate(-41.000000, -30.000000) "></path>
+        </g>
+    </g>
+</svg>

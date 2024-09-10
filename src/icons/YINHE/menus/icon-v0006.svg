@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.126" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc6a7"/>
+      <stop offset="1" stop-color="#ff574d"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-biz-sfcg" transform="translate(-120 -5742)">
+    <path id="路径_12969" data-name="路径 12969" d="M42,0A42,42,0,1,1,0,42,42,42,0,0,1,42,0Z" transform="translate(120 5742)" opacity="0.802" fill="url(#linear-gradient)"/>
+    <rect id="矩形_12170" data-name="矩形 12170" width="48" height="48" transform="translate(138 5760)" fill="rgba(255,255,255,0)"/>
+    <g id="组_30053" data-name="组 30053" transform="translate(0.002)">
+      <g id="组_30048" data-name="组 30048" transform="translate(141.535 5765.461)">
+        <g id="矩形_12201" data-name="矩形 12201" transform="translate(0.463 -0.461)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2">
+          <rect width="25" height="18" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="23" height="16" rx="1" fill="none"/>
+        </g>
+        <line id="直线_368" data-name="直线 368" x2="22.926" transform="translate(0.539 5.975)" fill="none" stroke="#fff" stroke-width="3"/>
+        <g id="组_30047" data-name="组 30047" transform="translate(4.086 11.325)">
+          <line id="直线_369" data-name="直线 369" x2="1.628" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="直线_370" data-name="直线 370" x2="1.628" transform="translate(4.069)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+        <g id="组_30046" data-name="组 30046" transform="translate(13.86 9.655)">
+          <path id="路径_13010" data-name="路径 13010" d="M169.279,5779.035h3.944v3.344h-3.944Z" transform="translate(-165.063 -5779.035)" fill="#fff"/>
+          <path id="路径_13011" data-name="路径 13011" d="M169.279,5779.035h1.845v3.344h-1.845Z" transform="translate(-167.584 -5779.035)" fill="#fff"/>
+          <path id="路径_13012" data-name="路径 13012" d="M169.279,5779.035h.923v3.344h-.923Z" transform="translate(-169.279 -5779.035)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="组_30054" data-name="组 30054" transform="translate(156.535 5785.461)">
+        <g id="矩形_12201-2" data-name="矩形 12201" transform="translate(0.463 -0.461)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2">
+          <rect width="25" height="18" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="23" height="16" rx="1" fill="none"/>
+        </g>
+        <line id="直线_368-2" data-name="直线 368" x2="22.926" transform="translate(0.539 5.975)" fill="none" stroke="#fff" stroke-width="3"/>
+        <g id="组_30047-2" data-name="组 30047" transform="translate(4.086 11.325)">
+          <line id="直线_369-2" data-name="直线 369" x2="1.628" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+          <line id="直线_370-2" data-name="直线 370" x2="1.628" transform="translate(4.069)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
+        </g>
+        <g id="组_30046-2" data-name="组 30046" transform="translate(13.866 9.657)">
+          <path id="路径_13010-2" data-name="路径 13010" d="M169.279,5779.035h3.942v3.341h-3.942Z" transform="translate(-165.066 -5779.035)" fill="#fff"/>
+          <path id="路径_13011-2" data-name="路径 13011" d="M169.279,5779.035h1.844v3.341h-1.844Z" transform="translate(-167.585 -5779.035)" fill="#fff"/>
+          <path id="路径_13012-2" data-name="路径 13012" d="M169.279,5779.035h.922v3.341h-.922Z" transform="translate(-169.279 -5779.035)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="组_30050" data-name="组 30050" transform="translate(66.568 5719)">
+      <g id="组_30051" data-name="组 30051" transform="matrix(0.259, -0.966, 0.966, 0.259, 19.473, 130.595)">
+        <path id="路径_13014" data-name="路径 13014" d="M29.79,20A9.79,9.79,0,0,1,20,29.79" transform="translate(71.16 43.381)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="多边形_20" data-name="多边形 20" d="M3.215.86A1,1,0,0,1,4.72.86L6.485,2.876a1,1,0,0,1-.753,1.659H2.2a1,1,0,0,1-.753-1.659Z" transform="translate(96.982 59)" fill="#fff"/>
+      </g>
+      <g id="组_30052" data-name="组 30052" transform="matrix(-0.259, 0.966, -0.966, -0.259, 171.176, -0.587)">
+        <path id="路径_13014-2" data-name="路径 13014" d="M29.776,20A9.776,9.776,0,0,1,20,29.776" transform="translate(71.16 43.397)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="多边形_20-2" data-name="多边形 20" d="M3.209.86a1,1,0,0,1,1.505,0L6.473,2.87A1,1,0,0,1,5.72,4.528H2.2A1,1,0,0,1,1.451,2.87Z" transform="translate(96.996 59)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

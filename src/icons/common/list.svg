@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="82px" viewBox="0 0 84 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/list">
+            <g id="Group">
+                <ellipse id="Oval" fill="#FFFFFF" cx="41.9566161" cy="41" rx="41.6225597" ry="41"></ellipse>
+                <g id="file-minus-copy" transform="translate(23.683297, 18.000000)">
+                    <path d="M23.082087,0 L4.56832972,0 C2.04531088,0 0,2.05949015 0,4.6 L0,41.4 C0,43.9405098 2.04531088,46 4.56832972,46 L31.978308,46 C34.5013269,46 36.5466377,43.9405098 36.5466377,41.4 L36.5466377,14 L23.082087,0 Z" id="Shape" fill="#4A90E2"></path>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round" points="22.3340564 0 22.3340564 15 36.5466377 15"></polyline>
+                    <path d="M9.13665944,38 L27.4099783,38" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M9.13665944,31 L27.4099783,31" id="Shape-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                    <path d="M9.13665944,24 L27.4099783,24" id="Shape-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'sai'; /* Replace 'YourFontName' with your desired font name */
+  font-size: 4rem;
+  font-weight: 700;
+  src: url('./asset/font/ZaoZiGongFangLingYiTi-2.ttf') format('truetype');
+  text-rendering: optimizeLegibility;
+  text-shadow: 2rem 0 0 #c6e6e8;
+}

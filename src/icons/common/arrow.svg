@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Arrow_DoubleDown</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.08417157,19.0000161 L5,17.9445359 L11.1279312,11.9999438 L5,6.0555444 L6.08417157,5 L13.2963225,11.9999438 L6.08417157,19.0000161 Z M11.7878973,19.0000161 L10.7037257,17.9445359 L16.8316569,11.9999438 L10.7037257,6.0555444 L11.7878973,5.00001605 L19,11.9999599 L11.7878973,19.0000161 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/Arrow_DoubleDown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Bounding-Box" transform="translate(12.000000, 12.000000) rotate(90.000000) translate(-12.000000, -12.000000) " points="0 0 24 0 24 24 0 24"></polygon>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.065" x2="0.5" y2="1.017" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.212" y1="0.141" x2="0.761" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1.028" x2="0.5" y2="0.037" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff" stop-opacity="0"/>
+      <stop offset="0.433" stop-color="#c9eeff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="0.997" x2="0.5" y2="0.022" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cce0ff"/>
+      <stop offset="1" stop-color="#236ffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.934" y1="0.041" x2="0.099" y2="0.923" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#236ffb"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-Bank_securities_transfer" data-name="icon-Bank securities transfer" transform="translate(-2648 -1773)">
+    <g id="稳定云结构_copy_2" data-name="稳定云结构 copy 2" transform="translate(2672 1803)">
+      <g id="分组" transform="translate(21.623)" opacity="0.5">
+        <path id="路径" d="M71.109,69.373H19.18A19.213,19.213,0,0,1,10.574,33a17.64,17.64,0,0,1-.238-2.823A16.842,16.842,0,0,1,34.3,14.893,25.651,25.651,0,0,1,81.77,34.2,19.21,19.21,0,0,1,71.109,69.373Z" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="路径-2" data-name="路径" d="M71.1,69.373H19.18A19.213,19.213,0,0,1,10.574,33a17.64,17.64,0,0,1-.238-2.823A16.842,16.842,0,0,1,34.3,14.893,25.651,25.651,0,0,1,81.77,34.2,19.209,19.209,0,0,1,71.1,69.373Z" transform="translate(1.779 30.464)" fill="url(#linear-gradient-2)"/>
+      <path id="形状" d="M1.258,18.505H8.737V38.944A1.257,1.257,0,0,0,9.99,40.2H24.76a1.257,1.257,0,0,0,1.253-1.255V18.593h7.442a1.25,1.25,0,0,0,.889-2.133C30.2,12.282,21.027,3.2,18.146.362a1.243,1.243,0,0,0-1.754,0C13.535,3.2,4.465,12.219.368,16.372A1.25,1.25,0,0,0,1.258,18.505Z" transform="translate(15.855 59.638)" fill="url(#linear-gradient-3)"/>
+      <path id="形状-2" data-name="形状" d="M11.626,40.2a1.258,1.258,0,0,1-1.253-1.255V18.5H2.894A1.25,1.25,0,0,1,2,16.372C6.1,12.219,15.171,3.2,18.028.362a1.242,1.242,0,0,1,1.754,0c2.881,2.848,12.052,11.92,16.2,16.1a1.25,1.25,0,0,1-.889,2.133H27.649V38.945A1.258,1.258,0,0,1,26.4,40.2ZM0,18.568H.013Z" transform="translate(75.556 3.126)" fill="url(#linear-gradient-4)"/>
+      <g id="分组-2" data-name="分组">
+        <path id="路径-3" data-name="路径" d="M28.438,5.571,5.562,28.482,0,22.911,22.889,0Z" fill="url(#linear-gradient-5)"/>
+        <rect id="矩形" width="7.867" height="7.867" transform="translate(17.288 5.589) rotate(-45)" fill="#236ffb"/>
+      </g>
+    </g>
+    <rect id="矩形_1362" data-name="矩形 1362" width="160" height="160" transform="translate(2648 1773)" fill="none"/>
+  </g>
+</svg>

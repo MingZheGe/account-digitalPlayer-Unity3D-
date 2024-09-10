@@ -1,0 +1,53 @@
+<svg id="icon-biz-rzrq" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4141d7"/>
+      <stop offset="0.057" stop-color="#4045d9"/>
+      <stop offset="0.121" stop-color="#3e49dc"/>
+      <stop offset="0.19" stop-color="#3d4edf"/>
+      <stop offset="0.264" stop-color="#3b52e2"/>
+      <stop offset="0.341" stop-color="#3957e5"/>
+      <stop offset="0.42" stop-color="#375be9"/>
+      <stop offset="0.5" stop-color="#355fec"/>
+      <stop offset="0.58" stop-color="#3363ef"/>
+      <stop offset="0.659" stop-color="#3067f2"/>
+      <stop offset="0.736" stop-color="#2e6bf5"/>
+      <stop offset="0.81" stop-color="#2c6ef8"/>
+      <stop offset="0.879" stop-color="#2971fb"/>
+      <stop offset="0.943" stop-color="#2774fd"/>
+      <stop offset="1" stop-color="#2576ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3978ef"/>
+      <stop offset="1" stop-color="#4856dc"/>
+    </linearGradient>
+  </defs>
+  <circle id="底板" cx="42" cy="42" r="42" opacity="0.795" fill="url(#linear-gradient)"/>
+  <g id="图案" transform="translate(24 23)">
+    <path id="外框" d="M32.5,0a1.5,1.5,0,0,1,1.493,1.356L34,1.5V23a1,1,0,0,1-2,0V2H2V38H19a1,1,0,0,1,0,2H1.5A1.5,1.5,0,0,1,.007,38.644L0,38.5V1.5A1.5,1.5,0,0,1,1.356.007L1.5,0Z" fill="url(#linear-gradient-2)"/>
+    <path id="外框-2" data-name="外框" d="M32.5,0a1.5,1.5,0,0,1,1.493,1.356L34,1.5V23a1,1,0,0,1-2,0V2H2V38H19a1,1,0,0,1,0,2H1.5A1.5,1.5,0,0,1,.007,38.644L0,38.5V1.5A1.5,1.5,0,0,1,1.356.007L1.5,0Z" fill="#fff"/>
+    <g id="变更" transform="translate(20.716 32.883) rotate(-45)">
+      <g id="编组-2">
+        <path id="矩形" d="M.341.5,4.659,4.817a.2.2,0,0,1-.141.341H.5a.5.5,0,0,1-.5-.5V.641A.2.2,0,0,1,.341.5Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="路径" d="M6.5,2A4.5,4.5,0,0,0,2.421,4.6l-.087.2L.483,4.038a6.5,6.5,0,0,1,12.2.459l.073.243a1,1,0,0,1-1.885.65l-.041-.11A4.5,4.5,0,0,0,6.5,2Z" fill="#fff"/>
+      </g>
+      <g id="编组-2备份" transform="translate(13 13.159) rotate(180)">
+        <path id="矩形-2" data-name="矩形" d="M.341.5,4.659,4.817a.2.2,0,0,1-.141.341H.5a.5.5,0,0,1-.5-.5V.641A.2.2,0,0,1,.341.5Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="路径-2" data-name="路径" d="M6.5,2A4.5,4.5,0,0,0,2.421,4.6l-.087.2L.483,4.038a6.5,6.5,0,0,1,12.2.459l.073.243a1,1,0,0,1-1.885.65l-.041-.11A4.5,4.5,0,0,0,6.5,2Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="融" transform="translate(6 8)">
+      <path id="矩形备份-2" d="M20,4H13a1.431,1.431,0,0,0-1.5,1.35v6.3A1.431,1.431,0,0,0,13,13h7a1.431,1.431,0,0,0,1.5-1.35V5.35A1.431,1.431,0,0,0,20,4Zm-.5,1.8v5.4h-6V5.8Z" fill="#fff"/>
+      <rect id="矩形-3" data-name="矩形" width="10" height="2" rx="1" transform="translate(0.5)" fill="#fff"/>
+      <path id="矩形备份-2-2" data-name="矩形备份-2" d="M8.167,4H2.833A1.424,1.424,0,0,0,1.5,5.5v3A1.424,1.424,0,0,0,2.833,10H8.167A1.424,1.424,0,0,0,9.5,8.5v-3A1.424,1.424,0,0,0,8.167,4ZM7.722,6V8H3.278V6Z" fill="#fff"/>
+      <path id="路径-3" data-name="路径" d="M9.136,12a1.421,1.421,0,0,1,1.357,1.356l.006.144v8a1.453,1.453,0,0,1-1.232,1.493L9.136,23H8a.5.5,0,0,1-.5-.5v-1A.5.5,0,0,1,8,21h.678V14H2.318v7.5l0-.03v1.077A.452.452,0,0,1,1.864,23h0A1.421,1.421,0,0,1,.506,21.644L.5,21.5v-8a1.453,1.453,0,0,1,1.232-1.493L1.864,12Z" fill="#fff"/>
+      <rect id="矩形-4" data-name="矩形" width="4" height="1.5" rx="0.5" transform="translate(3.5 17)" fill="#fff"/>
+      <rect id="矩形-5" data-name="矩形" width="1.5" height="5" rx="0.5" transform="translate(4.75 17)" fill="#fff"/>
+      <path id="矩形备份-3" d="M6.768,15H7.25a.4.4,0,0,1,.334.624L6,18H4.5l1.852-2.777A.5.5,0,0,1,6.768,15Z" fill="#fff" fill-rule="evenodd"/>
+      <path id="矩形备份-3-2" data-name="矩形备份-3" d="M3.75,15h.482a.5.5,0,0,1,.416.223L6.5,18H5L3.416,15.624A.4.4,0,0,1,3.75,15Z" fill="#fff" fill-rule="evenodd"/>
+      <rect id="矩形-6" data-name="矩形" width="2" height="20" rx="0.5" transform="translate(15.5)" fill="#fff"/>
+      <rect id="矩形-7" data-name="矩形" width="5" height="2" rx="0.5" transform="translate(12 18)" fill="#fff"/>
+    </g>
+  </g>
+  <rect id="矩形_12381" data-name="矩形 12381" width="48" height="48" transform="translate(18 18)" fill="rgba(255,255,255,0)"/>
+</svg>

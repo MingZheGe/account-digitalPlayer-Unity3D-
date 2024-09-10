@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186.813" height="162.821" viewBox="0 0 186.813 162.821">
+  <g id="pic-Mismatch" transform="translate(-1125.397 -207.618)">
+    <g id="组_4027" data-name="组 4027" transform="translate(1125.397 209.187)">
+      <g id="组_4028" data-name="组 4028" transform="translate(53.165 31.329)">
+        <path id="多边形_4" data-name="多边形 4" d="M6.771,1.535a1,1,0,0,1,1.74,0l5.925,10.457a1,1,0,0,1-.87,1.493H1.716a1,1,0,0,1-.87-1.493Z" transform="translate(9.472 8.123) rotate(-30)" fill="#f44b3d"/>
+        <path id="多边形_5" data-name="多边形 5" d="M3.2,1.308a1,1,0,0,1,1.682,0L7.1,4.752a1,1,0,0,1-.841,1.541H1.832A1,1,0,0,1,.99,4.752Z" transform="translate(0 22.924) rotate(-30)" fill="#f44b3d"/>
+        <path id="多边形_6" data-name="多边形 6" d="M3.2,1.308a1,1,0,0,1,1.682,0L7.1,4.752a1,1,0,0,1-.841,1.541H1.832A1,1,0,0,1,.99,4.752Z" transform="translate(35.061 4.045) rotate(-30)" fill="#f44b3d"/>
+      </g>
+      <g id="组_4029" data-name="组 4029" transform="translate(137.036 127.128) rotate(180)">
+        <path id="多边形_4-2" data-name="多边形 4" d="M6.771,1.535a1,1,0,0,1,1.74,0l5.925,10.457a1,1,0,0,1-.87,1.493H1.716a1,1,0,0,1-.87-1.493Z" transform="translate(9.472 8.123) rotate(-30)" fill="#f44b3d"/>
+        <path id="多边形_5-2" data-name="多边形 5" d="M3.2,1.308a1,1,0,0,1,1.682,0L7.1,4.752a1,1,0,0,1-.841,1.541H1.832A1,1,0,0,1,.99,4.752Z" transform="translate(0 22.924) rotate(-30)" fill="#f44b3d"/>
+        <path id="多边形_6-2" data-name="多边形 6" d="M3.2,1.308a1,1,0,0,1,1.682,0L7.1,4.752a1,1,0,0,1-.841,1.541H1.832A1,1,0,0,1,.99,4.752Z" transform="translate(35.061 4.045) rotate(-30)" fill="#f44b3d"/>
+      </g>
+      <g id="矩形_1351" data-name="矩形 1351" transform="translate(0 99.878) rotate(-30)" fill="none" stroke="#f44b3d" stroke-width="4.2">
+        <rect width="182.495" height="57.535" rx="8" stroke="none"/>
+        <rect x="2.1" y="2.1" width="178.295" height="53.335" rx="5.9" fill="none"/>
+      </g>
+      <g id="组_4104" data-name="组 4104" transform="translate(36.701 20.813)">
+        <path id="路径_4926" data-name="路径 4926" d="M36.8,42.336s.335-30.585,28.637-47.252S122.361-6.29,122.361-6.29" transform="translate(-36.8 12.698)" fill="none" stroke="#f44b3d" stroke-width="2.5"/>
+        <path id="路径_4927" data-name="路径 4927" d="M0,55.034S.335,24.449,28.637,7.781,85.561,6.408,85.561,6.408" transform="translate(117.025 117.064) rotate(180)" fill="none" stroke="#f44b3d" stroke-width="2.5"/>
+      </g>
+      <g id="组_4105" data-name="组 4105" transform="translate(14.434 0)">
+        <path id="路径_4926-2" data-name="路径 4926" d="M35.656,74.113S29.91,23.939,75.591-2.095c44.636-25.438,87.727,4,87.727,4" transform="translate(-35.424 12.449)" fill="none" stroke="#f44b3d" stroke-width="3"/>
+        <path id="路径_4927-2" data-name="路径 4927" d="M.875,87.7S-9.053,39.158,37.965,11.341s89.01,4.291,89.01,4.291" transform="translate(159.357 159.677) rotate(180)" fill="none" stroke="#f44b3d" stroke-width="3"/>
+      </g>
+    </g>
+    <text id="不匹配" transform="translate(1224.537 298.353) rotate(-30)" fill="#f44b3d" font-size="32" font-family="AlibabaPuHuiTi-Regular, Alibaba PuHuiTi" letter-spacing="0.12em"><tspan x="-51.072" y="0">不匹配</tspan></text>
+  </g>
+</svg>

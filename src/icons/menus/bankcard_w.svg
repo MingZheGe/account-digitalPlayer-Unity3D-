@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/bankcard_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.2%" y="-13.9%" width="130.4%" height="138.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.312641531 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/bankcard_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <g id="银行卡" filter="url(#filter-1)" transform="translate(18.000000, 23.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="Shape" fill-opacity="0.8" points="11 5 11 0 46 0 46 29 44 29 41 29 41 26 43 26 43 3 14 3 14 5"></polygon>
+            <path d="M0,33 L0,11 C-2.02906125e-16,9.34314575 1.34314575,8 3,8 L35,8 C36.6568542,8 38,9.34314575 38,11 L38,33 C38,34.6568542 36.6568542,36 35,36 C34.3333333,36 33.6666667,36 33,36 L3,36 C1.34314575,36 -2.41183085e-16,34.6568542 -4.4408921e-16,33 Z M25.5,27 L23,32 L31.335,32 L33.835,27 L25.5,27 Z M36,15 L2,15 L2,20 L36,20 L36,15 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

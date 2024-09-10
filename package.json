@@ -3,16 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --port 8082 --open",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@tweenjs/tween.js": "^23.1.2",
+    "@vue/composition-api": "^1.7.2",
     "axios": "^1.7.2",
     "core-js": "^3.6.5",
+    "crypto-js": "^4.2.0",
+    "echarts": "^5.5.0",
     "element-ui": "^2.15.14",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
     "node-sass": "^4.10.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "pixi.js": "^6.5.10",
+    "pnpm": "^9.3.0",
+    "three": "^0.165.0",
     "vue": "^2.6.11",
+    "vue-jsonp": "^2.0.0",
+    "vue-mobile-audio": "^0.1.3",
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
@@ -23,6 +36,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass-loader": "^10.5.2",
+    "terser-webpack-plugin": "^5.3.10",
     "vue-particles": "^1.0.9",
     "vue-template-compiler": "^2.6.11"
   },
@@ -38,7 +52,12 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-undef": "off",
+      "no-unused-vars": "off",
+      "no-async-promise-executor": 0,
+      "no-useless-escape": 0
+    }
   },
   "browserslist": [
     "> 1%",

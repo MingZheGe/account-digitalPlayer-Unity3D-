@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.033" x2="0.5" y2="1.058" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.06" y1="0.634" x2="0.978" y2="0.355" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.934" y1="0.041" x2="0.099" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#236ffb"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-Data_change" data-name="icon-Data change" transform="translate(-2411 -2016)">
+    <g id="刷卡消费_copy_2" data-name="刷卡消费 copy 2" transform="translate(2437 2046)">
+      <path id="路径" d="M51.011,99.839H4.156A4.161,4.161,0,0,1,0,95.672V4.168A4.161,4.161,0,0,1,4.156,0H51.011a4.161,4.161,0,0,1,4.156,4.168v91.5A4.161,4.161,0,0,1,51.011,99.839Z" opacity="0.5" fill="url(#linear-gradient)"/>
+      <rect id="矩形" width="47.898" height="74.168" transform="translate(3.537 11.963)" fill="#4dabff" opacity="0.2"/>
+      <path id="路径-2" data-name="路径" d="M11.883,2.135H1.065A1.064,1.064,0,0,1,0,1.068H0A1.064,1.064,0,0,1,1.065,0H11.883a1.064,1.064,0,0,1,1.065,1.068h0A1.079,1.079,0,0,1,11.883,2.135Z" transform="translate(21.007 4.994)" fill="#4dabff" opacity="0.2"/>
+      <ellipse id="椭圆形" cx="4.133" cy="4.145" rx="4.133" ry="4.145" transform="translate(23.571 88.553)" fill="#4dabff" opacity="0.2"/>
+      <g id="分组" transform="translate(24.019 7.83)">
+        <path id="路径-3" data-name="路径" d="M81.955,32.824,32.706,82.216a4.33,4.33,0,0,1-6.136,0l-25.3-25.4a4.361,4.361,0,0,1,0-6.154L50.519,1.274a4.33,4.33,0,0,1,6.136,0l25.3,25.4A4.361,4.361,0,0,1,81.955,32.824Z" transform="translate(0)" fill="url(#linear-gradient-2)"/>
+        <path id="矩形-2" data-name="矩形" d="M.024.024,16.6,0l-.024,16.577L0,16.6Z" transform="translate(9.156 51.252) rotate(-45)" fill="#fff" opacity="0.8"/>
+        <path id="矩形-3" data-name="矩形" d="M.006.086,59.345,0l-.006,3.795L0,3.881Z" transform="translate(24.619 66.732) rotate(-45)" fill="#fff" opacity="0.8"/>
+        <path id="矩形-4" data-name="矩形" d="M.006.024,16.583,0l-.006,3.795L0,3.819Z" transform="translate(29.936 72.06) rotate(-45)" fill="#fff" opacity="0.8"/>
+        <path id="矩形-5" data-name="矩形" d="M.006.054,37.3,0l-.006,3.795L0,3.849Z" transform="translate(45.474 56.424) rotate(-45)" fill="#fff" opacity="0.5"/>
+        <path id="矩形-6" data-name="矩形" d="M.024.054,37.317,0l-.024,16.256L0,16.31Z" transform="translate(24.694 35.614) rotate(-45)" fill="#fff" opacity="0.5"/>
+      </g>
+      <g id="分组-2" data-name="分组" transform="translate(81.853 58.071)">
+        <path id="路径-4" data-name="路径" d="M26,5.1,5.071,26.073,0,20.987,20.915,0Z" fill="url(#linear-gradient-3)"/>
+        <path id="矩形-7" data-name="矩形" d="M.01.01,7.21,0,7.2,7.2,0,7.21Z" transform="translate(15.795 5.126) rotate(-45)" fill="#236ffb"/>
+      </g>
+    </g>
+    <rect id="矩形_1364" data-name="矩形 1364" width="160" height="160" transform="translate(2411 2016)" fill="none"/>
+  </g>
+</svg>

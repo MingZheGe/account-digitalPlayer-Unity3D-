@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4141d7"/>
+      <stop offset="1" stop-color="#2073ff"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-biz-dlrkh" transform="translate(-120 -5742)">
+    <circle id="椭圆_783" data-name="椭圆 783" cx="42" cy="42" r="42" transform="translate(120 5742)" opacity="0.795" fill="url(#linear-gradient)"/>
+    <rect id="矩形_12169" data-name="矩形 12169" width="48" height="48" transform="translate(138 5760)" fill="rgba(255,255,255,0)"/>
+    <g id="组_30028" data-name="组 30028" transform="translate(1.588 7.681)">
+      <path id="路径_12973" data-name="路径 12973" d="M16.471,0H37.956a1.766,1.766,0,0,1,1.766,1.766v26.26a1.766,1.766,0,0,1-1.766,1.766H1.766A1.766,1.766,0,0,1,0,28.026V16.446" transform="translate(177.722 5790.42) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_362" data-name="直线 362" x2="39.146" transform="translate(138.141 5769.399)" fill="none" stroke="#fff" stroke-width="2"/>
+      <g id="椭圆_784" data-name="椭圆 784" transform="translate(164.986 5777.334)" fill="none" stroke="#fff" stroke-width="2">
+        <circle cx="8.881" cy="8.881" r="8.881" stroke="none"/>
+        <circle cx="8.881" cy="8.881" r="7.881" fill="none"/>
+      </g>
+      <g id="组_30026" data-name="组 30026" transform="translate(170.503 5782.774)">
+        <line id="直线_363" data-name="直线 363" x2="6.879" transform="translate(0.001 3.44)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_364" data-name="直线 364" y2="6.879" transform="translate(3.44 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <line id="直线_365" data-name="直线 365" x2="9.801" transform="translate(158.912 5774.684)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_366" data-name="直线 366" x2="5.801" transform="translate(158.912 5779.56)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_367" data-name="直线 367" x2="3.801" transform="translate(158.912 5784.437)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <g id="组_31484" data-name="组 31484" transform="translate(322.242 5626.396)">
+        <g id="组_4002" data-name="组 4002" transform="translate(-182.041 144.583)">
+          <path id="路径_13619" data-name="路径 13619" d="M18.876,17.361a4.111,4.111,0,0,1-3.11,1.254,4.729,4.729,0,0,1-.543,0,5.722,5.722,0,0,0-3.752,1.63,6.641,6.641,0,0,0-1.926,4.282s-.236.816-.927.816-.848-.816-.848-.816a7.767,7.767,0,0,1,4.411-7.005,4.66,4.66,0,1,1,6.7-.159Zm-6.094-3.073a2.786,2.786,0,0,0,2.527,2.8q.229-.007.458,0a2.923,2.923,0,0,0,2.561-2.8,2.7,2.7,0,0,0-2.74-2.855A2.8,2.8,0,0,0,12.781,14.288Z" transform="translate(-7.018 -8.569)" fill="#fff"/>
+          <path id="路径_17532" data-name="路径 17532" d="M3.553-7.648q-.157.48-.341.932t-.388.9V.243H1.689V-3.79q-.341.535-.711,1.006L.24-3.79a6.921,6.921,0,0,0,.637-.849Q1.2-5.137,1.5-5.7t.549-1.154a11.492,11.492,0,0,0,.42-1.126Zm5.021,5.9q-.028.148-.055.258t-.055.217q-.028.106-.065.212t-.083.245A1.8,1.8,0,0,1,7.8.054,1.161,1.161,0,0,1,7.06.3,1.3,1.3,0,0,1,6.368.086a2.586,2.586,0,0,1-.711-.757A4.787,4.787,0,0,1,5.03-2.087a14.336,14.336,0,0,1-.406-2.146l-1.541.148L3-5.221l1.5-.138-.055-.8q-.009-.12-.018-.346t-.023-.48q-.014-.254-.028-.5T4.365-7.9L5.5-7.86q0,.092.009.3t.018.457q.009.249.023.508t.023.461q.009.175.018.341t.028.323l2.8-.258L8.5-4.6,5.74-4.335A11.619,11.619,0,0,0,6.133-2.42a3.978,3.978,0,0,0,.475,1.075,1.371,1.371,0,0,0,.254.3.41.41,0,0,0,.263.092.247.247,0,0,0,.2-.111A1.5,1.5,0,0,0,7.5-1.52q.055-.212.092-.4t.065-.369Zm-1.3-3.932q-.111-.129-.291-.323T6.6-6.393q-.2-.194-.406-.369a2.97,2.97,0,0,0-.351-.268L6.479-7.8q.148.092.351.249t.411.328q.208.171.392.346t.3.3Z" transform="translate(7.695 17.041) scale(1 0.866)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

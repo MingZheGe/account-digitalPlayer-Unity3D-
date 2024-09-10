@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/file_double_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.2%" y="-8.0%" width="124.4%" height="125.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/file_double_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <g id="Group-Copy" filter="url(#filter-1)" transform="translate(17.000000, 17.000000)" fill="#FFFFFF">
+            <path d="M35.9884565,9 L17,9 C13.1340068,9 10,12.1340068 10,16 L10,30.9188387 L3.54470889,28.4408846 C1.48229996,27.6492 0.452174364,25.3355 1.24385898,23.2730911 L9.12795387,2.73432171 C9.91963848,0.671912777 12.2333384,-0.358212815 14.2957474,0.433471798 L34.8345168,8.31756669 C35.266978,8.48357302 35.654051,8.71650058 35.9884565,9 Z" id="Combined-Shape"></path>
+            <path d="M17,12 L41,12 C43.209139,12 45,13.790861 45,16 L45,40 C45,42.209139 43.209139,44 41,44 L17,44 C14.790861,44 13,42.209139 13,40 L13,16 C13,13.790861 14.790861,12 17,12 Z M21,20 L21,23 L37,23 L37,20 L21,20 Z M21,27 L21,30 L37,30 L37,27 L21,27 Z M21,34 L21,37 L37,37 L37,34 L21,34 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-main-print</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#4141D7" offset="0%"></stop>
+            <stop stop-color="#2073FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-main-print">
+            <circle id="椭圆形" fill="url(#linearGradient-1)" opacity="0.782476381" cx="42" cy="42" r="42"></circle>
+            <g id="编组-18" transform="translate(19.000000, 19.000000)">
+                <rect id="矩形" fill="#FFFFFF" x="12" y="30" width="22" height="2" rx="1"></rect>
+                <rect id="矩形备份-15" fill="#FFFFFF" x="12" y="37" width="22" height="2" rx="1"></rect>
+                <path d="M8,10.1577148 L8,10.1577148 L8,2 C8,0.8954305 8.8954305,0 10,0 L36,0 C37.1045695,0 38,0.8954305 38,2 L38,10.0766602 L38,10.0766602" id="路径" stroke="#FFFFFF" stroke-width="2"></path>
+                <path d="M8.09765625,28 L2,28 C0.8954305,28 0,27.1045695 0,26 L0,12 C0,10.8954305 0.8954305,10 2,10 L44,10 C45.1045695,10 46,10.8954305 46,12 L46,26 C46,27.1045695 45.1045695,28 44,28 L38.0019531,28 L38.0019531,28" id="路径" stroke="#FFFFFF" stroke-width="2"></path>
+                <circle id="椭圆形" fill="#FFFFFF" cx="41.5" cy="14.5" r="1.5"></circle>
+                <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="8" y="23" width="30" height="23" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

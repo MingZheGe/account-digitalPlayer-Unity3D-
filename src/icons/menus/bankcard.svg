@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/bankcard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic/bankcard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="银行卡" transform="translate(18.000000, 23.000000)" fill="#4A90E2" fill-rule="nonzero">
+            <polygon id="Shape" points="11 5 11 0 46 0 46 29 44 29 41 29 41 26 43 26 43 3 14 3 14 5"></polygon>
+            <path d="M0,36 L0,8 L38,8 L38,36 C36.2,36 34.5333333,36 33,36 L0,36 Z M25.5,27 L23,32 L31.335,32 L33.835,27 L25.5,27 Z M36,15 L2,15 L2,20 L36,20 L36,15 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117.11" height="93.41" viewBox="0 0 117.11 93.41">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.01" x2="0.5" y2="1.2" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.022" x2="0.5" y2="1.095" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="0.212" y1="0.141" x2="0.761" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#39c2ff"/>
+      <stop offset="1" stop-color="#236ffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.935" y1="0.041" x2="0.099" y2="0.923" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#236ffb"/>
+      <stop offset="1" stop-color="#236ffb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-gem2" transform="translate(-23.35 -36.54)">
+    <rect id="矩形_1387" data-name="矩形 1387" width="63.5" height="86" rx="4.76" transform="translate(60.48 36.54)" opacity="0.5" fill="url(#linear-gradient)" style="isolation: isolate"/>
+    <rect id="矩形_1388" data-name="矩形 1388" width="43.61" height="5.87" transform="translate(70.42 47.84)" fill="#fff"/>
+    <rect id="矩形_1389" data-name="矩形 1389" width="34.51" height="5.87" transform="translate(70.42 61.18)" fill="#fff"/>
+    <rect id="矩形_1390" data-name="矩形 1390" width="53.5" height="34.25" rx="4.62" transform="translate(86.96 95.7)" opacity="0.5" fill="url(#linear-gradient-2)" style="isolation: isolate"/>
+    <path id="路径_5142" data-name="路径 5142" d="M126.66,102.93a2.25,2.25,0,0,1,2.25,2.25V121a2.24,2.24,0,0,1-2.25,2.25H115.4l1.12-4.5,7.89-1.13v-9l-7.89-1.12-1.12-4.51ZM103,117.57l7.88,1.13,1.13,4.5H100.76A2.25,2.25,0,0,1,98.5,121V105.18a2.26,2.26,0,0,1,2.26-2.25H112l-1.13,4.51L103,108.56Zm4.5-3.38v-2.25h12.4v2.25Zm7.32,5.07h-2.25V106.87h2.25Z" transform="translate(0 -0.3)" fill="#fff"/>
+    <path id="路径-3" d="M97.44,104.28l-69.75.11a4.33,4.33,0,0,1-4.34-4.33h0l.07-35.85a4.37,4.37,0,0,1,4.35-4.36l69.75-.09a4.33,4.33,0,0,1,4.34,4.32h0l-.07,35.85A4.36,4.36,0,0,1,97.44,104.28Z" transform="translate(0 -0.3)" fill="url(#linear-gradient-3)"/>
+    <path id="矩形-3" d="M32.92,87.8l59.34-.08v3.79l-59.34.09Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.8" style="isolation: isolate"/>
+    <path id="矩形-4" d="M32.92,95.27H49.49V99H32.91Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.8" style="isolation: isolate"/>
+    <path id="矩形-5" d="M55,95.23H92.29V99H55Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.5" style="isolation: isolate"/>
+    <path id="矩形-6" d="M55,65.82H92.29V82.07L55,82.08Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.5" style="isolation: isolate"/>
+    <path id="路径_5143" data-name="路径 5143" d="M40.64,71.75l-.9-.76a14.411,14.411,0,0,1-1.44,1.62h3.28A7.808,7.808,0,0,0,40.64,71.75Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.8" style="isolation: isolate"/>
+    <path id="路径_5144" data-name="路径 5144" d="M33,65.86V82.44H49.58V65.87ZM40.63,74H38.79v3.89a.55.55,0,0,0,.07.31q.06.12.3.15a4.33,4.33,0,0,0,.76,0,5,5,0,0,0,.81,0,.63.63,0,0,0,.41-.16.68.68,0,0,0,.12-.35c0-.12,0-.22,0-.33v-.55l1.39.43v.36a1.049,1.049,0,0,1-.05.38,4,4,0,0,1-.06.45,1.56,1.56,0,0,1-.15.5.87.87,0,0,1-.24.32.83.83,0,0,1-.32.17,2.24,2.24,0,0,1-.39.08,14.65,14.65,0,0,1-1.64.08,11.26,11.26,0,0,1-1.49-.08,1,1,0,0,1-.77-.44,2,2,0,0,1-.23-1v-4.8l-.47.36L36,72.64a7.289,7.289,0,0,0,1-.84,12.139,12.139,0,0,0,.93-1c.28-.33.54-.67.78-1a8.551,8.551,0,0,0,.58-1l1.3.62-.12.24-.12.23.6.49c.22.18.45.36.68.56l.66.57c.22.19.41.36.58.53l-.76,1.14L42,73v2.56a3.87,3.87,0,0,1-.12.61,1.1,1.1,0,0,1-.26.43,1.16,1.16,0,0,1-.45.26,2.79,2.79,0,0,1-.66.12l-.68.07-.4-1.37.77-.08a.484.484,0,0,0,.43-.17,1,1,0,0,0,.11-.51v-.45Zm2.31-3.88,1.36.06v6.65H42.94ZM46.4,78a6.36,6.36,0,0,1,0,.85,1,1,0,0,1-.21.52.88.88,0,0,1-.47.3,4.571,4.571,0,0,1-.83.14l-1,.09-.5-1.49.91-.07a2.532,2.532,0,0,0,.39-.07.41.41,0,0,0,.23-.14.58.58,0,0,0,.1-.28,3,3,0,0,0,0-.47V69.13h1.39Z" transform="translate(0 -0.3)" fill="#fff" opacity="0.8" style="isolation: isolate"/>
+    <g id="分组-3">
+      <path id="路径-17" d="M140.37,52.08l-19.6,19.54L116,66.88l19.61-19.55Z" transform="translate(0 -0.3)" fill="url(#linear-gradient-4)"/>
+      <path id="矩形" d="M130.82,52.1l4.77-4.75,4.76,4.75-4.76,4.75Z" transform="translate(0 -0.3)" fill="#236ffb"/>
+    </g>
+  </g>
+</svg>

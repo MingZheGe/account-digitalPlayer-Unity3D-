@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>choice3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="choice3" transform="translate(0.000000, 1.000000)">
+            <g id="Fill-">
+                <path d="M23,11.6 C23,5.1 17.9,0 11.4,0 C5.1,0 0,5.1 0,11.6 C0,17.9 5.1,23 11.4,23 C17.9,23 23,17.9 23,11.6 Z" id="path-1" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M22.5,11.6 C22.5,17.5 17.6,22.4 11.4,22.4 C5.5,22.4 0.6,17.5 0.6,11.6 C0.6,5.5 5.5,0.5 11.4,0.5 C17.5,0.5 22.5,5.5 22.5,11.6 Z" id="Shape" stroke="#9DCD17" stroke-width="1.0952"></path>
+            </g>
+            <path d="M20,11.5965909 C20,6.86363636 16.2329545,3 11.4034091,3 C6.86363636,3 3,6.76704545 3,11.5965909 C3,16.1363636 6.76704545,20 11.4034091,20 C16.1363636,20 20,16.1363636 20,11.5965909 Z" id="Fill-_1_" fill="#9DCD17" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

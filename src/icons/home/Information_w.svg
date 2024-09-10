@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/w/Information_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M22,24.0004 L22,56.0004 C22,58.209539 23.790861,60.0004 26,60.0004 L35,60.0004 L35.766,54.1604 L36.634,47.8234 L36.731,47.1204 L37.132,46.5354 L53.1698164,23.130931 C53.7941915,22.2197617 53.5616988,20.974957 52.6505294,20.350582 C52.3176439,20.1224735 51.9235406,20.0004 51.5199984,20.0004 L26,20.0004 C23.790861,20.0004 22,21.791261 22,24.0004 Z M27,31.0004 L43,31.0004 L43,27.9994 L27,27.9994 L27,31.0004 Z M27,39.0004 L39,39.0004 L39,36 L27,36 L27,39.0004 Z M27,47.0004 L27,44 L34,44 L34,47.0004 L27,47.0004 Z M46.7851,53.1528 L54.175166,42.3672332 C54.3616093,42.0951252 54.6702457,41.9324623 55.0001,41.9324623 C55.5523847,41.9324623 56.0001,42.3801776 56.0001,42.9324623 L56.0001,55.9998 C56.0001,58.208939 54.209239,59.9998 52.0001,59.9998 L35.1631,59.9998 L40.2011,57.1878 L45.7731,54.0758 L46.3861,53.7338 L46.7851,53.1528 Z M39.6067,48.2307 L57.3297,22.3677 L62.0317,25.5937 L44.3097,51.4577 L38.7387,54.5687 L39.6067,48.2307 Z" id="path-1"></path>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/w/Information_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape" fill="black" fill-opacity="1">
+            <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+        <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF">
+            <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="80" height="80"></rect>
+        </g>
+    </g>
+</svg>

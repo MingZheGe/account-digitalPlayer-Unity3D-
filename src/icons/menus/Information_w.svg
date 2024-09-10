@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/Information_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-13.4%" y="-8.8%" width="126.8%" height="127.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/Information_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <g id="Page-1" filter="url(#filter-1)" transform="translate(23.000000, 21.000000)" fill="#FFFFFF">
+            <path d="M0,4.0004 L0,36.0004 C2.705415e-16,38.209539 1.790861,40.0004 4,40.0004 L13,40.0004 L13.766,34.1604 L14.634,27.8234 L14.731,27.1204 L15.132,26.5354 L31.1698164,3.13093105 C31.7941915,2.21976171 31.5616988,0.974957021 30.6505294,0.350581964 C30.3176439,0.122473493 29.9235406,0.0004 29.5199984,0.0004 L4,0.0004 C1.790861,0.0004 -2.705415e-16,1.791261 0,4.0004 Z M5,11.0004 L21,11.0004 L21,7.9994 L5,7.9994 L5,11.0004 Z M5,19.0004 L17,19.0004 L17,16 L5,16 L5,19.0004 Z M5,27.0004 L12,27.0004 L12,24 L5,24 L5,27.0004 Z" id="Fill-3"></path>
+            <path d="M24.7851,33.1528 L24.3861,33.7338 L23.7731,34.0758 L18.2011,37.1878 L13.1631,39.9998 L30.0001,39.9998 C32.209239,39.9998 34.0001,38.208939 34.0001,35.9998 L34.0001,22.9324623 C34.0001,22.3801776 33.5523847,21.9324623 33.0001,21.9324623 C32.6702457,21.9324623 32.3616093,22.0951252 32.175166,22.3672332 L24.7851,33.1528 Z" id="Fill-4"></path>
+            <polygon id="Fill-1" points="17.6067 28.2307 16.7387 34.5687 22.3097 31.4577 40.0317 5.5937 35.3297 2.3677"></polygon>
+        </g>
+    </g>
+</svg>

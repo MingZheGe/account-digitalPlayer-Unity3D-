@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/chart_shift</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="ic/chart_shift" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="41" cy="41" r="41"></circle>
+        <rect id="Rectangle-11" fill="#4A90E2" x="20" y="22" width="9" height="38" rx="2"></rect>
+        <rect id="Rectangle-11" fill="#4A90E2" x="17" y="56" width="44" height="4" rx="2"></rect>
+        <rect id="Rectangle-11-Copy" fill="#4A90E2" x="35" y="40" width="9" height="20" rx="2"></rect>
+        <rect id="Rectangle-11-Copy-2" fill="#4A90E2" x="50" y="25" width="9" height="31" rx="2"></rect>
+        <g id="Group" transform="translate(47.000000, 43.000000)">
+            <g id="Oval-2">
+                <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="3" cx="10" cy="10" r="11.5"></circle>
+            </g>
+            <g id="刷新-(1)" transform="translate(3.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M8.49387218,6.83121619 L7.35533615,6.83121619 C7.35533615,4.83877813 7.35533615,2.27707206 10.9607002,0.189756005 C11.0555782,0.0948780026 10.9607002,0 10.8658222,0 C4.12948406,1.04365803 3.56021604,5.59780215 3.56021604,6.83121619 L2.42168001,6.83121619 C2.042168,6.83121619 1.852412,7.2107282 2.137046,7.4953622 L4.88850808,10.9109703 C5.17314209,11.2904823 5.7424101,11.2904823 6.02704411,10.9109703 L8.77850618,7.4953622 C8.96826219,7.2107282 8.77850618,6.83121619 8.49387218,6.83121619 Z" id="Shape" transform="translate(6.500000, 5.597802) scale(-1, 1) rotate(100.000000) translate(-6.500000, -5.597802) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

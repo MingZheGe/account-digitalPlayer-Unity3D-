@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My first three.js app</title>
+	<style>
+		body {
+			margin: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div style="width:700px;height: 950px;position: absolute;background:transparent;">
+		<div style="width:100%;height: 100%;">
+			<div class="bodys" id="bodys"></div>
+		</div>
+
+	</div>
+	<script type="module" src=../node_modules/three/examples/jsm/loaders/GLTFLoader.js></script>
+
+	<script type="module" src=../node_modules/three/build/three.module.js></script>
+
+	<script type="module" src=../node_modules/three/examples/jsm/controls/OrbitControls.js></script>
+	<script type="module" >
+		import * as THREE from "../node_modules/three/build/three.module.js";
+		import { GLTFLoader } from "../node_modules/three/examples/jsm/loaders/GLTFLoader.js";
+
+		const scene = new THREE.Scene();
+		//const axesHelper = new THREE.AxesHelper(70);
+		const width = document.getElementById('bodys').offsetWidth;
+		const height = document.getElementById('bodys').offsetHeight;
+		const camera = new THREE.PerspectiveCamera(45, width / height, 1, 1000);
+
+		// 设置相机的位置，将 y 坐标下移
+		camera.position.set(0, 5, 33); // 第二个参数是 y 坐标，将其减小(2是黄线1是绿线3是蓝线)
+		// 设置相机的观察点坐标
+		camera.lookAt(0, 0, 0); // 确保相机的观察点在场景中心
+
+		const renderer = new THREE.WebGLRenderer();
+		renderer.setSize(width, height);
+		renderer.setClearColor(0x000000, 0);//(:color,:alpha)
+		//setAnimationLoop(null)暂停动画
+		// 把渲染结果添加到页面上
+		document.getElementById('bodys').appendChild(renderer.domElement);
+		//const control = new OrbitControls(camera, renderer.domElement);
+
+		// 7、添加光源
+		// 添加环境光
+		const ambientLight = new THREE.AmbientLight(0xffffff, 1);
+		scene.add(ambientLight);
+
+		// 添加方向光
+		const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+		directionalLight.position.set(10, 10, 10);
+		scene.add(directionalLight);
+
+		// 8、加载GLTF模型
+		const loader = new GLTFLoader();
+		loader.load(
+			'/model/dance1.glb',
+			gltf => {
+				const model = gltf.scene;
+				model.scale.set(10, 10, 10);
+				model.position.set(0, -8, 0);
+				scene.add(model);
+
+				// 初始化动画混合器
+				const mixer = new THREE.AnimationMixer(model);
+
+				// 获取并播放动画
+				const animations = gltf.animations;
+				if (animations && animations.length) {
+					animations.forEach(clip => {
+						const action = mixer.clipAction(clip);
+						action.play();
+					});
+				}
+			},
+			undefined,
+			error => {
+				console.error('An error occurred while loading the model:', error);
+			}
+		);
+		// 设置时钟
+		const clock = new THREE.Clock();
+
+		function animate() {
+
+			const delta = this.clock.getDelta();
+
+			// 更新动画混合器
+			if (mixer) {
+				mixer.update(delta);
+			}
+
+			requestAnimationFrame(animate);
+			renderer.render(scene, camera);
+		};
+
+		animate();
+	</script>
+</body>
+
+</html>

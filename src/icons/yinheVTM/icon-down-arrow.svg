@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.684" height="98.243" viewBox="0 0 93.684 98.243">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcbb6f"/>
+      <stop offset="1" stop-color="#fd6d03"/>
+    </linearGradient>
+    <filter id="路径_4916" x="0" y="0" width="93.684" height="98.243" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#路径_4916)">
+    <path id="路径_4916-2" data-name="路径 4916" d="M256.122,217.694l18.345,19.326a4.491,4.491,0,0,0,5.526,0l19.535-19.326c2.433-2.079.71-5.627-2.738-5.627H286.18V191.42c0-2.788-2.258-3.692-5.047-3.692H274.49c-2.788,0-5.093.9-5.093,3.692v20.647H258.859C255.412,212.067,253.688,215.616,256.122,217.694Z" transform="translate(-230.98 -167.73)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

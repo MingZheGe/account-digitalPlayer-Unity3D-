@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-wykh</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M110,102 L102,102 L102,106 L110,106 L110,114 L114,114 L114,106 L122,106 L122,102 L114,102 L114,94 L110,94 L110,102 Z M95.4943624,83.910131 C89.697089,88.6786495 86,95.9075741 86,104 C86,110.034114 88.0555566,115.588127 91.5046311,120 L46.8853636,120 C43.8749091,120 41.1806364,118.025103 40.1816364,115.081324 L40,114.551309 L40,96.656135 C40,93.3004977 42.3141818,89.833456 45.3885455,88.5945034 C45.8291818,88.3953257 54.7495455,84.4927938 64.8909091,82.2950876 C60.5282727,78.8921878 57.7028182,73.5886605 57.7028182,67.6234581 L57.7028182,56.5707855 C57.7028182,46.3317031 65.9908182,38 76.1792727,38 C80.109367,38.002085 83.9347167,39.2719852 87.0909091,41.6223328 C91.8325988,45.11813 94.6388347,50.6658568 94.6523636,56.5707855 L94.6523636,67.6234581 C94.6494511,71.5388879 93.4054574,75.3518595 91.1003636,78.510712 C90.1585455,79.8104306 89.0720909,81.0021208 87.8309091,82.0182644 C90.4887748,82.5489152 93.0852732,83.2111279 95.4943624,83.910131 Z M112,124 C100.954305,124 92,115.045695 92,104 C92,92.954305 100.954305,84 112,84 C123.045695,84 132,92.954305 132,104 C132,115.045695 123.045695,124 112,124 Z" id="path-1"></path>
+        <filter x="-2.7%" y="-2.9%" width="105.4%" height="105.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon-wykh" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button/Large/ic_Rounded82">
+            <g id="ic/w/user_add_w">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Combined-Shape" fill="black" fill-opacity="1">
+                    <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+                </g>
+                <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="164" height="164"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

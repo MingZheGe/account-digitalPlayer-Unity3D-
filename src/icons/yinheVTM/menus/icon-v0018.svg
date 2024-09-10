@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-v0018</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon-v0018" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="56" height="56"></rect>
+        <g id="ic_hszqhg沪深债券合格投资者权限开通-2" transform="translate(5.000000, 8.680000)">
+            <g id="Group_13">
+                <path d="M35.794,25.183 C35.894,25.636 36.694,29.152 36.794,29.583 C37.65,33.413 38.323,36.431 38.323,36.431 C38.323,36.431 39.262,40.287 35.793,40.308 C32.67,40.327 23.382,40.308 21.56,40.308 C19.738,40.308 10.45,40.326 7.327,40.308 C3.859,40.29 4.8,36.435 4.8,36.435 C4.8,36.435 8.789,18.546 9.686,14.59 C9.74416183,14.4113245 9.71342633,14.2156124 9.60329514,14.0633664 C9.49316395,13.9111204 9.31690226,13.8206785 9.129,13.82 C8.738,13.792 8.261,13.82 7.897,13.82 C7.138,13.82 7.276,13.954 7.089,14.551 C6.6,16.097 5.434,18.999 4.98,20.371 C4.805,20.898 4.71,20.928 4.16,20.928 C3.452,20.928 2.315,20.951 1.616,20.928 C1.44532862,20.9365732 1.27934724,20.8706002 1.16113075,20.7472021 C1.04291426,20.6238041 0.984117793,20.4551469 1,20.285 C1.046,19.162 0.985,17.317 1,13.175 C1.019,8.178 6.063,8.652 6.063,8.652 L20.309,8.64" id="Stroke_1" stroke="#ffffff" stroke-width="2"></path>
+                <path d="M9.5,14.228 C11.1922608,18.4121622 14.9606774,21.3977235 19.421,22.088 C20.018598,22.1574026 20.6194211,22.1954547 21.221,22.202" id="Oval_8" stroke="#ffffff" stroke-width="2"></path>
+                <g id="Rectangle_2" transform="translate(19.240000, 0.000000)">
+                    <rect id="Rectangle" x="0" y="0" width="26.881" height="26.88" rx="8"></rect>
+                    <rect id="Rectangle" stroke="#ffffff" stroke-width="2" x="1" y="1" width="24.881" height="24.88" rx="7"></rect>
+                </g>
+                <g id="沪" transform="translate(24.040000, 2.920000)" fill="#ffffff" font-family="PingFangSC-Regular, PingFang SC" font-size="18" font-weight="normal" stroke="#ffffff" stroke-width="2">
+                    <text>
+                        <tspan x="0" y="19">沪</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.126" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc6a7"/>
+      <stop offset="1" stop-color="#ff574d"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-biz-bjs" transform="translate(-120 -5742)">
+    <circle id="椭圆_783" data-name="椭圆 783" cx="42" cy="42" r="42" transform="translate(120 5742)" opacity="0.802" fill="url(#linear-gradient)"/>
+    <rect id="矩形_12169" data-name="矩形 12169" width="48" height="48" transform="translate(138 5760)" fill="rgba(255,255,255,0)"/>
+    <g id="组_30028" data-name="组 30028" transform="translate(1.588 7.681)">
+      <path id="路径_12973" data-name="路径 12973" d="M16.471,0H37.956a1.766,1.766,0,0,1,1.766,1.766v26.26a1.766,1.766,0,0,1-1.766,1.766H1.766A1.766,1.766,0,0,1,0,28.026V16.446" transform="translate(177.722 5790.42) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_362" data-name="直线 362" x2="39.146" transform="translate(138.141 5769.399)" fill="none" stroke="#fff" stroke-width="2"/>
+      <g id="椭圆_784" data-name="椭圆 784" transform="translate(164.986 5777.334)" fill="none" stroke="#fff" stroke-width="2">
+        <circle cx="8.881" cy="8.881" r="8.881" stroke="none"/>
+        <circle cx="8.881" cy="8.881" r="7.881" fill="none"/>
+      </g>
+      <g id="组_30026" data-name="组 30026" transform="translate(170.503 5782.774)">
+        <line id="直线_363" data-name="直线 363" x2="6.879" transform="translate(0.001 3.44)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_364" data-name="直线 364" y2="6.879" transform="translate(3.44 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <g id="组_30027" data-name="组 30027" transform="translate(139.64 5769.559)">
+        <text id="京" transform="translate(0 15)" fill="#fff" font-size="14" font-family="AlibabaPuHuiTi-Bold, Alibaba PuHuiTi" font-weight="700"><tspan x="0" y="0">京</tspan></text>
+      </g>
+      <line id="直线_365" data-name="直线 365" x2="9.801" transform="translate(156.111 5774.684)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_366" data-name="直线 366" x2="5.801" transform="translate(156.111 5779.56)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+      <line id="直线_367" data-name="直线 367" x2="3.801" transform="translate(156.111 5784.437)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

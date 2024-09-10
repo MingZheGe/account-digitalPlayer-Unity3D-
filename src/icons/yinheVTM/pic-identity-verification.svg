@@ -1,0 +1,70 @@
+<svg id="pic-Identity_verification" data-name="pic-Identity verification" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="272" viewBox="0 0 272 272">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="蒙版" width="272" height="272" rx="36" fill="#fff" opacity="0.3"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.328" y1="1.105" x2="0.672" y2="-0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e8ceaa"/>
+      <stop offset="0.547" stop-color="#f7e5bc"/>
+      <stop offset="1" stop-color="#fcf8f3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.351" y1="1.105" x2="0.649" y2="-0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.982" stop-color="#5a5a5a"/>
+      <stop offset="1" stop-color="#4270cb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.105" y1="1.077" x2="1.105" y2="-0.077" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d3dff4"/>
+      <stop offset="0.133" stop-color="#d3dff4"/>
+      <stop offset="0.29" stop-color="#d9e2f5"/>
+      <stop offset="0.452" stop-color="#f3f9fc"/>
+      <stop offset="1" stop-color="#f3f9fc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-0.105" y1="0.661" x2="1.105" y2="0.339" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f9fc"/>
+      <stop offset="0.271" stop-color="#f3f9fc"/>
+      <stop offset="0.529" stop-color="#d9e2f5"/>
+      <stop offset="0.867" stop-color="#d3dff4"/>
+      <stop offset="1" stop-color="#d3dff4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.135" y1="1.105" x2="0.865" y2="-0.105" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9e3f0"/>
+      <stop offset="0.133" stop-color="#d9e3f0"/>
+      <stop offset="0.46" stop-color="#bacff9"/>
+      <stop offset="0.96" stop-color="#c4d7f9"/>
+      <stop offset="1" stop-color="#c4d7f9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b1ff" stop-opacity="0.224"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.082"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="联合_2" data-name="联合 2" d="M0,251V189.025H71.293V251Zm200.593-2.213V191.238H271v57.549Zm0-184.6V0H271V64.188ZM0,64.188V0H71.293V64.188Z" fill="#fff" stroke="#707070" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="矢量智能对象1">
+    <g id="矢量智能对象1-2" data-name="矢量智能对象1" clip-path="url(#clip-path)">
+      <g id="组_3973" data-name="组 3973" transform="matrix(1, -0.009, 0.009, 1, 6.326, 43.796)">
+        <g id="双录人像_拷贝-5" transform="translate(0 0)">
+          <g id="双录人像_拷贝-6" transform="translate(0 0)">
+            <path id="形状_70-2" d="M30.753,45.811s12.026-1.758,14.47-5.526c0,0,5.327-17.172,3.789-24.5,0,0,16.423,9.342,21.664,8.743,0,0,11.768,3.942,19.441-4.131L107.338,3.389,110.45,0s-3.636,23.153,1.479,32.372a35.147,35.147,0,0,0,10.312,10.882l10.015,4.4L145.841,58.39,125.277,73.933S108.18,89.945,96.412,86.6c-7.038-2-12.089,18.517-21.456,17.656-23.4-2.149-55.784-25.482-55.784-25.482L2.627,74.668s-5.383-11.887-.739-16.186C1.889,58.482,24.829,51.312,30.753,45.811Z" transform="translate(49.117 122.993)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+            <path id="形状_69-2" d="M7.134,4.847S2.381,24.083,0,27.88A242.886,242.886,0,0,0,1.116,52.158s3.417,13.758,2.742,24.2c0,0-.136,7.721,9.049,19.051,0,0,6.99,12.149,12.091,14.045L36.72,115.41s12.317,2.3,19.517-2.512c0,0,14-8.037,19.655-13.417A66.3,66.3,0,0,0,86.654,84.39a193.494,193.494,0,0,1,4.018-19.646s3.2,7.2,4.386,2.587c0,0,15.319-20.392,5.126-31.052,0,0,.021-6.047-3.412-3.088l-3.5,16.839s1.173-12.246-4.663-16.456c0,0-2.424-17.413-4.152-19.274A27.3,27.3,0,0,0,56.115,2.627S19.137-4.563,7.134,4.847Z" transform="translate(78.324 35.568)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+            <path id="形状_68-2" d="M10.364,73.084s2.706-5.119,4.083-18.029,12.742-11.045,19.144-10.6c0,0,23.132,5.208,39.251-.17,0,0,17.935-.318,18.547,12.128,0,0-.486,12.237,5.71,17.581l1.1,10.141,1.418,9.211L105.188,72l6.159-8.391s.9-26.058-6.67-38.624C97.146,12.479,90.37,6.786,64.318.875c0,0-25.721-4.918-45.411,8.561,0,0-29.135,17.051-15.072,63.945L5.984,84.636l3.029,16.538,1.94-15.143Z" transform="translate(70.042 0)" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+            <path id="形状_73-2" d="M5.1.609S-.732-2.148.353,4.071c0,0-1.037,6.623.444,9.711l1.929,6.4s4.546,6.374,5.341,9.487c0,0,4.21,4.108,4.675-5.08Z" transform="translate(69.431 73.198)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+            <path id="形状_71-2" d="M166.233,0S211.41,19.795,221.15,20.2c0,0,17.359,8.312,22.4,24.929l11.829,22s3.976,3.253-1.41,4.931L13.494,68.3.362,67.28S-4.78,45.876,23.69,30.838c0,0,48.042-21.176,56.1-25.269L87.8,1.957a398.144,398.144,0,0,0,22.076,39.316c5.646,8.614,13.248,12.9,17.319,20.978C127.2,62.251,138.6,21.7,166.233,0Z" transform="translate(0 161.617)" fill-rule="evenodd" fill="url(#linear-gradient-5)"/>
+            <path id="形状_72-2" d="M21.88,0A17.239,17.239,0,0,0,6.148,13.695S-1.317,51.071.2,62.624c0,0,7.332-22.527,17.365-13.777l5.2,6.261L54.824,70.131S10.826,30.022,21.88,0Z" transform="translate(76.026 149.388) rotate(3)" fill-rule="evenodd" fill="url(#linear-gradient-6)"/>
+            <path id="形状_19-5" d="M21.576.138s10.859-1.787,12.2,7.5c0,0,14.5,38.233-11.268,61.388,0,0-12.382-29.912-22.51-19.284a245.014,245.014,0,0,0,21.519-44.2C22.206,3.678,20.993,2.155,21.576.138Z" transform="translate(137.508 149.328)" fill-rule="evenodd" fill="url(#linear-gradient-7)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <path id="矩形" d="M0,0H272a0,0,0,0,1,0,0V101a30,30,0,0,1-30,30H30A30,30,0,0,1,0,101V0A0,0,0,0,1,0,0Z" transform="translate(0 141)" fill="url(#linear-gradient-8)"/>
+  <rect id="矩形-2" data-name="矩形" width="272" height="1" transform="translate(0 140)" fill="#9fdaff"/>
+  <g id="蒙版组_57" data-name="蒙版组 57" transform="translate(1 11)" clip-path="url(#clip-path-2)">
+    <g id="矩形_1312" data-name="矩形 1312" transform="translate(17 5)" fill="none" stroke="#85b4fd" stroke-width="4">
+      <rect width="241" height="242" stroke="none"/>
+      <rect x="2" y="2" width="237" height="238" fill="none"/>
+    </g>
+  </g>
+</svg>

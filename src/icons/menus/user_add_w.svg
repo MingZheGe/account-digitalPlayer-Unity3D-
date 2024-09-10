@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/user_add_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-12.0%" y="-8.1%" width="123.9%" height="125.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/user_add_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <g id="Group-11" filter="url(#filter-1)" transform="translate(21.000000, 20.000000)" fill="#FFFFFF">
+            <path d="M27.7471812,22.9550655 C24.8485445,25.3393248 23,28.953787 23,33 C23,36.0170569 24.0277783,38.7940633 25.7523156,41 L3.44268182,41 C1.93745455,41 0.590318182,40.0125514 0.0908181818,38.5406622 L0,38.2756546 L0,29.3280675 C0,27.6502489 1.15709091,25.916728 2.69427273,25.2972517 C2.91459091,25.1976628 7.37477273,23.2463969 12.4454545,22.1475438 C10.2641364,20.4460939 8.85140909,17.7943302 8.85140909,14.8117291 L8.85140909,9.28539277 C8.85140909,4.16585155 12.9954091,-3.55271368e-14 18.0896364,-3.55271368e-14 C20.0546835,0.00104249284 21.9673584,0.635992618 23.5454545,1.81116641 C25.9162994,3.559065 27.3194173,6.3329284 27.3261818,9.28539277 L27.3261818,14.8117291 C27.3247256,16.7694439 26.7027287,18.6759298 25.5501818,20.255356 C25.0792727,20.9052153 24.5360455,21.5010604 23.9154545,22.0091322 C25.2443874,22.2744576 26.5426366,22.6055639 27.7471812,22.9550655 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+            <path d="M35,32 L31,32 L31,34 L35,34 L35,38 L37,38 L37,34 L41,34 L41,32 L37,32 L37,28 L35,28 L35,32 Z M36,43 C30.4771525,43 26,38.5228475 26,33 C26,27.4771525 30.4771525,23 36,23 C41.5228475,23 46,27.4771525 46,33 C46,38.5228475 41.5228475,43 36,43 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="icon-step-finish" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="矩形_1445" data-name="矩形 1445" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+    <rect width="44" height="44" stroke="none"/>
+    <rect x="0.5" y="0.5" width="43" height="43" fill="none"/>
+  </g>
+  <g id="椭圆_2_拷贝_5" data-name="椭圆 2 拷贝 5" transform="translate(6 6)" fill="#84b8ff" stroke="#fff" stroke-width="3">
+    <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+    <circle cx="15.5" cy="15.5" r="17" fill="none"/>
+  </g>
+  <path id="路径_4934" data-name="路径 4934" d="M6.147,8.086c.326-.3.584-.518.829-.753q3.51-3.38,7.014-6.766c.566-.547,1.156-.823,1.848-.251.581.478.494,1.144-.229,1.843Q11.466,6.17,7.3,10.17c-.87.836-1.342.841-2.2.028C3.6,8.761,2.113,7.3.607,5.868.038,5.326-.25,4.756.342,4.088c.5-.56,1.189-.478,1.911.216C3.544,5.544,4.823,6.8,6.147,8.086Z" transform="translate(13.797 16.422)" fill="#fff"/>
+</svg>

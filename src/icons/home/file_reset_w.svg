@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/w/file_reset_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,19 L56,19 C58.209139,19 60,20.790861 60,23 L60,55 C60,57.209139 58.209139,59 56,59 L24,59 C21.790861,59 20,57.209139 20,55 L20,23 C20,20.790861 21.790861,19 24,19 Z M52.9319262,44.2890937 C52.6150146,43.7410679 51.9140517,43.5547073 51.3705031,43.8705408 C50.8236651,44.1852413 50.6362081,44.8839381 50.9520233,45.4308309 C51.4508914,46.2946719 51.7142962,47.2823757 51.7142962,48.2857221 C51.7142962,51.4364548 49.1506596,54.0000365 45.9999635,54.0000365 C42.8493039,54.0000365 40.2857404,51.4364548 40.2857404,48.2857221 C40.2857404,45.1350625 42.8493039,42.5714442 45.9999635,42.5714442 C46.0061036,43.2642019 46.0067066,43.7985403 46.0067066,43.863889 C46.0067066,44.4129564 46.001133,44.8571663 46.587023,44.8571663 C46.8839427,44.8571663 47.1506367,44.741125 47.3426258,44.5557878 C47.3470847,44.5580355 50.3303341,41.7544766 50.472069,41.638417 C50.5435943,41.5781303 50.5736737,41.5022374 50.571426,41.4285923 C50.5702747,41.3571949 50.5402501,41.2879538 50.4866153,41.2388692 C50.3771892,41.1361681 47.3202398,38.2767266 47.3202398,38.2767266 C47.1238833,38.1094261 46.8660339,38 46.5802981,38 C45.9943898,38 46.0011147,38.4442282 46.0011147,38.9932956 C46.0011147,39.0562321 46.0017178,39.5913928 46.0025401,40.2857587 C41.5880349,40.2857404 38,43.8749997 38,48.2857221 C38,52.6964811 41.5880532,56.2857221 45.9999269,56.2857221 C50.4107041,56.2857221 54,52.6964811 54,48.2857221 C54.0000183,46.8817315 53.6305865,45.5000171 52.9319262,44.2890937 Z M27,26 L27,29 L53,29 L53,26 L27,26 Z M27,35 L27,38 L38,38 L38,35 L27,35 Z M27,44 L27,47 L33,47 L33,44 L27,44 Z" id="path-1"></path>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ic/w/file_reset_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Combined-Shape" fill="black" fill-opacity="1">
+            <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+        </g>
+        <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF">
+            <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="80" height="80"></rect>
+        </g>
+    </g>
+</svg>

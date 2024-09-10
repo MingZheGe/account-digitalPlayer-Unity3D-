@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="167" viewBox="0 0 167 167">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Mask" cx="80" cy="80" r="80" fill="#ddd" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+    </clipPath>
+  </defs>
+  <g id="icon-user-head-big" transform="translate(3.5 3.5)">
+    <circle id="Mask-2" data-name="Mask" cx="80" cy="80" r="80" fill="#80acff" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+    <g id="头像" clip-path="url(#clip-path)">
+      <path id="形状_32" d="M107.765,25.309a11.994,11.994,0,0,0,8.128,7.553l11.88,3.252c37.2,10.16,46.134,30.739,47.538,31.91L164.857,81.651H10.452L0,68.024c1.021-.86,10.047-21.667,47.538-31.91l11.881-3.252a12,12,0,0,0,8.128-7.553C69.982,18.476,75.673,0,87.655,0S105.328,18.476,107.765,25.309Z" transform="translate(-8 90)" fill="#fff"/>
+      <path id="user_拷贝" d="M53.43,78.953,52,80.484c-10.407,10.106-23.981,10.106-34.39,0l-1.426-1.531C4.03,65.931-2,48.711.594,32.283,2.978,16.49,13.679,0,34.808,0S66.639,16.49,69.022,32.28C71.6,48.719,65.594,65.927,53.43,78.953Z" transform="translate(45 25)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

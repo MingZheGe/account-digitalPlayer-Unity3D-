@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.069" x2="0.5" y2="1.075" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20ceff"/>
+      <stop offset="1" stop-color="#208bff"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-biz-dlr" transform="translate(-1122 -1182)">
+    <g id="组_30024" data-name="组 30024" transform="translate(1002 -4560)">
+      <path id="路径_12969" data-name="路径 12969" d="M42,0A42,42,0,1,1,0,42,42,42,0,0,1,42,0Z" transform="translate(120 5742)" fill="url(#linear-gradient)"/>
+      <rect id="矩形_12172" data-name="矩形 12172" width="48" height="48" transform="translate(138 5760)" fill="rgba(255,255,255,0)"/>
+    </g>
+    <g id="组_30142" data-name="组 30142">
+      <g id="组_30111" data-name="组 30111" transform="translate(1001.588 -4550.418)">
+        <path id="路径_12973" data-name="路径 12973" d="M14.471-3H30.956a1.766,1.766,0,0,1,1.766,1.766v34.26a1.766,1.766,0,0,1-1.766,1.766H1.766A1.766,1.766,0,0,1,0,33.026V11.446" transform="translate(177.722 5790.42) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <path id="路径_13004" data-name="路径 13004" d="M0,0H15.58" transform="translate(151.873 5779.693)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <line id="直线_366" data-name="直线 366" x2="11.039" transform="translate(151.873 5785.568)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+        <g id="组_31058" data-name="组 31058" transform="translate(333.152 5615.364)">
+          <g id="组_4002" data-name="组 4002" transform="translate(-182.041 144.583)">
+            <path id="路径_13619" data-name="路径 13619" d="M20.082,18.2a4.557,4.557,0,0,1-3.448,1.39,5.242,5.242,0,0,1-.6,0A6.343,6.343,0,0,0,11.873,21.4a7.362,7.362,0,0,0-2.135,4.747s-.262.9-1.027.9-.94-.9-.94-.9a8.611,8.611,0,0,1,4.891-7.766,5.166,5.166,0,1,1,7.423-.177Zm-6.756-3.407a3.088,3.088,0,0,0,2.8,3.1q.254-.007.507,0a3.241,3.241,0,0,0,2.84-3.1,2.989,2.989,0,0,0-3.038-3.165A3.109,3.109,0,0,0,13.326,14.794Z" transform="translate(-7.771 -9.629)" fill="#fff"/>
+            <text id="代" transform="translate(9.697 16.041) scale(1 0.866)" fill="#fff" font-size="10" font-family="AlibabaPuHuiTi-Bold, Alibaba PuHuiTi" font-weight="700"><tspan x="0" y="0">代</tspan></text>
+          </g>
+        </g>
+      </g>
+      <path id="路径_13667" data-name="路径 13667" d="M14.688,131.347l-3.263,3.345h2.449a4.962,4.962,0,0,1-4.9,5.017,4.679,4.679,0,0,1-2.284-.585l-1.2,1.222a6.361,6.361,0,0,0,3.477,1.038,6.608,6.608,0,0,0,6.527-6.691h2.451l-3.266-3.345ZM4.079,134.693a4.963,4.963,0,0,1,4.9-5.018,4.679,4.679,0,0,1,2.284.585l1.192-1.222A6.365,6.365,0,0,0,8.975,128a6.61,6.61,0,0,0-6.528,6.693H0l3.264,3.344,3.262-3.344H4.08Z" transform="translate(1167.131 1103.283)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

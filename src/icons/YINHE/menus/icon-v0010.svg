@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-main-test</title>
+    <defs>
+        <linearGradient x1="50%" y1="-6.875%" x2="50%" y2="107.476562%" id="linearGradient-1">
+            <stop stop-color="#20CEFF" offset="0%"></stop>
+            <stop stop-color="#208BFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-main-test">
+            <circle id="椭圆形备份" fill="url(#linearGradient-1)" cx="42" cy="42" r="42"></circle>
+            <g id="icon-风险" transform="translate(24.000000, 18.000000)">
+                <rect id="矩形" fill="#FFFFFF" x="8" y="9" width="20" height="2" rx="1"></rect>
+                <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="0" y="6" width="36" height="40" rx="2"></rect>
+                <rect id="矩形" fill="#FFFFFF" x="16" y="2" width="4" height="2" rx="1"></rect>
+                <polyline id="路径-24" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="9.0345459 25.9785156 16.5108643 33.0330811 29.0438232 21.0594482"></polyline>
+                <path d="M5.88600094,6 C5.88600094,5.7601761 5.92913479,5.52230723 6.01334258,5.29775312 L7.51334258,1.29775312 C7.80607037,0.517145667 8.55231181,0 9.38600094,0 L26.6139991,0 C27.4476882,0 28.1939296,0.517145667 28.4866574,1.29775312 L29.9866574,5.29775312" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

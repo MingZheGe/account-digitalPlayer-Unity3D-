@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>下拉</title>
+    <desc>Created with Sketch.</desc>
+    <g id="下拉" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组">
+            <rect id="矩形" x="0" y="0" width="22" height="22"></rect>
+            <path d="M11.6959572,7.56941956 L19.6170821,14.0503399 C20.0868635,14.4347065 20.1561059,15.1271302 19.7717393,15.5969116 C19.5629987,15.852039 19.2507651,16 18.9211249,16 L3.0788751,16 C2.47188895,16 1.97982944,15.5079405 1.97982944,14.9009543 C1.97982944,14.5713141 2.12779042,14.2590806 2.38291786,14.0503399 L10.3040428,7.56941956 C10.7088937,7.2381779 11.2911063,7.2381779 11.6959572,7.56941956 Z" id="三角形" fill="#FFFFFF" transform="translate(11.000000, 11.500000) rotate(-180.000000) translate(-11.000000, -11.500000) "></path>
+        </g>
+    </g>
+</svg>

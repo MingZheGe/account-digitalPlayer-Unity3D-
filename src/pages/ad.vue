@@ -1,5 +1,5 @@
 <template>
-    <div @click="tioazhuan()">
+    <div @click="tioazhuan()" style="width: 100vw;height:100vh;">
         <div class="img1"></div>
         <div class="img2"></div>
         <div class="img3"></div>

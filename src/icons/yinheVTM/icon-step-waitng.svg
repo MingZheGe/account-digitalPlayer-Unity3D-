@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="67" viewBox="0 0 67 67">
+  <defs>
+    <filter id="椭圆_2_拷贝_5" x="0" y="0" width="67" height="67" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#007cf8" flood-opacity="0.114"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-step-waitng" transform="translate(12 11.849)">
+    <g id="矩形_1447" data-name="矩形 1447" transform="translate(0 0.151)" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="44" height="44" stroke="none"/>
+      <rect x="0.5" y="0.5" width="43" height="43" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -12, -11.85)" filter="url(#椭圆_2_拷贝_5)">
+      <circle id="椭圆_2_拷贝_5-2" data-name="椭圆 2 拷贝 5" cx="15.5" cy="15.5" r="15.5" transform="translate(18 18)" fill="#fff"/>
+    </g>
+    <g id="组_4128" data-name="组 4128" transform="translate(13.22 12.9)">
+      <path id="路径_4936" data-name="路径 4936" d="M8.577,0a8.577,8.577,0,1,0,8.577,8.577A8.6,8.6,0,0,0,8.577,0Zm0,15.01A6.433,6.433,0,1,1,15.01,8.577,6.452,6.452,0,0,1,8.577,15.01Z" fill="#c0c0c1"/>
+      <path id="路径_4937" data-name="路径 4937" d="M389.678,196.859h-2.966v-3.18a1.072,1.072,0,1,0-2.144,0v4.252A1.153,1.153,0,0,0,385.64,199h4.038a1.072,1.072,0,1,0,0-2.144Z" transform="translate(-377.567 -188.784)" fill="#c0c0c1"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650" height="378" viewBox="0 0 650 378">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f7f7f7"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-card-2" transform="translate(0.795 0.119)">
+    <g id="分组-26" transform="translate(-0.327 -0.264)">
+      <rect id="矩形-copy-26" width="650" height="370" rx="12" transform="translate(-0.468 8.145)" fill="#a7a7a7"/>
+      <g id="矩形-copy-27" transform="translate(-0.468 0.145)" stroke="#bcbcbc" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)">
+        <rect width="650" height="371" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="649" height="370" rx="11.5" fill="none"/>
+      </g>
+      <rect id="矩形-copy-28" width="372.316" height="28.158" rx="13" transform="translate(227.964 67.359)" fill="#dedede"/>
+      <rect id="矩形-copy-29" width="192.937" height="28.158" rx="13" transform="translate(227.964 135.148)" fill="#dedede"/>
+      <rect id="矩形-copy-32" width="525.623" height="28.158" rx="13" transform="translate(74.657 214.409)" fill="#dedede"/>
+      <rect id="矩形-copy-31" width="525.623" height="28.158" rx="13" transform="translate(74.657 281.154)" fill="#dedede"/>
+      <g id="guohui-copy" transform="translate(63.314 41.287)">
+        <path id="合并形状" d="M69.053,33.316l3.268,10.056-8.555-6.215L55.21,43.372l3.269-10.056L49.924,27.1H60.5l3.267-10.057L67.034,27.1H77.609ZM40.915,39.353l5.059-.422L42.13,42.245l1.964,4.682-4.34-2.634L35.91,47.607l1.162-4.94-4.34-2.632,5.059-.421,1.162-4.942ZM56.71,49.424l-.374,5.061,4.7,1.921L56.1,57.612l-.374,5.063L53.057,58.36l-4.931,1.208,3.28-3.875-2.673-4.316,4.7,1.921Zm22.33,1.789-2.632,4.34L79.723,59.4l-4.941-1.161-2.633,4.338-.42-5.058-4.941-1.161,4.681-1.966-.422-5.057,3.314,3.843ZM89.729,39.8l5.061.375-4.315,2.672,1.207,4.929-3.875-3.277-4.315,2.671,1.92-4.7-3.874-3.279,5.062.374,1.92-4.7ZM127.1,63.487a63.3,63.3,0,0,1-19.33,45.611l2.841,12.546c0,5.453-4.422,11.849-9.872,11.849H26.486c-5.452,0-9.874-6.4-9.874-11.849l2.644-12.737A63.486,63.486,0,1,1,127.1,63.487Zm-63.488,47.1a46.931,46.931,0,0,0,32.1-12.637h-64.2A46.928,46.928,0,0,0,63.612,110.584Zm36.963-17.911a47.1,47.1,0,1,0-73.927,0l1.2-5.392h17.7V83.137H43.938l2.37-4.74h2.177l1.106-4.148h28.04L78.737,78.4h2.177l2.37,4.74h-1.6v4.145h17.7Z" transform="translate(-0.124)" fill="#ff7171"/>
+      </g>
+    </g>
+  </g>
+</svg>

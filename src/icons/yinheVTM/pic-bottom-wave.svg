@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1922" height="110" viewBox="0 0 1922 110">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="矩形_1454" data-name="矩形 1454" d="M0,0H1922a0,0,0,0,1,0,0V106a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V0A0,0,0,0,1,0,0Z" transform="translate(0 16.904)" fill="#6981f3" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Mask" width="1921.795" height="238.973" fill="#3574fa"/>
+    </clipPath>
+  </defs>
+  <g id="pic-bottom-wave" transform="translate(282 -16.904)">
+    <g id="蒙版组_106" data-name="蒙版组 106" transform="translate(-282)" clip-path="url(#clip-path)">
+      <g id="bg-btn" transform="translate(0.397 -44.791)">
+        <rect id="矩形_1064" data-name="矩形 1064" width="1320" height="154" transform="translate(300.603 -0.305)" fill="rgba(80,90,204,0)"/>
+        <g id="headerView" transform="translate(0 20.318)" clip-path="url(#clip-path-2)">
+          <g id="Group" transform="translate(-728.405 52.393)" opacity="0.678">
+            <path id="Fill_1" data-name="Fill 1" d="M3296.424.372s-159.942,37.091-405.961,36.255c-163.933-.555-313.726-40.9-532.239-36.255-147.557,3.137-309.773,47.249-474.55,46.615C1715.38,46.34,1539.125,2.1,1282.845.372s-477.129,55.6-682.017,56.972C248.832,59.711,5.828,10.8,0,15.911V123.567H3296.424Z" transform="translate(0 0)" fill="rgba(255,255,255,0.13)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="Fill_3" data-name="Fill 3" d="M3296.424,73.826s-116.807-70.7-531.365-68.5C2434.881,7.085,2368.02,52.65,2175.965,52.75c-158.184.08-338.7-49.368-503.395-47.423-163.186,1.928-311.1,52.3-470.914,52.691C1045.969,58.395,914.721,1.865,665.781.059S343.337,38.2,234.81,52.75C66.024,75.369,0,79.094,0,79.094V109.58H3296.424Z" transform="translate(38.747 0)" fill="rgba(255,255,255,0.19)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+            <path id="Fill_7" data-name="Fill 7" d="M0,53.015c20.016,4.542,154.607,11,422.206-4.819C547.224,40.8,658.16,5.611,811.931,4.82c153.121-.788,350.274,39.674,519.631,38.554,243.575-1.6,336.077-38.369,503.395-38.554,161.129-.18,287.448,27.138,438.442,28.917C2499.244,36.4,2695.9.195,2874.219,0,3175.169-.327,3296.424,48.2,3296.424,48.2V155.9H0Z" transform="translate(38.747 30.682)" fill="rgba(255,255,255,0.64)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

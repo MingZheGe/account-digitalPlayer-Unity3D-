@@ -1,0 +1,32 @@
+<svg id="icon-biz-zhzc" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.069" x2="0.5" y2="1.075" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#20ceff"/>
+      <stop offset="0.057" stop-color="#20cbff"/>
+      <stop offset="0.121" stop-color="#20c7ff"/>
+      <stop offset="0.19" stop-color="#20c3ff"/>
+      <stop offset="0.264" stop-color="#20bfff"/>
+      <stop offset="0.341" stop-color="#20baff"/>
+      <stop offset="0.42" stop-color="#20b5ff"/>
+      <stop offset="0.5" stop-color="#20b0ff"/>
+      <stop offset="0.58" stop-color="#20aaff"/>
+      <stop offset="0.659" stop-color="#20a5ff"/>
+      <stop offset="0.736" stop-color="#209fff"/>
+      <stop offset="0.81" stop-color="#209aff"/>
+      <stop offset="0.879" stop-color="#2095ff"/>
+      <stop offset="0.943" stop-color="#2090ff"/>
+      <stop offset="1" stop-color="#208bff"/>
+    </linearGradient>
+  </defs>
+  <g id="组_30024">
+    <path id="路径_12969-_linear_lrgb_15" data-name="路径_12969-🌈linear;lrgb;15" d="M42,0A42,42,0,1,1,0,42,42,42,0,0,1,42,0Z" fill="url(#linear-gradient)"/>
+    <rect id="矩形_12172" width="48" height="48" transform="translate(18 18)" fill="rgba(255,255,255,0)"/>
+  </g>
+  <g id="编组" transform="translate(24 23)">
+    <path id="路径_12973" d="M5.059-.21H31.544a1.766,1.766,0,0,0,1.249-.517,1.766,1.766,0,0,0,.517-1.249v-34.26A1.766,1.766,0,0,0,31.544-38H2.354A1.766,1.766,0,0,0,.588-36.236v23.58" transform="translate(33.898) rotate(180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+    <line id="路径_13004" x2="15.58" transform="translate(7.461 24.275)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <line id="直线_366" x2="11.039" transform="translate(7.461 30.15)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <path id="路径_13619" d="M19.01,13.1a4.557,4.557,0,0,1-3.448,1.39,5.242,5.242,0,0,1-.6,0A6.343,6.343,0,0,0,10.8,16.3a7.362,7.362,0,0,0-2.135,4.747s-.262.9-1.027.9-.94-.9-.94-.9a8.611,8.611,0,0,1,4.891-7.766,5.166,5.166,0,1,1,7.423-.177ZM12.254,9.693a3.088,3.088,0,0,0,2.8,3.1q.254-.007.507,0a3.241,3.241,0,0,0,2.84-3.1,2.989,2.989,0,0,0-3.038-3.165,3.109,3.109,0,0,0-3.109,3.166Z" fill="#fff"/>
+    <line id="路径-2" y1="17.5" x2="16.5" transform="translate(19.5 1.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/chart_add_w</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.0%" y="-8.5%" width="122.0%" height="126.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.239639946 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="ic/chart_add_w" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#4A90E2" cx="41" cy="41" r="41"></circle>
+        <g id="Group" filter="url(#filter-1)" transform="translate(17.000000, 22.000000)" fill="#FFFFFF">
+            <path d="M29.0436358,38 L2,38 C0.8954305,38 1.3527075e-16,37.1045695 0,36 C-1.3527075e-16,34.8954305 0.8954305,34 2,34 L3,34 L3,2 C3,0.8954305 3.8954305,2.02906125e-16 5,0 L10,0 C11.1045695,-2.02906125e-16 12,0.8954305 12,2 L12,34 L27.3478637,34 C27.6881983,35.4407698 28.2682656,36.7889131 29.0436358,38 Z M42,18.1528964 C41.3480602,18.0522295 40.6801295,18 40,18 C37.4227154,18 35.020601,18.749993 33,20.0436358 L33,5 C33,3.8954305 33.8954305,3 35,3 L40,3 C41.1045695,3 42,3.8954305 42,5 L42,18.1528964 Z M20,18 L25,18 C26.1045695,18 27,18.8954305 27,20 L27,34 L18,34 L18,20 C18,18.8954305 18.8954305,18 20,18 Z" id="Combined-Shape"></path>
+            <path d="M39,30 L35,30 L35,32 L39,32 L39,36 L41,36 L41,32 L45,32 L45,30 L41,30 L41,26 L39,26 L39,30 Z M40,41 C34.4771525,41 30,36.5228475 30,31 C30,25.4771525 34.4771525,21 40,21 C45.5228475,21 50,25.4771525 50,31 C50,36.5228475 45.5228475,41 40,41 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <!-- <link rel='shortcut icon' href='./digitalPlayer/TemplateData/favicon.ico'>
+  <link rel='stylesheet' href='./digitalPlayer/TemplateData/style.css'> -->
+
+
+</head>
+
+<body>
+
+  <div id="app"></div>
+
+    <!--数字人-->
+
+   <div id="digitalContainer"
+    style="position: absolute;top:0;visibility: hidden;z-index: 9999999;width: 1px;height: 1px;pointer-events: none;">
+  </div>
+  <script type="text/javascript" src="./digitalPlayer/HZRecorder.js"></script>
+	<script type="text/javascript" src="./digitalPlayer/fs-enc.js"></script>
+	<script type="text/javascript" src="./digitalPlayer/DigitalPlayer.js"></script>
+  <script src="./pdfjs/pdf.js"></script>
+  <script src="./pdfjs/pdf.worker.js"></script>
+  <script src="./devjs/aip_server.js"></script>
+  <script language=javascript src=./digitalPlayer/TemplateData/UnityProgress.js></script>
+  <script language=javascript src=./digitalPlayer/Build/UnityLoader.js></script> 
+  
+
+</body>
+  <!--广告页面-->
+
+<script>
+  var popupwin;
+  popupwin = window.open('./second/second.html', 'videoRecord',
+    'height=1920,width=1080,top=0,left=0,toolbar=no,menubar=no,scrollbars=no,resizable=yes,location=no,status=no,fullscreen=yes,channelmode=yes,titlebar=no');
+  popupwin.focus();
+</script>
+
+<script>
+  
+
+
+</script>
+
 </html>
 
+<!--vtm分辨率720*1280-->
 <style>
   *{
     margin: 0;
     padding: 0;
-
+    font-family:sai
   }
+
+
 </style>

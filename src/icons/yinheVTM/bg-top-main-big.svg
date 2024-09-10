@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="415" viewBox="0 0 1920 415">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="矩形_1321" data-name="矩形 1321" width="1920" height="415" transform="translate(76 1178)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.153" y1="0.201" x2="0.975" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3f5bd3"/>
+      <stop offset="1" stop-color="#132b94"/>
+    </linearGradient>
+  </defs>
+  <g id="bg-top-main-big" transform="translate(-76 -1178)" clip-path="url(#clip-path)">
+    <g id="组_3969" data-name="组 3969" transform="translate(76 1178)">
+      <path id="矩形_1311" data-name="矩形 1311" d="M0,0H1920a0,0,0,0,1,0,0V415a0,0,0,0,1,0,0H120A120,120,0,0,1,0,295V0A0,0,0,0,1,0,0Z" fill="url(#linear-gradient)"/>
+      <path id="Shape_1" data-name="Shape 1" d="M-24.268,1056.66s11.153,138.707,200.2,67.79C444.49,1023.711,310.6,1229.721,533.808,1285.836c121.7,30.6-85.82,238.646-249.828,115.29S81.5,1377.552-4.506,1452.394c-7.655,6.661-19.761,7.736-19.761,7.736Z" transform="translate(24.151 -1152.028)" fill="rgba(42,88,193,0.2)"/>
+      <g id="组_3834" data-name="组 3834" transform="translate(772 -10)">
+        <g id="椭圆_341" data-name="椭圆 341" transform="translate(985 124)" fill="none" stroke="#fff" stroke-width="28" opacity="0.021">
+          <circle cx="142" cy="142" r="142" stroke="none"/>
+          <circle cx="142" cy="142" r="128" fill="none"/>
+        </g>
+        <g id="椭圆_342" data-name="椭圆 342" transform="translate(947 210)" fill="none" stroke="#fff" stroke-width="16" opacity="0.032">
+          <circle cx="38.5" cy="38.5" r="38.5" stroke="none"/>
+          <circle cx="38.5" cy="38.5" r="30.5" fill="none"/>
+        </g>
+      </g>
+      <g id="组_5" data-name="组 5" transform="translate(587 -1)" opacity="0.149">
+        <g id="组_1" data-name="组 1" opacity="0.5">
+          <path id="路径_1" data-name="路径 1" d="M28.686,23.339a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,28.686,23.339Z" fill="#fff"/>
+          <circle id="椭圆_1" data-name="椭圆 1" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 21.563)" fill="#fff"/>
+          <circle id="椭圆_2" data-name="椭圆 2" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 21.563)" fill="#fff"/>
+          <path id="路径_2" data-name="路径 2" d="M74.6,23.339a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,74.6,23.339Z" fill="#fff"/>
+          <circle id="椭圆_3" data-name="椭圆 3" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 21.563)" fill="#fff"/>
+          <circle id="椭圆_4" data-name="椭圆 4" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 21.563)" fill="#fff"/>
+          <circle id="椭圆_5" data-name="椭圆 5" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 21.563)" fill="#fff"/>
+          <circle id="椭圆_6" data-name="椭圆 6" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 21.563)" fill="#fff"/>
+          <path id="路径_3" data-name="路径 3" d="M28.686,38.644a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,28.686,38.644Z" fill="#fff"/>
+          <circle id="椭圆_7" data-name="椭圆 7" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 36.868)" fill="#fff"/>
+          <circle id="椭圆_8" data-name="椭圆 8" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 36.868)" fill="#fff"/>
+          <path id="路径_4" data-name="路径 4" d="M74.6,38.644a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,74.6,38.644Z" fill="#fff"/>
+          <circle id="椭圆_9" data-name="椭圆 9" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 36.868)" fill="#fff"/>
+          <circle id="椭圆_10" data-name="椭圆 10" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 36.868)" fill="#fff"/>
+          <circle id="椭圆_11" data-name="椭圆 11" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 36.868)" fill="#fff"/>
+          <circle id="椭圆_12" data-name="椭圆 12" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 36.868)" fill="#fff"/>
+          <path id="路径_5" data-name="路径 5" d="M28.686,53.95a1.776,1.776,0,1,1-1.776-1.777A1.776,1.776,0,0,1,28.686,53.95Z" fill="#fff"/>
+          <circle id="椭圆_13" data-name="椭圆 13" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 52.173)" fill="#fff"/>
+          <circle id="椭圆_14" data-name="椭圆 14" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 52.173)" fill="#fff"/>
+          <path id="路径_6" data-name="路径 6" d="M74.6,53.95a1.776,1.776,0,1,1-1.776-1.777A1.776,1.776,0,0,1,74.6,53.95Z" fill="#fff"/>
+          <circle id="椭圆_15" data-name="椭圆 15" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 52.173)" fill="#fff"/>
+          <circle id="椭圆_16" data-name="椭圆 16" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 52.173)" fill="#fff"/>
+          <circle id="椭圆_17" data-name="椭圆 17" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 52.173)" fill="#fff"/>
+          <circle id="椭圆_18" data-name="椭圆 18" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 52.173)" fill="#fff"/>
+          <path id="路径_7" data-name="路径 7" d="M28.686,69.255a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,28.686,69.255Z" fill="#fff"/>
+          <circle id="椭圆_19" data-name="椭圆 19" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 67.479)" fill="#fff"/>
+          <circle id="椭圆_20" data-name="椭圆 20" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 67.479)" fill="#fff"/>
+          <path id="路径_8" data-name="路径 8" d="M74.6,69.255a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,74.6,69.255Z" fill="#fff"/>
+          <circle id="椭圆_21" data-name="椭圆 21" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 67.479)" fill="#fff"/>
+          <circle id="椭圆_22" data-name="椭圆 22" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 67.479)" fill="#fff"/>
+          <circle id="椭圆_23" data-name="椭圆 23" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 67.479)" fill="#fff"/>
+          <circle id="椭圆_24" data-name="椭圆 24" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 67.479)" fill="#fff"/>
+          <path id="路径_9" data-name="路径 9" d="M28.686,84.56a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,28.686,84.56Z" fill="#fff"/>
+          <circle id="椭圆_25" data-name="椭圆 25" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 82.784)" fill="#fff"/>
+          <circle id="椭圆_26" data-name="椭圆 26" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 82.784)" fill="#fff"/>
+          <path id="路径_10" data-name="路径 10" d="M74.6,84.56a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,74.6,84.56Z" fill="#fff"/>
+          <circle id="椭圆_27" data-name="椭圆 27" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 82.784)" fill="#fff"/>
+          <circle id="椭圆_28" data-name="椭圆 28" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 82.784)" fill="#fff"/>
+          <circle id="椭圆_29" data-name="椭圆 29" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 82.784)" fill="#fff"/>
+          <circle id="椭圆_30" data-name="椭圆 30" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 82.784)" fill="#fff"/>
+          <path id="路径_11" data-name="路径 11" d="M28.686,99.866a1.776,1.776,0,1,1-1.776-1.777A1.776,1.776,0,0,1,28.686,99.866Z" fill="#fff"/>
+          <circle id="椭圆_31" data-name="椭圆 31" cx="1.776" cy="1.776" r="1.776" transform="translate(40.439 98.089)" fill="#fff"/>
+          <circle id="椭圆_32" data-name="椭圆 32" cx="1.776" cy="1.776" r="1.776" transform="translate(55.744 98.089)" fill="#fff"/>
+          <path id="路径_12" data-name="路径 12" d="M74.6,99.866a1.776,1.776,0,1,1-1.776-1.777A1.776,1.776,0,0,1,74.6,99.866Z" fill="#fff"/>
+          <circle id="椭圆_33" data-name="椭圆 33" cx="1.776" cy="1.776" r="1.776" transform="translate(86.355 98.089)" fill="#fff"/>
+          <circle id="椭圆_34" data-name="椭圆 34" cx="1.776" cy="1.776" r="1.776" transform="translate(101.66 98.089)" fill="#fff"/>
+          <circle id="椭圆_35" data-name="椭圆 35" cx="1.776" cy="1.776" r="1.776" transform="translate(116.966 98.089)" fill="#fff"/>
+          <circle id="椭圆_36" data-name="椭圆 36" cx="1.776" cy="1.776" r="1.776" transform="translate(132.271 98.089)" fill="#fff"/>
+        </g>
+        <g id="组_2" data-name="组 2" opacity="0.5">
+          <circle id="椭圆_37" data-name="椭圆 37" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 287.644)" fill="#fff"/>
+          <circle id="椭圆_38" data-name="椭圆 38" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 302.95)" fill="#fff"/>
+          <circle id="椭圆_39" data-name="椭圆 39" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 318.255)" fill="#fff"/>
+          <circle id="椭圆_40" data-name="椭圆 40" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 333.56)" fill="#fff"/>
+          <circle id="椭圆_41" data-name="椭圆 41" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 348.866)" fill="#fff"/>
+          <circle id="椭圆_42" data-name="椭圆 42" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 364.171)" fill="#fff"/>
+          <circle id="椭圆_43" data-name="椭圆 43" cx="1.776" cy="1.776" r="1.776" transform="translate(634.801 379.476)" fill="#fff"/>
+          <path id="路径_13" data-name="路径 13" d="M636.577,398.334a1.776,1.776,0,1,1,1.777-1.776A1.776,1.776,0,0,1,636.577,398.334Z" fill="#fff"/>
+          <path id="路径_14" data-name="路径 14" d="M621.272,291.2a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,291.2Z" fill="#fff"/>
+          <path id="路径_15" data-name="路径 15" d="M621.272,306.5a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,306.5Z" fill="#fff"/>
+          <path id="路径_16" data-name="路径 16" d="M621.272,321.808a1.777,1.777,0,1,1,1.776-1.777A1.777,1.777,0,0,1,621.272,321.808Z" fill="#fff"/>
+          <path id="路径_17" data-name="路径 17" d="M621.272,337.113a1.777,1.777,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,337.113Z" fill="#fff"/>
+          <path id="路径_18" data-name="路径 18" d="M621.272,352.418a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,352.418Z" fill="#fff"/>
+          <path id="路径_19" data-name="路径 19" d="M621.272,367.724a1.777,1.777,0,1,1,1.776-1.777A1.777,1.777,0,0,1,621.272,367.724Z" fill="#fff"/>
+          <path id="路径_20" data-name="路径 20" d="M621.272,383.029a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,383.029Z" fill="#fff"/>
+          <path id="路径_21" data-name="路径 21" d="M621.272,398.334a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,621.272,398.334Z" fill="#fff"/>
+          <circle id="椭圆_44" data-name="椭圆 44" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 287.644)" fill="#fff"/>
+          <circle id="椭圆_45" data-name="椭圆 45" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 302.95)" fill="#fff"/>
+          <circle id="椭圆_46" data-name="椭圆 46" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 318.255)" fill="#fff"/>
+          <circle id="椭圆_47" data-name="椭圆 47" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 333.56)" fill="#fff"/>
+          <circle id="椭圆_48" data-name="椭圆 48" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 348.866)" fill="#fff"/>
+          <circle id="椭圆_49" data-name="椭圆 49" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 364.171)" fill="#fff"/>
+          <circle id="椭圆_50" data-name="椭圆 50" cx="1.776" cy="1.776" r="1.776" transform="translate(604.19 379.476)" fill="#fff"/>
+          <path id="路径_22" data-name="路径 22" d="M605.967,398.334a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,605.967,398.334Z" fill="#fff"/>
+          <circle id="椭圆_51" data-name="椭圆 51" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 287.644)" fill="#fff"/>
+          <circle id="椭圆_52" data-name="椭圆 52" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 302.95)" fill="#fff"/>
+          <circle id="椭圆_53" data-name="椭圆 53" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 318.255)" fill="#fff"/>
+          <circle id="椭圆_54" data-name="椭圆 54" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 333.56)" fill="#fff"/>
+          <circle id="椭圆_55" data-name="椭圆 55" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 348.866)" fill="#fff"/>
+          <circle id="椭圆_56" data-name="椭圆 56" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 364.171)" fill="#fff"/>
+          <circle id="椭圆_57" data-name="椭圆 57" cx="1.776" cy="1.776" r="1.776" transform="translate(588.885 379.476)" fill="#fff"/>
+          <path id="路径_23" data-name="路径 23" d="M590.661,398.334a1.776,1.776,0,1,1,1.777-1.776A1.776,1.776,0,0,1,590.661,398.334Z" fill="#fff"/>
+          <circle id="椭圆_58" data-name="椭圆 58" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 287.644)" fill="#fff"/>
+          <circle id="椭圆_59" data-name="椭圆 59" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 302.95)" fill="#fff"/>
+          <circle id="椭圆_60" data-name="椭圆 60" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 318.255)" fill="#fff"/>
+          <circle id="椭圆_61" data-name="椭圆 61" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 333.56)" fill="#fff"/>
+          <circle id="椭圆_62" data-name="椭圆 62" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 348.866)" fill="#fff"/>
+          <circle id="椭圆_63" data-name="椭圆 63" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 364.171)" fill="#fff"/>
+          <circle id="椭圆_64" data-name="椭圆 64" cx="1.776" cy="1.776" r="1.776" transform="translate(573.58 379.476)" fill="#fff"/>
+          <path id="路径_24" data-name="路径 24" d="M575.356,398.334a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,575.356,398.334Z" fill="#fff"/>
+          <circle id="椭圆_65" data-name="椭圆 65" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 287.644)" fill="#fff"/>
+          <circle id="椭圆_66" data-name="椭圆 66" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 302.95)" fill="#fff"/>
+          <circle id="椭圆_67" data-name="椭圆 67" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 318.255)" fill="#fff"/>
+          <circle id="椭圆_68" data-name="椭圆 68" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 333.56)" fill="#fff"/>
+          <circle id="椭圆_69" data-name="椭圆 69" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 348.866)" fill="#fff"/>
+          <circle id="椭圆_70" data-name="椭圆 70" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 364.171)" fill="#fff"/>
+          <circle id="椭圆_71" data-name="椭圆 71" cx="1.776" cy="1.776" r="1.776" transform="translate(558.274 379.476)" fill="#fff"/>
+          <path id="路径_25" data-name="路径 25" d="M560.051,398.334a1.776,1.776,0,1,1,1.776-1.776A1.776,1.776,0,0,1,560.051,398.334Z" fill="#fff"/>
+        </g>
+        <g id="组_3" data-name="组 3" opacity="0.5">
+          <path id="路径_26" data-name="路径 26" d="M441.19,60.264a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,441.19,60.264Z" fill="#fff"/>
+          <path id="路径_27" data-name="路径 27" d="M456.5,60.264a1.777,1.777,0,1,1-1.777-1.776A1.777,1.777,0,0,1,456.5,60.264Z" fill="#fff"/>
+          <path id="路径_28" data-name="路径 28" d="M471.8,60.264a1.777,1.777,0,1,1-1.776-1.776A1.776,1.776,0,0,1,471.8,60.264Z" fill="#fff"/>
+          <path id="路径_29" data-name="路径 29" d="M441.19,75.569a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,441.19,75.569Z" fill="#fff"/>
+          <path id="路径_30" data-name="路径 30" d="M456.5,75.569a1.777,1.777,0,1,1-1.777-1.776A1.777,1.777,0,0,1,456.5,75.569Z" fill="#fff"/>
+          <path id="路径_31" data-name="路径 31" d="M471.8,75.569a1.777,1.777,0,1,1-1.776-1.776A1.776,1.776,0,0,1,471.8,75.569Z" fill="#fff"/>
+          <path id="路径_32" data-name="路径 32" d="M441.19,90.874a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,441.19,90.874Z" fill="#fff"/>
+          <path id="路径_33" data-name="路径 33" d="M456.5,90.874a1.777,1.777,0,1,1-1.777-1.776A1.778,1.778,0,0,1,456.5,90.874Z" fill="#fff"/>
+          <path id="路径_34" data-name="路径 34" d="M471.8,90.874a1.777,1.777,0,1,1-1.776-1.776A1.777,1.777,0,0,1,471.8,90.874Z" fill="#fff"/>
+        </g>
+        <g id="组_4" data-name="组 4" opacity="0.5">
+          <path id="路径_35" data-name="路径 35" d="M298.287,196.246a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,298.287,196.246Z" fill="#fff"/>
+          <circle id="椭圆_72" data-name="椭圆 72" cx="1.776" cy="1.776" r="1.776" transform="translate(310.04 194.47)" fill="#fff"/>
+          <circle id="椭圆_73" data-name="椭圆 73" cx="1.776" cy="1.776" r="1.776" transform="translate(325.346 194.47)" fill="#fff"/>
+          <path id="路径_36" data-name="路径 36" d="M298.287,211.551a1.776,1.776,0,1,1-1.776-1.776A1.777,1.777,0,0,1,298.287,211.551Z" fill="#fff"/>
+          <circle id="椭圆_74" data-name="椭圆 74" cx="1.776" cy="1.776" r="1.776" transform="translate(310.04 209.775)" fill="#fff"/>
+          <circle id="椭圆_75" data-name="椭圆 75" cx="1.776" cy="1.776" r="1.776" transform="translate(325.346 209.775)" fill="#fff"/>
+          <path id="路径_37" data-name="路径 37" d="M298.287,226.857a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,298.287,226.857Z" fill="#fff"/>
+          <path id="路径_38" data-name="路径 38" d="M313.593,226.857a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,313.593,226.857Z" fill="#fff"/>
+          <path id="路径_39" data-name="路径 39" d="M328.9,226.857a1.776,1.776,0,1,1-1.776-1.776A1.776,1.776,0,0,1,328.9,226.857Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67.521" height="53.939" viewBox="0 0 67.521 53.939">
+  <defs>
+    <filter id="联合_16" x="0" y="0" width="67.521" height="53.939" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#007cf8" flood-opacity="0.192"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-step-doing" transform="translate(9.922 4.622)">
+    <g id="矩形_1446" data-name="矩形 1446" transform="translate(0 0.151)" fill="none" stroke="rgba(112,112,112,0)" stroke-width="1">
+      <rect width="44" height="44" stroke="none"/>
+      <rect x="0.5" y="0.5" width="43" height="43" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9.92, -4.62)" filter="url(#联合_16)">
+      <path id="联合_16-2" data-name="联合 16" d="M10.747,17.666.9,10.677a1.782,1.782,0,0,1,0-3.1L10.747.22A1.632,1.632,0,0,1,11.507,0h0c.035,0,.069,0,.1,0H27.521a4,4,0,0,1,4,4V13.9a4,4,0,0,1-4,4H12.156a1.877,1.877,0,0,1-.4.044A2.022,2.022,0,0,1,10.747,17.666Z" transform="translate(49.52 35.94) rotate(180)" fill="#007cf8"/>
+    </g>
+  </g>
+</svg>

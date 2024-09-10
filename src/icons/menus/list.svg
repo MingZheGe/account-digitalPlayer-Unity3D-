@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic/list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#FFFFFF">
+            <circle id="Oval" cx="41" cy="41" r="41"></circle>
+        </g>
+        <path d="M45.7368421,18 L27.5,18 C25.0147186,18 23,20.0594902 23,22.6 L23,59.4 C23,61.9405098 25.0147186,64 27.5,64 L54.5,64 C56.9852814,64 59,61.9405098 59,59.4 L59,32 L45.7368421,18 Z" id="Shape" fill="#4A90E2"></path>
+        <polyline id="Shape" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round" points="44.5 16.5 44.5 31.5 59.5 31.5"></polyline>
+        <path d="M32.1366594,54.5 L50,54.5" id="Shape" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"></path>
+        <path d="M32.1366594,47.5 L50,47.5" id="Shape-Copy" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"></path>
+        <path d="M32.1366594,40.5 L50,40.5" id="Shape-Copy-2" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"></path>
+    </g>
+</svg>

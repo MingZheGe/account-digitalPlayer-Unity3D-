@@ -1,0 +1,123 @@
+.readCard-page{
+  height: 100%;
+  background-image: -webkit-linear-gradient(-60deg, #4E6AD9 0%, #5242B8 100%); /* Safari 5.1 - 6.0 */
+  background-image: -o-linear-gradient(-60deg, #4E6AD9 0%, #5242B8 100%); /* Opera 11.1 - 12.0 */
+  background-image: -moz-linear-gradient(-60deg, #4E6AD9 0%, #5242B8 100%); /* Firefox 3.6 - 15 */
+  background-image: linear-gradient(-60deg, #4E6AD9 0%, #5242B8 100%); /* 标准的语法 */
+  .el-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    .content-container {
+      background: rgba(0,0,0,0.1);
+      border-radius: 50%;
+      padding: 0;
+      width:752px;
+      height: 752px;
+      min-width: 360px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      .idcard-text-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: absolute;
+        top: 106px;
+        left: 0;
+        width: 100%;
+        .idcard-text {
+          &:first-child{
+            font-size: 30px;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 48px;
+          }
+          font-size: 20px;
+          color: rgba(255,255,255,0.75);
+          text-align: center;
+          line-height: 32px;
+        }
+      }
+      .idcard-img-box{
+        img{
+          width: 752px;
+          height: 752px;
+          border-radius: 50%;
+        }
+        .ic-idcard {
+          display: block;
+        }
+      }
+    }
+  }
+  .el-footer{
+    text-align: center;
+    height: 120px !important;
+    .el-button {
+      background-color:rgba(0,0,0,0.0);
+      border-radius: 100px;
+      border: none;
+      width: 176px;
+      height: 49px;
+      margin-top: 28px;
+      span{
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: -0.58px;
+      }
+    }
+    .other-login{
+      font-size: 24px;
+      color: white;
+      float: right;
+      text-decoration: none;
+      display: inline-block;
+      margin-top:0px;
+      min-width: 176px;
+      width: auto;
+    }
+  }
+}
+.el-message-box.readface-msgbox {
+  .notice-box-wrap {
+    width: 100%;
+    height: 234px;
+    text-align: center;
+    .notice-box-padding-top {
+      display: block;
+      height: 75px;
+    }
+    .prompt-paragraph {
+      display: block;
+      margin-top: 3px;
+      font-size: 18px;
+      color: #666666;
+    }
+    .ic-warning {
+      display: block;
+      margin: 0 auto;
+      width: 72px;
+      height: 72px;
+      background-image: url("../../icons/plaint-prompt.svg");
+      margin-bottom: 15px;
+    }
+  }
+  .el-message-box__btns {
+    text-align: center;
+    margin-bottom: 20px;
+    .el-button--primary {
+      background: linear-gradient(to right, #4A90E2, #497EE7);
+    }
+    .el-button--default {
+      border-radius: 20px;
+      font-size: 16px;
+      width: 150px;
+      border-width: 0px;
+    }
+  }
+}

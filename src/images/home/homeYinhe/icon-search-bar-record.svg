@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="46px" viewBox="0 0 32 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-search-bar-record</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-search-bar-record" transform="translate(1.000000, 1.000000)">
+            <path d="M30,21 L30,21 L30,21.4625057 C30,30.0436269 23.2842712,37 15,37 C6.71572875,37 0,30.0436269 0,21.4625057 L0,21.0396193 L0,21.0396193" id="路径" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            <rect id="矩形" fill="#FFFFFF" x="14" y="36.7083333" width="1.91666667" height="7" rx="0.958333333"></rect>
+            <rect id="矩形" stroke="#FFFFFF" stroke-width="2" x="6" y="0" width="18" height="31" rx="9"></rect>
+            <rect id="矩形" fill="#FFFFFF" x="5.75" y="42.125" width="19.1666667" height="2.24390244" rx="1.12195122"></rect>
+        </g>
+    </g>
+</svg>

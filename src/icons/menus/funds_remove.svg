@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/funds_remove</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="ic/funds_remove" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="41" cy="41" r="41"></circle>
+        <g id="身份证" transform="translate(16.000000, 23.000000)">
+            <g id="钱">
+                <rect id="Shape" fill="#4A90E2" fill-rule="nonzero" x="0" y="-3.55271368e-14" width="49" height="36" rx="4"></rect>
+                <path d="M23,21.5 C23,22.3665714 22.3,23 21.4529412,23 L16.0470588,23 L16.0470588,28.4282188 C16.0470588,29.2888138 15.3529412,30 14.5,30 C13.6470588,30 12.9529412,29.2947902 12.9529412,28.4282188 L12.9529412,23 L7.54705882,23 C6.7,23 6,22.3665714 6,21.5 C6,20.6334286 6.69411765,20 7.54705882,20 L12.9529412,20 L12.9529412,17 L7.54705882,17 C6.7,17 6,16.3665714 6,15.5 C6,14.639405 6.69411765,14 7.54705882,14 L11.9705882,14 L7.94117647,9.6744186 C7.34117647,9.06483045 7.34117647,8.06677926 7.94117647,7.45719111 C8.54117647,6.84760296 9.52352941,6.84760296 10.1235294,7.45719111 L14.5,12.3398727 L19.7352941,7.45719111 C20.3352941,6.84760296 21.3176471,6.84760296 21.9176471,7.45719111 C22.5176471,8.06677926 22.5176471,9.06483045 21.9176471,9.6744186 L17.8882353,14 L21.4529412,14 C22.3,14 23,14.6334286 23,15.5 C23,16.360595 22.3058824,17 21.4529412,17 L16.0470588,17 L16.0470588,20 L21.4529412,20 C22.3,20.0059764 23,20.6334286 23,21.5 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(56.000000, 53.000000) rotate(45.000000) translate(-56.000000, -53.000000) translate(46.000000, 43.000000)">
+            <g id="Oval-2">
+                <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="3" cx="10" cy="10" r="11.5"></circle>
+            </g>
+            <path d="M9,9 L9,5 L11,5 L11,9 L15,9 L15,11 L11,11 L11,15 L9,15 L9,11 L5,11 L5,9 L9,9 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+        <rect id="Rectangle-10" fill="#FFFFFF" x="47" y="29" width="11" height="3" rx="1.5"></rect>
+    </g>
+</svg>

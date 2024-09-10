@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-qtyw</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M24,19 L56,19 C58.209139,19 60,20.790861 60,23 L60,55 C60,57.209139 58.209139,59 56,59 L24,59 C21.790861,59 20,57.209139 20,55 L20,23 C20,20.790861 21.790861,19 24,19 Z M27,29 L27,32 L53,32 L53,29 L27,29 Z M27,38 L27,41 L41,41 L41,38 L27,38 Z M52.9918058,43 C47.6639353,39.5407029 45,37.8740362 45,38 L45,41 C45,41.1996041 46.6666667,42.1996041 50,44 L45,47 L45,50 C45,50.1259638 47.6639353,48.4592971 52.9918058,45 L52.9918058,43 Z M27,47 L27,50 L41,50 L41,47 L27,47 Z" id="path-1"></path>
+        <filter x="-6.2%" y="-6.2%" width="112.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.0862745098   0 0 0 0 0.2  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon-qtyw" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/w/file_reset_w">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Combined-Shape" fill="black" fill-opacity="1">
+                <use filter="url(#filter-3)" xlink:href="#path-1"></use>
+            </g>
+            <g id="Fill/Color/White/Opacity_100%" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                <rect id="Fill/Color/White/Opacity-100%" x="0" y="0" width="80" height="80"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

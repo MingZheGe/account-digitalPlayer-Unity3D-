@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="410" height="410" viewBox="0 0 410 410">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" y2="0.014" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c4c9ff" stop-opacity="0.063"/>
+      <stop offset="1" stop-color="#034aeb" stop-opacity="0.09"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <circle id="椭圆_794" data-name="椭圆 794" cx="205" cy="205" r="205" transform="translate(0.438 0.438)" opacity="0.995" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="矩形_1454" data-name="矩形 1454" d="M0,0H1495.92a0,0,0,0,1,0,0V66.527a10,10,0,0,1-10,10H10a10,10,0,0,1-10-10V0A0,0,0,0,1,0,0Z" transform="translate(0)" fill="#f7f7fa" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Mask" width="1494.719" height="113.313" fill="#3574fa"/>
+    </clipPath>
+  </defs>
+  <g id="bg-record-mic" transform="translate(-817.771 -311.771)">
+    <circle id="椭圆_343" data-name="椭圆 343" cx="205" cy="205" r="205" transform="translate(817.771 311.771)" fill="#f4f6ff" opacity="0.995"/>
+    <g id="蒙版组_120" data-name="蒙版组 120" transform="translate(817.332 311.332)" clip-path="url(#clip-path)">
+      <g id="bg-record-answerbg" transform="translate(-416.343 334.35)" opacity="0.55" style="isolation: isolate">
+        <g id="蒙版组_106" data-name="蒙版组 106" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+          <g id="bg-btn" transform="translate(0.534 -38.264)">
+            <rect id="矩形_1064" data-name="矩形 1064" width="1412.105" height="114.79" transform="translate(45.018 0)" fill="rgba(80,90,204,0)"/>
+            <g id="headerView" transform="translate(0 2.488)" clip-path="url(#clip-path-3)">
+              <g id="Group" transform="translate(-397.196 45.517)">
+                <path id="Fill_1" data-name="Fill 1" d="M2237.635.317s-108.57,31.551-275.569,30.84c-111.279-.472-212.959-34.792-361.287-30.84C1500.616,2.986,1390.5,40.509,1278.65,39.97,1164.411,39.419,1044.769,1.786,870.8.317S546.926,47.609,407.846,48.78C168.909,50.793,3.956,9.184,0,13.534v91.577H2237.635Z" transform="translate(0 7.419)" fill="#e5ebff"/>
+                <path id="Fill_3" data-name="Fill 3" d="M2237.635,59.909S2158.345,2.534,1876.94,4.323c-224.127,1.426-269.513,38.4-399.881,38.483-107.377.065-229.909-40.061-341.708-38.483C1024.58,5.888,924.173,46.766,815.692,47.081,710.01,47.387,620.918,1.513,451.936.048S233.059,31,159.391,42.806C44.818,61.161,0,64.184,0,64.184V88.923H2237.635Z" transform="translate(26.302 0)" fill="#c7d2ff"/>
+                <path id="Fill_7" data-name="Fill 7" d="M0,43.807C13.587,47.56,104.948,52.9,286.6,39.825,371.459,33.715,446.763,4.636,551.144,3.983c103.94-.651,237.768,32.783,352.729,31.858,165.34-1.326,228.131-31.7,341.708-31.858C1354.956,3.834,1440.7,26.407,1543.2,27.878,1696.5,30.076,1830,.161,1951.038,0c204.287-.272,286.6,39.824,286.6,39.824V66.847H0Z" transform="translate(50.365 11.182)" fill="#7e9cff"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="82px" height="82px" viewBox="0 0 82 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/house_add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="10" cy="10" r="10"></circle>
+    </defs>
+    <g id="ic/house_add" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" cx="41" cy="41" r="41"></circle>
+        <path d="M64,35 L43,20 C42.4161777,19.9739678 41.6126255,19.9739678 41,20 L20,35 C19.7475453,35.3017314 20.2873952,36.3430197 21,36 L25,36 L25,60 C25,61.6568542 26.3431458,63 28,63 L56,63 C57.6568542,63 59,61.6568542 59,60 L59,36 L63,36 C63.8583357,36.3430197 64.1966735,35.3017314 64,35 Z M37,54 L30,54 L30,51 L37,51 L37,54 Z M44,45 L30,45 L30,42 L44,42 L44,45 Z" id="Shape" fill="#4A90E2" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(47.000000, 44.000000)">
+            <g id="Oval-2">
+                <use fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#FFFFFF" stroke-width="3" cx="10" cy="10" r="11.5"></circle>
+            </g>
+            <path d="M9,9 L9,5 L11,5 L11,9 L15,9 L15,11 L11,11 L11,15 L9,15 L9,11 L5,11 L5,9 L9,9 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

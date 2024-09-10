@@ -1,0 +1,8 @@
+<svg id="icon-img-add" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <path id="路径_5222" data-name="路径 5222" d="M214.927,476.182H189.495a1,1,0,1,1,0-2h25.432a1,1,0,1,1,0,2Z" transform="translate(-176.894 -449.351)" fill="#999"/>
+  <path id="路径_5223" data-name="路径 5223" d="M474.616,205.145v-25.03a1,1,0,0,1,2,0v25.03a1,1,0,0,1-2,0Z" transform="translate(-450.298 -166.947)" fill="#999"/>
+  <g id="椭圆_796" data-name="椭圆 796" fill="none" stroke="#999" stroke-width="2">
+    <circle cx="25" cy="25" r="25" stroke="none"/>
+    <circle cx="25" cy="25" r="24" fill="none"/>
+  </g>
+</svg>

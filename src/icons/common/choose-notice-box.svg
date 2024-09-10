@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic/choose4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/choose4">
+            <path d="M29.176,13.2492 L15.311,27.1142 C14.725,27.7002 13.776,27.6992 13.19,27.1142 L6.824,20.7492 C6.239,20.1632 6.239,19.2132 6.824,18.6272 C7.41,18.0412 8.36,18.0412 8.946,18.6272 L13.19,22.8722 C13.776,23.4572 14.725,23.4572 15.311,22.8722 L27.055,11.1272 C27.641,10.5422 28.591,10.5422 29.176,11.1272 C29.762,11.7132 29.762,12.6632 29.176,13.2492" id="Fill-1" fill="#9DCD17"></path>
+            <path d="M18,0.5 C8.33514237,0.5 0.5,8.33514237 0.5,18 C0.5,27.665057 8.33534169,35.501 18,35.501 C27.6646583,35.501 35.5,27.665057 35.5,18 C35.5,8.33514237 27.6648576,0.5 18,0.5 Z" id="Fill-1" stroke="#9DCD17"></path>
+        </g>
+    </g>
+</svg>

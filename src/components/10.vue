@@ -1,90 +1,124 @@
 <template>
-    <div>
-      <div class="prompt">请正视摄像头</div>
-      <div class="camera-wrapper">
-        <video ref="video" autoplay></video>
-      </div>
-      <div>
-        <button @click="startRecognize">确认</button>
-      </div>
+    <div style="text-align: center; margin-top: 20px; font-size: 70px;">
+        <div>请正视右侧摄像头</div> <!-- Move this text to the top center -->
+        <div class="containerccc">
+            <p class="loading" v-if="!imageData">
+                加载中...
+            </p>
+            <img v-else :src="imageData" alt="">
+        </div>
+        <el-button @click="readFace">
+            人脸识别
+        </el-button>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    methods: {
-      startRecognize() {
-        // 在这里实现点击确认按钮后的逻辑
-        // 弹出提示框：识别中
-        alert("识别中...");
-      },
+</template>
+
+
+<script>
+import cameraYc from '../device/changcheng/chrome/cameraYc';
+export default {
+    props: {
+        nextClick: Number
     },
-    
+    data() {
+        return {
+            imageData: '',
+            ifClose:1
+        }
+    },
     mounted() {
-      navigator.mediaDevices.getUserMedia({ video: true }).then(stream => {
-        this.$refs.video.srcObject = stream;
-      });
+      this.initBindcameraYC();  
+      wife.doAction("伸右手说话")  
+      let signSucc = new Audio()
+     signSucc.src = require("../asset/video/11.wav")
+     signSucc.play()
+    },
+    beforeDestroy() {
+        if(this.ifClose === 1)
+    {
+        let that = this;
+        that.closeCamera()
+
     }
-  }
-  </script>
-  
-  <style>
-  .prompt {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 60px;
-  }
-  
-  .camera-wrapper {
-    position: relative;
-    width: 600px;
-    height: 700px;
-    overflow: hidden;
-    border-radius: 50%;
-    top: center;
-    left: 650px;
-  }
-  
-  .camera-wrapper video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(3) rotate(0deg);
-    width: 100%;
-    height: auto;
-  }
-  
-  .waiting {
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    animation: rotate 1s linear infinite;
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
+       
+    },
+
+    methods: {
+        open(){
+            cameraYc.openHighCamera()
+        },
+        hide(){
+            cameraYc.hidCameraWin()
+
+        },
+        readFace() {
+            let that = this;
+            that.initBindcameraYC();
+        },
+        initBindcameraYC() {
+            let that = this;
+            cameraYC.cameraInstance(function (cbParams) {
+                switch (cbParams.type) {
+                    case "StartTakePictureOver":
+                        console.log("自定义初始化设备完成，界面展示成功！！");
+                        cameraYC.Capture();
+                        break;
+                    case "TakePictureOver":
+                        console.log("自定义人脸拍照成功，返回的照片数据为:" + cbParams.collectedImage);//这里传回来两个collectedImage和faceImage，环境照和人脸照
+                        that.closeCamera()
+                        that.ifClose = 0
+                        that.imageData = 'data:image/jpeg;base64,' + cbParams.collectedImage
+                        this.$emit('approve', 'ok')
+                        break;
+                    case "DeviceError":
+                        console.log("自定义硬件错误：" + cbParams.msg);
+                        break;
+                    default:
+                        console.log("自定义默认回调");
+                        break;
+                }
+            }, {
+                iwidth: 700,
+                iheight: 800,
+                ileft: 270,
+                itop: 350
+            }
+
+
+
+            );
+        },
+        //关闭摄像头，调用ocx的关闭摄像头
+        closeCamera() {
+            try {
+                let that = this;
+                // const cameraYC = new cameraYC();
+                cameraYC.CloseConnection()
+            } catch (error) {
+                console.error("关闭摄像头释放资源失败，原因：" + error)
+            }
+        },
+    },
+    watch: {
+        nextClick: {
+            handler(newVal, oldVal) {
+                this.$emit('approve', 'ok')
+            },
+            deep: true
+        }
     }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  .content {
-    position: relative;
-    top: 05%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  /*添加 新的样式 */
-  div button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-  </style> 
+
+
+}
+</script>
+
+<style>
+
+.containerccc{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    height :1000px;
+}
+</style>
